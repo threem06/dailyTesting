@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>oddsMeronWala</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d8da7b3-90bf-4107-ac72-2f1a981eaa6c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b83f7ef2-250b-4d25-ad68-bf6b9ead1ec9</id>
+      <masked>false</masked>
+      <name>arenaName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>762d3e92-181b-4bf4-b377-369e43af9345</id>
+      <masked>false</masked>
+      <name>oddsM</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2bd4f598-9f54-4763-aab2-72d3c1dfb0d7</id>
+      <masked>false</masked>
+      <name>oddsW</name>
+   </variable>
+</TestCaseEntity>

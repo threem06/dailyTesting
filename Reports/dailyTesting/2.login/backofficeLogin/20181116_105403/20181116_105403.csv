@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+backofficeLogin,Chrome 70.0.3538.102,,2018-11-16 10:54:05,2018-11-16 10:54:17,12.892s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/backofficeLogin,Chrome 70.0.3538.102,,2018-11-16 10:54:05,2018-11-16 10:54:17,11.803s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.102,,2018-11-16 10:54:05,2018-11-16 10:54:11,5.800s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-16 10:54:11,2018-11-16 10:54:11,0.174s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-16 10:54:11,2018-11-16 10:54:11,0.174s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 10:54:11,2018-11-16 10:54:14,2.637s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-16 10:54:14,2018-11-16 10:54:17,2.729s,PASSED

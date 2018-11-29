@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testing" time="53" tests="5" failures="0" errors="0">
+   <testsuite name="testing" tests="5" failures="0" errors="0" time="53" timestamp="2018-11-09 14:11:18" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/betting/testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\betting\\testing\\20181109_141116"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\betting\\testing\\20181109_141116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="d78fdf0c390a4478f97f3a903039b73d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/login/backofficeLogin" classname="Test Cases/dailyTesting/login/backofficeLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-09 14:11:18 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/login/backofficeLogin: Test Cases/dailyTesting/login/backofficeLogin
+
+2018-11-09 14:11:18 - [TEST_STEP][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice: backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-09 14:11:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-09 14:11:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-09 14:11:24 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-09 14:11:24 - [MESSAGE][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-09 14:11:24 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-09 14:11:24 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-09 14:11:24 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-09 14:11:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-09 14:11:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-09 14:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-09 14:11:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-11-09 14:11:27 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/arenaCreation/createArena" classname="Test Cases/dailyTesting/arenaCreation/createArena" status="PASSED">
+         <system-out><![CDATA[2018-11-09 14:11:27 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/arenaCreation/createArena: Test Cases/dailyTesting/arenaCreation/createArena
+
+2018-11-09 14:11:27 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-09 14:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-09 14:11:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is present
+
+2018-11-09 14:11:27 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is present
+
+2018-11-09 14:11:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is clicked on
+
+2018-11-09 14:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is clicked on
+
+2018-11-09 14:11:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 14:11:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 14:11:30 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-11-09 14:11:30 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-11-09 14:11:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/dropdownArenaName' is clicked on
+
+2018-11-09 14:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/dropdownArenaName' is clicked on
+
+2018-11-09 14:11:30 - [TEST_STEP][PASSED] - setText: Text 'Quezon' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:31 - [MESSAGE][PASSED] - Text 'Quezon' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 14:11:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 14:11:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/buttonSearch' is clicked on
+
+2018-11-09 14:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/buttonSearch' is clicked on
+
+2018-11-09 14:11:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-09 14:11:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-09 14:11:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/Page_Arena Management - ucf88/td_Testing' are matched.
+
+2018-11-09 14:11:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/Page_Arena Management - ucf88/td_Testing' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/arenaCreation/createArena" classname="Test Cases/dailyTesting/arenaCreation/createArena" status="PASSED">
+         <system-out><![CDATA[2018-11-09 14:11:38 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/arenaCreation/createArena: Test Cases/dailyTesting/arenaCreation/createArena
+
+2018-11-09 14:11:38 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-09 14:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-09 14:11:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is present
+
+2018-11-09 14:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is present
+
+2018-11-09 14:11:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is clicked on
+
+2018-11-09 14:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is clicked on
+
+2018-11-09 14:11:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 14:11:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 14:11:41 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-11-09 14:11:41 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-11-09 14:11:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/dropdownArenaName' is clicked on
+
+2018-11-09 14:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/dropdownArenaName' is clicked on
+
+2018-11-09 14:11:41 - [TEST_STEP][PASSED] - setText: Text 'Pasay' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:42 - [MESSAGE][PASSED] - Text 'Pasay' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 14:11:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 14:11:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/buttonSearch' is clicked on
+
+2018-11-09 14:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/buttonSearch' is clicked on
+
+2018-11-09 14:11:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-09 14:11:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-09 14:11:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/Page_Arena Management - ucf88/td_Testing' are matched.
+
+2018-11-09 14:11:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/Page_Arena Management - ucf88/td_Testing' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/arenaCreation/createArena" classname="Test Cases/dailyTesting/arenaCreation/createArena" status="PASSED">
+         <system-out><![CDATA[2018-11-09 14:11:49 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/arenaCreation/createArena: Test Cases/dailyTesting/arenaCreation/createArena
+
+2018-11-09 14:11:49 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-09 14:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-09 14:11:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is present
+
+2018-11-09 14:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is present
+
+2018-11-09 14:11:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is clicked on
+
+2018-11-09 14:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is clicked on
+
+2018-11-09 14:11:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 14:11:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 14:11:51 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-11-09 14:11:52 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-11-09 14:11:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/dropdownArenaName' is clicked on
+
+2018-11-09 14:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/dropdownArenaName' is clicked on
+
+2018-11-09 14:11:52 - [TEST_STEP][PASSED] - setText: Text 'Pasig' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:52 - [MESSAGE][PASSED] - Text 'Pasig' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:52 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:11:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 14:11:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 14:11:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/buttonSearch' is clicked on
+
+2018-11-09 14:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/buttonSearch' is clicked on
+
+2018-11-09 14:11:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-09 14:12:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-09 14:12:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/Page_Arena Management - ucf88/td_Testing' are matched.
+
+2018-11-09 14:12:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/Page_Arena Management - ucf88/td_Testing' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/arenaCreation/createArena" classname="Test Cases/dailyTesting/arenaCreation/createArena" status="PASSED">
+         <system-out><![CDATA[2018-11-09 14:12:00 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/arenaCreation/createArena: Test Cases/dailyTesting/arenaCreation/createArena
+
+2018-11-09 14:12:00 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-09 14:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-09 14:12:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is present
+
+2018-11-09 14:12:00 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is present
+
+2018-11-09 14:12:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is clicked on
+
+2018-11-09 14:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/arenaHeader' is clicked on
+
+2018-11-09 14:12:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 14:12:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 14:12:02 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-11-09 14:12:03 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-11-09 14:12:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/dropdownArenaName' is clicked on
+
+2018-11-09 14:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/dropdownArenaName' is clicked on
+
+2018-11-09 14:12:03 - [TEST_STEP][PASSED] - setText: Text 'San Juan' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:12:03 - [MESSAGE][PASSED] - Text 'San Juan' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:12:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:12:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-09 14:12:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 14:12:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 14:12:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/buttonSearch' is clicked on
+
+2018-11-09 14:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/buttonSearch' is clicked on
+
+2018-11-09 14:12:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-09 14:12:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-09 14:12:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/Page_Arena Management - ucf88/td_Testing' are matched.
+
+2018-11-09 14:12:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/Page_Arena Management - ucf88/td_Testing' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-09 14:11:18 - [TEST_SUITE][PASSED] - testing: Test Cases/dailyTesting/arenaCreation/createArena]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

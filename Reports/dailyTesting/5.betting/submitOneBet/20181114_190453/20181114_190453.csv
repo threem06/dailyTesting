@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,Chrome 70.0.3538.102,,2018-11-14 19:04:54,2018-11-14 19:05:18,23.455s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 19:04:55,2018-11-14 19:05:01,6.714s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 19:04:55,2018-11-14 19:05:01,6.479s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 19:05:01,2018-11-14 19:05:11,9.229s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 19:05:02,2018-11-14 19:05:02,0.198s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 19:05:02,2018-11-14 19:05:02,0.128s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 19:05:02,2018-11-14 19:05:04,2.017s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 19:05:04,2018-11-14 19:05:04,0.098s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 19:05:04,2018-11-14 19:05:06,1.607s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 19:05:06,2018-11-14 19:05:11,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/submitBet,Chrome 70.0.3538.102,,2018-11-14 19:05:11,2018-11-14 19:05:17,6.361s,PASSED
+"Statement - presentArena = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/betting/button_DAY), 3)",Chrome 70.0.3538.102,,2018-11-14 19:05:11,2018-11-14 19:05:11,0.122s,PASSED
+"Statement - presentMatch = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/betting/button_Place Odd), 3, OPTIONAL)",Chrome 70.0.3538.102,,2018-11-14 19:05:11,2018-11-14 19:05:11,0.070s,PASSED
+Statement - If (presentArena && presentMatch),Chrome 70.0.3538.102,,2018-11-14 19:05:11,2018-11-14 19:05:17,5.982s,PASSED

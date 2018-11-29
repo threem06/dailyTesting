@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>createAccount</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-22T13:25:14</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>0271a061-6cb4-4d67-a598-f9a1b549d035</testSuiteGuid>
+   <testCaseLink>
+      <guid>e49bc3b3-35d4-40d1-aaae-4efca7a73939</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Frontend/Login/openBrowserFrontend</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>66032f93-4daf-4ad5-8438-bf819e12d87b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Frontend/Signup/signUp</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a064908a-c9d4-4856-ad32-6bb6305df545</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/accountCreation/oneAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a064908a-c9d4-4856-ad32-6bb6305df545</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>0d35671d-46f7-45f4-803a-827c63ce856e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a064908a-c9d4-4856-ad32-6bb6305df545</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>ae6bd628-e706-4b23-b444-e9dd78fd4fdb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a064908a-c9d4-4856-ad32-6bb6305df545</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>897fee0c-c12a-46da-9e85-ed039b4bd7c4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a064908a-c9d4-4856-ad32-6bb6305df545</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>dbda301d-ddd7-4b46-aecf-8efb574e934e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>38aec74c-e109-4d12-97a4-dc65596f8588</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Frontend/Login/frontendLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6675cacd-0a82-42c8-94a1-027552dad897</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/accountCreation/oneAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6675cacd-0a82-42c8-94a1-027552dad897</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>09aeae3a-73ad-40b1-bf21-c8e4af76ee07</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6675cacd-0a82-42c8-94a1-027552dad897</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4dfbef26-28b0-4b74-ba23-20b1d1b8897f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d5d5dc4a-e96e-4aa4-b952-fe21ee15dcfb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Backoffice/Login/backofficeLogin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>025c00cb-af3b-4143-a1a6-e4be6f599e00</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Backoffice/Players/playerList</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>010c1945-4653-4e2d-91cb-e3c4b6e829f6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/accountCreation/oneAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>010c1945-4653-4e2d-91cb-e3c4b6e829f6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>cbbc176c-5c1a-4a8f-8af3-8e4b16dfccf8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

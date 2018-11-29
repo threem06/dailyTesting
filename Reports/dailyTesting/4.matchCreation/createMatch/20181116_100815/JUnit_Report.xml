@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="createMatch" time="60" tests="2" failures="0" errors="0">
+   <testsuite name="createMatch" tests="2" failures="0" errors="0" time="60" timestamp="2018-11-16 10:08:17" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/4.matchCreation/createMatch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\4.matchCreation\\createMatch\\20181116_100815"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\4.matchCreation\\createMatch\\20181116_100815\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="1fd647ba7ae380e03daab01c1523ea88"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/2.login/backofficeLogin" classname="Test Cases/dailyTesting/2.login/backofficeLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-16 10:08:17 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/2.login/backofficeLogin: Test Cases/dailyTesting/2.login/backofficeLogin
+
+2018-11-16 10:08:17 - [TEST_STEP][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice: backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-16 10:08:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 10:08:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-16 10:08:24 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-16 10:08:24 - [MESSAGE][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-16 10:08:24 - [TEST_STEP][PASSED] - setText: Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-16 10:08:24 - [MESSAGE][PASSED] - Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-16 10:08:24 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-16 10:08:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-16 10:08:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-16 10:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-16 10:08:27 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Backoffice/Login/adminuser' located by 'By.xpath: //span[(text() = ' admin ' or . = ' admin ')]' not found
+
+2018-11-16 10:08:33 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Backoffice/Login/adminuser' located by 'By.xpath: //span[(text() = ' admin ' or . = ' admin ')]' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/5.matchCreation/createMatch" classname="Test Cases/dailyTesting/5.matchCreation/createMatch" status="PASSED">
+         <system-out><![CDATA[2018-11-16 10:08:33 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/5.matchCreation/createMatch: Test Cases/dailyTesting/5.matchCreation/createMatch
+
+2018-11-16 10:08:33 - [TEST_STEP][PASSED] - backoffice.bettingMatch.match: backoffice.bettingMatch.match is PASSED
+
+2018-11-16 10:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-16 10:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/matchCreation/Header/matchHeader' is present
+
+2018-11-16 10:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/Header/matchHeader' is clicked on
+
+2018-11-16 10:08:34 - [MESSAGE][PASSED] - backoffice.bettingMatch.match is PASSED
+
+2018-11-16 10:08:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/buttonCreateMatch' is clicked on
+
+2018-11-16 10:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/buttonCreateMatch' is clicked on
+
+2018-11-16 10:08:35 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-11-16 10:08:35 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-11-16 10:08:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/dropdownArenaName' is visible
+
+2018-11-16 10:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/dropdownArenaName' is visible
+
+2018-11-16 10:08:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/dropdownArenaName' is clicked on
+
+2018-11-16 10:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/dropdownArenaName' is clicked on
+
+2018-11-16 10:08:35 - [TEST_STEP][PASSED] - setText: Text 'DailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputArenaName'
+
+2018-11-16 10:09:05 - [MESSAGE][PASSED] - Text 'DailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputArenaName'
+
+2018-11-16 10:09:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputArenaName'
+
+2018-11-16 10:09:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputArenaName'
+
+2018-11-16 10:09:05 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-16 10:09:05 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-16 10:09:05 - [TEST_STEP][PASSED] - setText: Text 'match2' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputMeronName'
+
+2018-11-16 10:09:05 - [MESSAGE][PASSED] - Text 'match2' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputMeronName'
+
+2018-11-16 10:09:05 - [TEST_STEP][PASSED] - setText: Text 'farmer' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputMeronFarm'
+
+2018-11-16 10:09:05 - [MESSAGE][PASSED] - Text 'farmer' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputMeronFarm'
+
+2018-11-16 10:09:05 - [TEST_STEP][PASSED] - setText: Text 'breeder' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputMeronBreed'
+
+2018-11-16 10:09:05 - [MESSAGE][PASSED] - Text 'breeder' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputMeronBreed'
+
+2018-11-16 10:09:05 - [TEST_STEP][PASSED] - setText: Text '20' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputMeronWeight'
+
+2018-11-16 10:09:05 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputMeronWeight'
+
+2018-11-16 10:09:05 - [TEST_STEP][PASSED] - setText: Text 'game2' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputWalaName'
+
+2018-11-16 10:09:06 - [MESSAGE][PASSED] - Text 'game2' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputWalaName'
+
+2018-11-16 10:09:06 - [TEST_STEP][PASSED] - setText: Text 'farm' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputWalaFarm'
+
+2018-11-16 10:09:06 - [MESSAGE][PASSED] - Text 'farm' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputWalaFarm'
+
+2018-11-16 10:09:06 - [TEST_STEP][PASSED] - setText: Text 'breed' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputWalaBreed'
+
+2018-11-16 10:09:06 - [MESSAGE][PASSED] - Text 'breed' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputWalaBreed'
+
+2018-11-16 10:09:06 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputWalaWeight'
+
+2018-11-16 10:09:06 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputWalaWeight'
+
+2018-11-16 10:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/buttonSubmit' is clicked on
+
+2018-11-16 10:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/buttonSubmit' is clicked on
+
+2018-11-16 10:09:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:09:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:09:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/span_Select Arena' is clicked on
+
+2018-11-16 10:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/span_Select Arena' is clicked on
+
+2018-11-16 10:09:11 - [TEST_STEP][PASSED] - setText: Text 'DailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-16 10:09:11 - [MESSAGE][PASSED] - Text 'DailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-16 10:09:11 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-16 10:09:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-16 10:09:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 10:09:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 10:09:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelMatchNumber' are matched.
+
+2018-11-16 10:09:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelMatchNumber' are matched.
+
+2018-11-16 10:09:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelEventName' are matched.
+
+2018-11-16 10:09:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelEventName' are matched.
+
+2018-11-16 10:09:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelProfitMargin' are matched.
+
+2018-11-16 10:09:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelProfitMargin' are matched.
+
+2018-11-16 10:09:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelMeronName' are matched.
+
+2018-11-16 10:09:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelMeronName' are matched.
+
+2018-11-16 10:09:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelWalaName' are matched.
+
+2018-11-16 10:09:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/labelWalaName' are matched.
+
+2018-11-16 10:09:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:09:16 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-16 10:08:17 - [TEST_SUITE][PASSED] - createMatch: Test Cases/dailyTesting/5.matchCreation/createMatch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

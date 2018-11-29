@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>matchDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9570eef-fbb3-4036-ac8a-e8d83a2aa6bc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2062a35c-0049-416c-94d0-18075abfa2ac</id>
+      <masked>false</masked>
+      <name>playerId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08949faf-06e7-48d5-8465-dc9945f9a91a</id>
+      <masked>false</masked>
+      <name>selection</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8f19c7e-1525-4b9a-b508-4953a3d3c526</id>
+      <masked>false</masked>
+      <name>odds</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6fd2b5b7-e47b-48e2-9a6d-90e5882f5862</id>
+      <masked>false</masked>
+      <name>betAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>97010a0d-a3be-4400-b756-fe71957548c7</id>
+      <masked>false</masked>
+      <name>arenaName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add10kbalance,Chrome 70.0.3538.102,,2018-11-14 14:05:54,2018-11-14 14:06:10,16.746s,ERROR
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 14:05:54,2018-11-14 14:06:01,6.598s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 14:05:54,2018-11-14 14:06:01,6.343s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 14:06:01,2018-11-14 14:06:09,8.752s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:06:01,2018-11-14 14:06:01,0.196s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:06:01,2018-11-14 14:06:01,0.137s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:06:01,2018-11-14 14:06:03,2.016s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:06:03,2018-11-14 14:06:03,0.088s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 14:06:03,2018-11-14 14:06:04,1.111s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:06:04,2018-11-14 14:06:09,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/3.fundingAccount/fundingAccount,Chrome 70.0.3538.102,,2018-11-14 14:06:09,2018-11-14 14:06:10,0.312s,ERROR
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-14 14:06:09,2018-11-14 14:06:09,0.044s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:06:09,2018-11-14 14:06:10,0.116s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:06:10,2018-11-14 14:06:10,0.007s,PASSED

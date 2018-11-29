@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testing" time="20" tests="2" failures="0" errors="0">
+   <testsuite name="testing" tests="2" failures="0" errors="0" time="20" timestamp="2018-11-06 14:47:24" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/betting/testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\betting\\testing\\20181106_144722"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\betting\\testing\\20181106_144722\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.5.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="cd753e80dae481ce374b80c79b69bedd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/login/frontendLogin" classname="Test Cases/dailyTesting/login/frontendLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-06 14:47:24 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/login/frontendLogin: Test Cases/dailyTesting/login/frontendLogin
+
+2018-11-06 14:47:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-06 14:47:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-06 14:47:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-06 14:47:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-06 14:47:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-06 14:47:31 - [MESSAGE][PASSED] - Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-06 14:47:31 - [TEST_STEP][PASSED] - setText: Text 'blaze06' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_username'
+
+2018-11-06 14:47:32 - [MESSAGE][PASSED] - Text 'blaze06' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_username'
+
+2018-11-06 14:47:32 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_password'
+
+2018-11-06 14:47:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_password'
+
+2018-11-06 14:47:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-06 14:47:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-06 14:47:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Frontend/Login/OperatorFrontendLogin/button_Login' is clicked on
+
+2018-11-06 14:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Frontend/Login/OperatorFrontendLogin/button_Login' is clicked on
+
+2018-11-06 14:47:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Frontend/Login/OperatorFrontendLogin/username' is present
+
+2018-11-06 14:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/Frontend/Login/OperatorFrontendLogin/username' is present
+
+2018-11-06 14:47:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-06 14:47:40 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/betting/matchDetails" classname="Test Cases/dailyTesting/betting/matchDetails" status="PASSED">
+         <system-out><![CDATA[2018-11-06 14:47:40 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/betting/matchDetails: Test Cases/dailyTesting/betting/matchDetails
+
+2018-11-06 14:47:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/buttonUserAccount' is clicked on
+
+2018-11-06 14:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/buttonUserAccount' is clicked on
+
+2018-11-06 14:47:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-06 14:47:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - sel = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/description)): Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/description' is: 'Bet: Bet TST / 207 / Meron / 0.94'
+
+2018-11-06 14:47:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/description' is: 'Bet: Bet TST / 207 / Meron / 0.94'
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - If (sel.contains("Wala")): null
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - odd = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/description)): Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/description' is: 'Bet: Bet TST / 207 / Meron / 0.94'
+
+2018-11-06 14:47:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/description' is: 'Bet: Bet TST / 207 / Meron / 0.94'
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - If (odd.contains("0.94")): null
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - out.println("PASSED!!"): null
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - amount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/betAmount)): Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/betAmount' is: '-100.00'
+
+2018-11-06 14:47:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/betAmount' is: '-100.00'
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - If (amount.contains("100")): null
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - out.println("PASSED!!"): null
+
+2018-11-06 14:47:43 - [TEST_STEP][PASSED] - Statement - balbefore = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/balanceBefore)): Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/balanceBefore' is: '11,966.00'
+
+2018-11-06 14:47:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/balanceBefore' is: '11,966.00'
+
+2018-11-06 14:47:44 - [TEST_STEP][PASSED] - Statement - If (balbefore.contains("11966")): null
+
+2018-11-06 14:47:44 - [TEST_STEP][PASSED] - Statement - balafter = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/balanceAfter)): Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/balanceAfter' is: '11,866.00'
+
+2018-11-06 14:47:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/balanceAfter' is: '11,866.00'
+
+2018-11-06 14:47:44 - [TEST_STEP][PASSED] - Statement - If (balafter.contains("11866")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-06 14:47:24 - [TEST_SUITE][PASSED] - testing: Test Cases/dailyTesting/betting/matchDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

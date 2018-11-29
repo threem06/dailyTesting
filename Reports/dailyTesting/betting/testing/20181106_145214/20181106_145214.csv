@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-06 14:52:16,2018-11-06 14:52:36,20.697s,PASSED
+,,,,,,
+Test Cases/dailyTesting/login/frontendLogin,Chrome 70.0.3538.77,,2018-11-06 14:52:16,2018-11-06 14:52:31,15.476s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-06 14:52:16,2018-11-06 14:52:20,3.947s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-06 14:52:20,2018-11-06 14:52:21,1.162s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-06 14:52:21,2018-11-06 14:52:23,2.130s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-06 14:52:23,2018-11-06 14:52:24,0.174s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-06 14:52:24,2018-11-06 14:52:24,0.171s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:52:24,2018-11-06 14:52:26,2.016s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-06 14:52:26,2018-11-06 14:52:26,0.088s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-06 14:52:26,2018-11-06 14:52:26,0.559s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:52:26,2018-11-06 14:52:31,5.001s,PASSED
+,,,,,,
+Test Cases/dailyTesting/betting/matchDetails,Chrome 70.0.3538.77,,2018-11-06 14:52:31,2018-11-06 14:52:35,4.000s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-06 14:52:32,2018-11-06 14:52:32,0.285s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:52:32,2018-11-06 14:52:35,3.001s,PASSED
+Statement - sel = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/description)),Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.157s,PASSED
+"Statement - If (sel.contains(""Wala""))",Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.002s,PASSED
+Statement - odd = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/description)),Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.084s,PASSED
+"Statement - If (odd.contains(""0.94""))",Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.009s,PASSED
+Statement - amount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/betAmount)),Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.090s,PASSED
+"Statement - If (amount.contains(""100""))",Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.001s,PASSED
+Statement - balbefore = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/balanceBefore)),Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.098s,PASSED
+"Statement - If (balbefore.contains(""11966""))",Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.000s,PASSED
+Statement - balafter = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/balanceAfter)),Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.093s,PASSED
+"Statement - If (balafter.contains(""11866""))",Chrome 70.0.3538.77,,2018-11-06 14:52:35,2018-11-06 14:52:35,0.001s,PASSED

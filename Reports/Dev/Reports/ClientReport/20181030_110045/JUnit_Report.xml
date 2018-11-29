@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ClientReport" time="20" tests="2" failures="0" errors="0">
+   <testsuite name="ClientReport" tests="2" failures="0" errors="0" time="20" timestamp="2018-10-30 11:00:52" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/Dev/Reports/ClientReport">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\Dev\\Reports\\ClientReport\\20181030_110045"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\Dev\\Reports\\ClientReport\\20181030_110045\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="ba029a521feef5bf469db9ffa4d0e991"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dev/Backoffice/Login/LoginAdmin" classname="Test Cases/Dev/Backoffice/Login/LoginAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:00:52 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Login/LoginAdmin: Test Cases/Dev/Backoffice/Login/LoginAdmin
+
+2018-10-30 11:00:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-30 11:00:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-30 11:00:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-30 11:00:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-30 11:00:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-10-30 11:01:00 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-10-30 11:01:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-30 11:01:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-30 11:01:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-30 11:01:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-30 11:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-30 11:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-30 11:01:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-10-30 11:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dev/Backoffice/Betting/Matches/CreateMatch/Create match" classname="Test Cases/Dev/Backoffice/Betting/Matches/CreateMatch/Create match" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:01:03 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Betting/Matches/CreateMatch/Create match: Test Cases/Dev/Backoffice/Betting/Matches/CreateMatch/Create match
+
+2018-10-30 11:01:03 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-30 11:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-30 11:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-30 11:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-30 11:01:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-30 11:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-30 11:01:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-30 11:01:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-30 11:01:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-30 11:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-30 11:01:06 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'TST' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-30 11:01:06 - [MESSAGE][PASSED] - All options with label 'TST' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-30 11:01:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'test' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-30 11:01:07 - [MESSAGE][PASSED] - Keys 'test' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-30 11:01:07 - [TEST_STEP][PASSED] - sendKeys: Keys '12' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-30 11:01:07 - [MESSAGE][PASSED] - Keys '12' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-30 11:01:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'game' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-30 11:01:07 - [MESSAGE][PASSED] - Keys 'game' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-30 11:01:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'test' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-30 11:01:07 - [MESSAGE][PASSED] - Keys 'test' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-30 11:01:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-30 11:01:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-30 11:01:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-30 11:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-30 11:01:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-30 11:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-30 11:00:52 - [TEST_SUITE][PASSED] - ClientReport: Test Cases/Dev/Backoffice/Betting/Matches/CreateMatch/Create match]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

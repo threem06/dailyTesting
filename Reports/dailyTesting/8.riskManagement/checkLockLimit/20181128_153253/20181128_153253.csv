@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+checkLockLimit,Chrome 70.0.3538.110,,2018-11-28 15:32:55,2018-11-28 15:33:32,37.033s,FAILED
+,,,,,,
+Test Cases/dailyTesting/Backoffice/Login/backofficeLogin,Chrome 70.0.3538.110,,2018-11-28 15:32:55,2018-11-28 15:33:05,9.109s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.110,,2018-11-28 15:32:56,2018-11-28 15:33:02,6.525s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-28 15:33:02,2018-11-28 15:33:02,0.217s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-11-28 15:33:02,2018-11-28 15:33:03,0.258s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-28 15:33:03,2018-11-28 15:33:04,1.781s,PASSED
+waitForElementVisible,Chrome 70.0.3538.110,,2018-11-28 15:33:04,2018-11-28 15:33:05,0.068s,PASSED
+,,,,,,
+Test Cases/dailyTesting/Backoffice/Match/openBetting,Chrome 70.0.3538.110,,2018-11-28 15:33:05,2018-11-28 15:33:19,14.756s,FAILED
+switchToWindowTitle,Chrome 70.0.3538.110,,2018-11-28 15:33:05,2018-11-28 15:33:19,14.524s,FAILED
+,,,,,,
+Test Cases/dailyTesting/Backoffice/RiskManagement/lockLimits,Chrome 70.0.3538.110,,2018-11-28 15:33:19,2018-11-28 15:33:32,12.270s,FAILED
+backoffice.lockLimit.lock,Chrome 70.0.3538.110,,2018-11-28 15:33:19,2018-11-28 15:33:32,12.093s,FAILED

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ClientReport" time="19" tests="1" failures="0" errors="0">
+   <testsuite name="ClientReport" tests="1" failures="0" errors="0" time="19" timestamp="2018-10-29 11:51:32" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/Dev/Reports/ClientReport">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\Dev\\Reports\\ClientReport\\20181029_115123"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\Dev\\Reports\\ClientReport\\20181029_115123\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="2bcf896bf7f13540a8803a5b7c47272c"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dev/Backoffice/Login/LoginAdmin" classname="Test Cases/Dev/Backoffice/Login/LoginAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-29 11:51:32 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Login/LoginAdmin: Test Cases/Dev/Backoffice/Login/LoginAdmin
+
+2018-10-29 11:51:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 11:51:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 11:51:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 11:51:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-29 11:51:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-10-29 11:51:46 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-10-29 11:51:46 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-29 11:51:46 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-29 11:51:46 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-29 11:51:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-29 11:51:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-29 11:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-29 11:51:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-10-29 11:51:50 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-29 11:51:32 - [TEST_SUITE][PASSED] - ClientReport: Test Cases/Dev/Backoffice/Login/LoginAdmin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

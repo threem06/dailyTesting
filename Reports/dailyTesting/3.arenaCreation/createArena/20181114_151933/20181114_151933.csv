@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createArena,Chrome 70.0.3538.102,,2018-11-14 15:19:35,2018-11-14 15:20:24,48.624s,FAILED
+,,,,,,
+Test Cases/dailyTesting/2.login/backofficeLogin,Chrome 70.0.3538.102,,2018-11-14 15:19:35,2018-11-14 15:19:43,8.082s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.102,,2018-11-14 15:19:36,2018-11-14 15:19:41,5.394s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 15:19:41,2018-11-14 15:19:41,0.164s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-14 15:19:41,2018-11-14 15:19:41,0.188s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 15:19:41,2018-11-14 15:19:43,1.984s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-14 15:19:43,2018-11-14 15:19:43,0.073s,PASSED
+,,,,,,
+Test Cases/dailyTesting/4.arenaCreation/createArena,Chrome 70.0.3538.102,,2018-11-14 15:19:43,2018-11-14 15:20:23,39.344s,FAILED
+backoffice.bettingArena.arena,Chrome 70.0.3538.102,,2018-11-14 15:19:44,2018-11-14 15:19:44,0.923s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 15:19:44,2018-11-14 15:19:45,0.103s,PASSED
+getWindowIndex,Chrome 70.0.3538.102,,2018-11-14 15:19:45,2018-11-14 15:19:45,0.029s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-14 15:19:45,2018-11-14 15:19:45,0.575s,PASSED
+switchToWindowIndex,Chrome 70.0.3538.102,,2018-11-14 15:19:45,2018-11-14 15:19:45,0.018s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 15:19:45,2018-11-14 15:19:45,0.150s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 15:19:45,2018-11-14 15:19:45,0.133s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 15:19:45,2018-11-14 15:19:46,0.139s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 15:19:46,2018-11-14 15:19:46,0.326s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 15:19:46,2018-11-14 15:19:46,0.121s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 15:19:46,2018-11-14 15:19:46,0.128s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 15:19:46,2018-11-14 15:19:47,0.902s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 15:19:47,2018-11-14 15:19:49,2.019s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Backoffice/arenaCreation/arenaManagement/errorNameAlreadyExist), ""The name has already been taken""))",Chrome 70.0.3538.102,,2018-11-14 15:19:49,2018-11-14 15:20:23,33.594s,FAILED

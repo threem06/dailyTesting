@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ClientReport,Chrome 70.0.3538.77,,2018-10-29 18:15:12,2018-10-29 18:15:36,23.976s,FAILED
+,,,,,,
+Test Cases/Dev/Backoffice/Login/LoginAdmin,Chrome 70.0.3538.77,,2018-10-29 18:15:12,2018-10-29 18:15:21,9.389s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-10-29 18:15:12,2018-10-29 18:15:16,3.412s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-10-29 18:15:16,2018-10-29 18:15:17,1.203s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-29 18:15:17,2018-10-29 18:15:19,1.646s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 18:15:19,2018-10-29 18:15:19,0.184s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-10-29 18:15:19,2018-10-29 18:15:19,0.211s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 18:15:19,2018-10-29 18:15:21,2.340s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-10-29 18:15:21,2018-10-29 18:15:21,0.093s,PASSED
+,,,,,,
+Test Cases/Dev/Backoffice/Reports/Bet Report/ClientReport,Chrome 70.0.3538.77,,2018-10-29 18:15:21,2018-10-29 18:15:35,13.298s,FAILED
+focus,Chrome 70.0.3538.77,,2018-10-29 18:15:22,2018-10-29 18:15:22,0.098s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 18:15:22,2018-10-29 18:15:23,1.144s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 18:15:23,2018-10-29 18:15:23,0.123s,PASSED
+delay,Chrome 70.0.3538.77,,2018-10-29 18:15:23,2018-10-29 18:15:27,4.030s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 18:15:27,2018-10-29 18:15:28,0.403s,PASSED
+delay,Chrome 70.0.3538.77,,2018-10-29 18:15:28,2018-10-29 18:15:31,3.003s,PASSED
+submit,Chrome 70.0.3538.77,,2018-10-29 18:15:31,2018-10-29 18:15:31,0.741s,PASSED
+delay,Chrome 70.0.3538.77,,2018-10-29 18:15:31,2018-10-29 18:15:34,3.003s,PASSED
+"Statement - not([""run"":com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Backoffice/Reports/Client Report/Page_ucf88/Page_ucf88/input_Close_generate-submit))])",Chrome 70.0.3538.77,,2018-10-29 18:15:34,2018-10-29 18:15:35,0.445s,FAILED

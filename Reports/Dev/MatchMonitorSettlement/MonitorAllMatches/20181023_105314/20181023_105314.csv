@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MonitorAllMatches,Chrome 70.0.3538.67,,2018-10-23 10:53:16,2018-10-23 10:53:47,30.779s,PASSED
+,,,,,,
+Test Cases/Dev/Backoffice/Betting/Matches/MonitorAllMatches,Chrome 70.0.3538.67,,2018-10-23 10:53:16,2018-10-23 10:53:28,11.517s,PASSED
+openBrowser,Chrome 70.0.3538.67,,2018-10-23 10:53:17,2018-10-23 10:53:20,2.993s,PASSED
+maximizeWindow,Chrome 70.0.3538.67,,2018-10-23 10:53:20,2018-10-23 10:53:21,1.163s,PASSED
+navigateToUrl,Chrome 70.0.3538.67,,2018-10-23 10:53:21,2018-10-23 10:53:22,1.420s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-23 10:53:22,2018-10-23 10:53:22,0.136s,PASSED
+setEncryptedText,Chrome 70.0.3538.67,,2018-10-23 10:53:22,2018-10-23 10:53:23,0.165s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:23,2018-10-23 10:53:25,2.024s,PASSED
+waitForElementVisible,Chrome 70.0.3538.67,,2018-10-23 10:53:25,2018-10-23 10:53:25,0.055s,PASSED
+focus,Chrome 70.0.3538.67,,2018-10-23 10:53:25,2018-10-23 10:53:25,0.071s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:25,2018-10-23 10:53:26,0.769s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 10:53:26,2018-10-23 10:53:27,1.023s,PASSED
+Statement - myMatchObject = new com.kms.katalon.core.testobject.TestObject(customObject2),Chrome 70.0.3538.67,,2018-10-23 10:53:27,2018-10-23 10:53:27,0.020s,PASSED
+Statement - properties = new java.util.ArrayList(),Chrome 70.0.3538.67,,2018-10-23 10:53:27,2018-10-23 10:53:27,0.001s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(tag, com.kms.katalon.core.testobject.ConditionType.EQUALS, a))",Chrome 70.0.3538.67,,2018-10-23 10:53:27,2018-10-23 10:53:27,0.011s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(text, com.kms.katalon.core.testobject.ConditionType.CONTAINS, SAN ROQUE COCKPIT(CAMARINES NORTE)))",Chrome 70.0.3538.67,,2018-10-23 10:53:27,2018-10-23 10:53:27,0.001s,PASSED
+Statement - myMatchObject.setProperties(properties),Chrome 70.0.3538.67,,2018-10-23 10:53:27,2018-10-23 10:53:27,0.003s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:27,2018-10-23 10:53:27,0.669s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:27,2018-10-23 10:53:28,0.651s,PASSED
+switchToWindowIndex,Chrome 70.0.3538.67,,2018-10-23 10:53:28,2018-10-23 10:53:28,0.023s,PASSED
+,,,,,,
+Test Cases/Dev/Backoffice/Betting/Matches/MatchSettlement,Chrome 70.0.3538.67,,2018-10-23 10:53:28,2018-10-23 10:53:46,18.204s,PASSED
+waitForElementVisible,Chrome 70.0.3538.67,,2018-10-23 10:53:28,2018-10-23 10:53:29,1.050s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:29,2018-10-23 10:53:29,0.086s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 10:53:29,2018-10-23 10:53:30,1.001s,PASSED
+waitForElementPresent,Chrome 70.0.3538.67,,2018-10-23 10:53:30,2018-10-23 10:53:30,0.036s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:30,2018-10-23 10:53:30,0.075s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 10:53:30,2018-10-23 10:53:40,10.002s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:40,2018-10-23 10:53:41,0.110s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 10:53:41,2018-10-23 10:53:42,1.002s,PASSED
+waitForElementPresent,Chrome 70.0.3538.67,,2018-10-23 10:53:42,2018-10-23 10:53:42,0.035s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:42,2018-10-23 10:53:42,0.065s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 10:53:42,2018-10-23 10:53:43,1.001s,PASSED
+waitForElementPresent,Chrome 70.0.3538.67,,2018-10-23 10:53:43,2018-10-23 10:53:43,0.025s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:43,2018-10-23 10:53:43,0.070s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 10:53:43,2018-10-23 10:53:44,1.001s,PASSED
+waitForElementPresent,Chrome 70.0.3538.67,,2018-10-23 10:53:44,2018-10-23 10:53:44,0.043s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:44,2018-10-23 10:53:44,0.057s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 10:53:44,2018-10-23 10:53:45,1.001s,PASSED
+waitForElementPresent,Chrome 70.0.3538.67,,2018-10-23 10:53:45,2018-10-23 10:53:45,0.046s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:45,2018-10-23 10:53:45,0.071s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 10:53:45,2018-10-23 10:53:46,1.003s,PASSED
+waitForElementPresent,Chrome 70.0.3538.67,,2018-10-23 10:53:46,2018-10-23 10:53:46,0.031s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 10:53:46,2018-10-23 10:53:46,0.083s,PASSED

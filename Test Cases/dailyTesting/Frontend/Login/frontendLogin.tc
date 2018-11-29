@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>frontendLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91b85e84-dd14-497d-894b-3bf5933e6fa2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09aeae3a-73ad-40b1-bf21-c8e4af76ee07</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4dfbef26-28b0-4b74-ba23-20b1d1b8897f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

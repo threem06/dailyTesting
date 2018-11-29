@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-08 11:02:53,2018-11-08 11:03:03,9.818s,PASSED
+,,,,,,
+Test Cases/dailyTesting/login/backofficeLogin,Chrome 70.0.3538.77,,2018-11-08 11:02:54,2018-11-08 11:03:01,7.508s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-08 11:02:54,2018-11-08 11:02:57,2.964s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-08 11:02:57,2018-11-08 11:02:58,1.174s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-08 11:02:58,2018-11-08 11:02:59,1.084s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-08 11:02:59,2018-11-08 11:02:59,0.164s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-08 11:02:59,2018-11-08 11:02:59,0.154s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-08 11:02:59,2018-11-08 11:03:01,1.618s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-11-08 11:03:01,2018-11-08 11:03:01,0.113s,PASSED
+,,,,,,
+Test Cases/dailyTesting/betting/closeBetting,Chrome 70.0.3538.77,,2018-11-08 11:03:01,2018-11-08 11:03:02,1.261s,PASSED
+focus,Chrome 70.0.3538.77,,2018-11-08 11:03:01,2018-11-08 11:03:01,0.080s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-08 11:03:01,2018-11-08 11:03:01,0.045s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-08 11:03:01,2018-11-08 11:03:02,0.750s,PASSED
+selectOptionByValue,Chrome 70.0.3538.77,,2018-11-08 11:03:02,2018-11-08 11:03:02,0.266s,PASSED

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BetReport" time="23" tests="2" failures="0" errors="0">
+   <testsuite name="BetReport" tests="2" failures="0" errors="0" time="23" timestamp="2018-10-25 10:45:11" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/Dev/Reports/BetReport">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\Dev\\Reports\\BetReport\\20181025_104506"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\Dev\\Reports\\BetReport\\20181025_104506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="0f5c081d21b260bfb062b1eff15f7716"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dev/Backoffice/Login/LoginAdmin" classname="Test Cases/Dev/Backoffice/Login/LoginAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-25 10:45:11 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Login/LoginAdmin: Test Cases/Dev/Backoffice/Login/LoginAdmin
+
+2018-10-25 10:45:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 10:45:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 10:45:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 10:45:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 10:45:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-10-25 10:45:18 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-10-25 10:45:18 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-25 10:45:18 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-25 10:45:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-25 10:45:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-25 10:45:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-25 10:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-25 10:45:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-10-25 10:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dev/Backoffice/Reports/Bet Report/BetReport" classname="Test Cases/Dev/Backoffice/Reports/Bet Report/BetReport" status="PASSED">
+         <system-out><![CDATA[2018-10-25 10:45:21 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Reports/Bet Report/BetReport: Test Cases/Dev/Backoffice/Reports/Bet Report/BetReport
+
+2018-10-25 10:45:21 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Reports/Bet Report/Reports_header' is focused
+
+2018-10-25 10:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Reports/Bet Report/Reports_header' is focused
+
+2018-10-25 10:45:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Reports/Bet Report/Bet_Report_header' is clicked on
+
+2018-10-25 10:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Reports/Bet Report/Bet_Report_header' is clicked on
+
+2018-10-25 10:45:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Reports/Bet Report/input_Filter_reportrange' is clicked on
+
+2018-10-25 10:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Reports/Bet Report/input_Filter_reportrange' is clicked on
+
+2018-10-25 10:45:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Reports/Bet Report/li_Today' is clicked on
+
+2018-10-25 10:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Reports/Bet Report/li_Today' is clicked on
+
+2018-10-25 10:45:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-25 10:45:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-25 10:45:25 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Backoffice/Reports/Bet Report/input_Filter_playerId'
+
+2018-10-25 10:45:25 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Backoffice/Reports/Bet Report/input_Filter_playerId'
+
+2018-10-25 10:45:25 - [TEST_STEP][PASSED] - setText: Text 'arvin06' is set on object 'Object Repository/Backoffice/Reports/Bet Report/input_Filter_selectPlayerName'
+
+2018-10-25 10:45:25 - [MESSAGE][PASSED] - Text 'arvin06' is set on object 'Object Repository/Backoffice/Reports/Bet Report/input_Filter_selectPlayerName'
+
+2018-10-25 10:45:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-25 10:45:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-25 10:45:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Reports/Bet Report/label_Search' is clicked on
+
+2018-10-25 10:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Reports/Bet Report/label_Search' is clicked on
+
+2018-10-25 10:45:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-25 10:45:34 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-25 10:45:11 - [TEST_SUITE][PASSED] - BetReport: Test Cases/Dev/Backoffice/Reports/Bet Report/BetReport]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

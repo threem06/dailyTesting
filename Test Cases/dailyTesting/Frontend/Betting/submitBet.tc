@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>submitBet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22ead445-3581-4e97-ad87-e092854a325d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e3e7c318-7dcc-4c50-9663-e505ef5f655e</id>
+      <masked>false</masked>
+      <name>acronym</name>
+   </variable>
+</TestCaseEntity>

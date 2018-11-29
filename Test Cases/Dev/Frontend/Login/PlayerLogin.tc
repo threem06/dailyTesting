@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PlayerLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31f95efe-dad0-4f0a-95f1-94d6368f42f3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>81faf123-bc50-4476-ab1d-65b4ecede44b</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f70eb9c6-bd81-4664-ad24-d187de52981f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

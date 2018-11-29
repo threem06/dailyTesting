@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+player3,Chrome 69.0.3497.100,,2018-10-19 15:36:01,2018-10-19 15:36:44,42.913s,FAILED
+,,,,,,
+Test Cases/Staging/Frontend/PlaceBet/RandomOddsAndAMount,Chrome 69.0.3497.100,,2018-10-19 15:36:02,2018-10-19 15:36:44,41.849s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 69.0.3497.100,,2018-10-19 15:36:02,2018-10-19 15:36:02,0.001s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-19 15:36:02,2018-10-19 15:36:05,2.891s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-19 15:36:05,2018-10-19 15:36:06,1.162s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-19 15:36:06,2018-10-19 15:36:08,1.655s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-19 15:36:08,2018-10-19 15:36:09,0.683s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-19 15:36:09,2018-10-19 15:36:09,0.102s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-19 15:36:09,2018-10-19 15:36:09,0.086s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-19 15:36:09,2018-10-19 15:36:09,0.556s,PASSED
+Statement - meron = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Meronodds),Chrome 69.0.3497.100,,2018-10-19 15:36:09,2018-10-19 15:36:09,0.005s,PASSED
+Statement - wala = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Walaodds),Chrome 69.0.3497.100,,2018-10-19 15:36:09,2018-10-19 15:36:09,0.005s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-10-19 15:36:09,2018-10-19 15:36:19,10.158s,FAILED
+"Statement - balance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/Balance), CONTINUE_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-19 15:36:19,2018-10-19 15:36:27,8.058s,FAILED
+"Statement - log.logInfo(""User balance "" + balance)",Chrome 69.0.3497.100,,2018-10-19 15:36:27,2018-10-19 15:36:27,0.018s,PASSED
+Statement - While (balance != 0),Chrome 69.0.3497.100,,2018-10-19 15:36:27,2018-10-19 15:36:44,16.134s,FAILED

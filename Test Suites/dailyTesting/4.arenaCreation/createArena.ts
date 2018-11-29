@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>createArena</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-22T13:27:20</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>7f0f62b9-0cb5-4f5e-94c1-923405e1a92f</testSuiteGuid>
+   <testCaseLink>
+      <guid>cd5b937d-7099-44b4-bc07-a473263cb010</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Backoffice/Login/backofficeLogin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4896bb17-5211-41c3-a618-f203b80701f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Backoffice/Arena/createArena</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>38f19df1-853d-46f4-90ba-ffd2aebf79f2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/arenaCreation/dailyArena</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>38f19df1-853d-46f4-90ba-ffd2aebf79f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>cbc3e79b-3d1f-42b2-ae07-1f94bba422ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>38f19df1-853d-46f4-90ba-ffd2aebf79f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eventName</value>
+         <variableId>21ee1570-a9dc-4a22-9d59-5db6fac6ad57</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>38f19df1-853d-46f4-90ba-ffd2aebf79f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>acronym</value>
+         <variableId>0fb4a1e0-7b8a-4ccd-9cca-917e91f658be</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>38f19df1-853d-46f4-90ba-ffd2aebf79f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>videoUrl</value>
+         <variableId>ec2a9fbb-f27f-483c-907b-6a8a0743763a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>38f19df1-853d-46f4-90ba-ffd2aebf79f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>profitMargin</value>
+         <variableId>147a8163-e455-46ab-a48a-2c333a89988a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>38f19df1-853d-46f4-90ba-ffd2aebf79f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pendingBetDelay</value>
+         <variableId>3a2282a0-e3f1-4481-87fa-a3bd150d97d3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

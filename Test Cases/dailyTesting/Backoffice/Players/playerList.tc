@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>playerList</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6024b56-4a87-48d5-ad38-6ffd59377780</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cbbc176c-5c1a-4a8f-8af3-8e4b16dfccf8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

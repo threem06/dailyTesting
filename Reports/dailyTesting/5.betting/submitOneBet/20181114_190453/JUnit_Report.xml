@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="submitOneBet" time="23" tests="3" failures="0" errors="0">
+   <testsuite name="submitOneBet" tests="3" failures="0" errors="0" time="23" timestamp="2018-11-14 19:04:54" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/5.betting/submitOneBet">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\5.betting\\submitOneBet\\20181114_190453"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\5.betting\\submitOneBet\\20181114_190453\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="80877ec5d75ff0bead4ef44489bf5ad9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/2.login/openBrowserFrontend" classname="Test Cases/dailyTesting/2.login/openBrowserFrontend" status="PASSED">
+         <system-out><![CDATA[2018-11-14 19:04:55 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/2.login/openBrowserFrontend: Test Cases/dailyTesting/2.login/openBrowserFrontend
+
+2018-11-14 19:04:55 - [TEST_STEP][PASSED] - frontend.openBrowserFrontend.openbrowserFrontend: frontend.openBrowserFrontend.openbrowserFrontend is PASSED
+
+2018-11-14 19:04:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 19:04:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-14 19:05:01 - [MESSAGE][PASSED] - Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-14 19:05:01 - [MESSAGE][PASSED] - frontend.openBrowserFrontend.openbrowserFrontend is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/2.login/frontendLogin" classname="Test Cases/dailyTesting/2.login/frontendLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-14 19:05:01 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/2.login/frontendLogin: Test Cases/dailyTesting/2.login/frontendLogin
+
+2018-11-14 19:05:02 - [TEST_STEP][PASSED] - setText: Text 'dailyTest' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_username'
+
+2018-11-14 19:05:02 - [MESSAGE][PASSED] - Text 'dailyTest' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_username'
+
+2018-11-14 19:05:02 - [TEST_STEP][PASSED] - setText: Text '123123' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_password'
+
+2018-11-14 19:05:02 - [MESSAGE][PASSED] - Text '123123' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_password'
+
+2018-11-14 19:05:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 19:05:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 19:05:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Frontend/Login/OperatorFrontendLogin/button_Login' is clicked on
+
+2018-11-14 19:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Frontend/Login/OperatorFrontendLogin/button_Login' is clicked on
+
+2018-11-14 19:05:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/dailyTesting/Frontend/login/span_Logout' is present
+
+2018-11-14 19:05:06 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Frontend/login/span_Logout' is present
+
+2018-11-14 19:05:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 19:05:11 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/6.betting/submitBet" classname="Test Cases/dailyTesting/6.betting/submitBet" status="PASSED">
+         <system-out><![CDATA[2018-11-14 19:05:11 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/6.betting/submitBet: Test Cases/dailyTesting/6.betting/submitBet
+
+2018-11-14 19:05:11 - [TEST_STEP][PASSED] - Statement - presentArena = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/betting/button_DAY), 3): Object 'Object Repository/dailyTesting/Frontend/betting/button_DAY' is present
+
+2018-11-14 19:05:11 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Frontend/betting/button_DAY' is present
+
+2018-11-14 19:05:11 - [TEST_STEP][PASSED] - Statement - presentMatch = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/betting/button_Place Odd), 3, OPTIONAL): Object 'Object Repository/dailyTesting/Frontend/betting/button_Place Odd' is present
+
+2018-11-14 19:05:11 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Frontend/betting/button_Place Odd' is present
+
+2018-11-14 19:05:11 - [TEST_STEP][PASSED] - Statement - If (presentArena && presentMatch): Delayed 2 second(s)
+
+2018-11-14 19:05:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Frontend/betting/button_Place Odd' is clicked on
+
+2018-11-14 19:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Frontend/betting/button_Place Odd' is clicked on
+
+2018-11-14 19:05:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 19:05:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 19:05:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Frontend/betting/input_-_match-384-input' is present
+
+2018-11-14 19:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Frontend/betting/input_-_match-384-input' is present
+
+2018-11-14 19:05:14 - [TEST_STEP][PASSED] - setText: Text '150' is set on object 'Object Repository/dailyTesting/Frontend/betting/input_-_match-384-input'
+
+2018-11-14 19:05:15 - [MESSAGE][PASSED] - Text '150' is set on object 'Object Repository/dailyTesting/Frontend/betting/input_-_match-384-input'
+
+2018-11-14 19:05:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Frontend/betting/button_Bet' is clicked on
+
+2018-11-14 19:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Frontend/betting/button_Bet' is clicked on
+
+2018-11-14 19:05:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 19:05:17 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 19:04:54 - [TEST_SUITE][PASSED] - submitOneBet: Test Cases/dailyTesting/6.betting/submitBet]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

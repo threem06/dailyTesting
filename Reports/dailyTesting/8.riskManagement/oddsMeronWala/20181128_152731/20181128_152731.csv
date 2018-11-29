@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+oddsMeronWala,Chrome 70.0.3538.110,,2018-11-28 15:27:33,2018-11-28 15:27:46,12.892s,ERROR
+,,,,,,
+Test Cases/dailyTesting/Backoffice/RiskManagement/oddsMeronWala,Chrome 70.0.3538.110,,2018-11-28 15:27:33,2018-11-28 15:27:45,11.684s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.110,,2018-11-28 15:27:34,2018-11-28 15:27:42,8.575s,PASSED
+backoffice.bettingMatch.match,Chrome 70.0.3538.110,,2018-11-28 15:27:42,2018-11-28 15:27:44,2.144s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-28 15:27:44,2018-11-28 15:27:45,0.257s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-28 15:27:45,2018-11-28 15:27:45,0.390s,PASSED
+sendKeys,Chrome 70.0.3538.110,,2018-11-28 15:27:45,2018-11-28 15:27:45,0.009s,PASSED

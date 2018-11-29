@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+114match,,,2018-11-21 14:35:46,2018-11-21 14:35:48,1.341s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,,,2018-11-21 14:35:47,2018-11-21 14:35:47,0.468s,ERROR
+backoffice.backofficeLogin.backofficelogin,,,2018-11-21 14:35:47,2018-11-21 14:35:47,0.016s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,,,2018-11-21 14:35:47,2018-11-21 14:35:47,0.042s,ERROR
+backoffice.backofficeLogin.backofficelogin,,,2018-11-21 14:35:47,2018-11-21 14:35:47,0.001s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,,,2018-11-21 14:35:47,2018-11-21 14:35:48,0.073s,ERROR
+backoffice.backofficeLogin.backofficelogin,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.001s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.049s,ERROR
+backoffice.backofficeLogin.backofficelogin,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.001s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.048s,ERROR
+backoffice.backofficeLogin.backofficelogin,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.007s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.019s,ERROR
+backoffice.backofficeLogin.backofficelogin,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.002s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.034s,ERROR
+backoffice.backofficeLogin.backofficelogin,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.011s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.044s,ERROR
+backoffice.backofficeLogin.backofficelogin,,,2018-11-21 14:35:48,2018-11-21 14:35:48,0.003s,ERROR

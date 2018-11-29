@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>transferBalance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>145ab5e3-c653-4110-a637-254d7d40e760</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c1657dc-6905-4736-afb1-2b9091458c1a</id>
+      <masked>false</masked>
+      <name>transferBalance</name>
+   </variable>
+</TestCaseEntity>

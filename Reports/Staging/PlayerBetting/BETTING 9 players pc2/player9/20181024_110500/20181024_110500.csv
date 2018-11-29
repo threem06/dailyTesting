@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+player9,Chrome 70.0.3538.67,,2018-10-24 11:05:02,2018-10-24 11:05:24,21.639s,FAILED
+,,,,,,
+Test Cases/Staging/Frontend/PlaceBet/RandomOddsAndAMount,Chrome 70.0.3538.67,,2018-10-24 11:05:02,2018-10-24 11:05:23,20.628s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.67,,2018-10-24 11:05:03,2018-10-24 11:05:03,0.003s,PASSED
+openBrowser,Chrome 70.0.3538.67,,2018-10-24 11:05:03,2018-10-24 11:05:06,2.967s,PASSED
+maximizeWindow,Chrome 70.0.3538.67,,2018-10-24 11:05:06,2018-10-24 11:05:07,1.174s,PASSED
+navigateToUrl,Chrome 70.0.3538.67,,2018-10-24 11:05:07,2018-10-24 11:05:09,2.119s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 11:05:09,2018-10-24 11:05:09,0.216s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 11:05:09,2018-10-24 11:05:09,0.103s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 11:05:09,2018-10-24 11:05:09,0.139s,PASSED
+waitForElementPresent,Chrome 70.0.3538.67,,2018-10-24 11:05:09,2018-10-24 11:05:10,0.583s,PASSED
+Statement - meron = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Meronodds),Chrome 70.0.3538.67,,2018-10-24 11:05:10,2018-10-24 11:05:10,0.005s,PASSED
+Statement - wala = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Walaodds),Chrome 70.0.3538.67,,2018-10-24 11:05:10,2018-10-24 11:05:10,0.007s,PASSED
+waitForElementClickable,Chrome 70.0.3538.67,,2018-10-24 11:05:10,2018-10-24 11:05:10,0.084s,PASSED
+"Statement - balance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/Balance), CONTINUE_ON_FAILURE)",Chrome 70.0.3538.67,,2018-10-24 11:05:10,2018-10-24 11:05:10,0.050s,PASSED
+"Statement - log.logInfo(""User balance "" + balance)",Chrome 70.0.3538.67,,2018-10-24 11:05:10,2018-10-24 11:05:10,0.001s,PASSED
+Statement - While (balance != 0),Chrome 70.0.3538.67,,2018-10-24 11:05:10,2018-10-24 11:05:23,12.795s,FAILED

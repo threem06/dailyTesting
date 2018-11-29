@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add10kbalance,Chrome 70.0.3538.102,,2018-11-14 14:16:42,2018-11-14 14:17:02,20.247s,ERROR
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 14:16:42,2018-11-14 14:16:49,6.811s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 14:16:42,2018-11-14 14:16:49,6.578s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 14:16:49,2018-11-14 14:16:58,8.840s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:16:49,2018-11-14 14:16:49,0.184s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:16:49,2018-11-14 14:16:49,0.128s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:16:49,2018-11-14 14:16:51,2.016s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:16:51,2018-11-14 14:16:51,0.100s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 14:16:51,2018-11-14 14:16:53,1.216s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:16:53,2018-11-14 14:16:58,5.003s,PASSED
+,,,,,,
+Test Cases/dailyTesting/3.fundingAccount/fundingAccount,Chrome 70.0.3538.102,,2018-11-14 14:16:58,2018-11-14 14:17:01,3.476s,ERROR
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-14 14:16:58,2018-11-14 14:16:58,0.047s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:16:58,2018-11-14 14:16:58,0.089s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:16:58,2018-11-14 14:16:58,0.154s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:16:58,2018-11-14 14:17:01,3.001s,PASSED
+Statement - If (transferBalance >= 1 && transferBalance <= 9000),Chrome 70.0.3538.102,,2018-11-14 14:17:01,2018-11-14 14:17:01,0.001s,PASSED

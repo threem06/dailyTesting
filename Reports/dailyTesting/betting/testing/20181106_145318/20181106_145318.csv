@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-06 14:53:20,2018-11-06 14:53:40,19.801s,ERROR
+,,,,,,
+Test Cases/dailyTesting/login/frontendLogin,Chrome 70.0.3538.77,,2018-11-06 14:53:20,2018-11-06 14:53:35,14.947s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-06 14:53:21,2018-11-06 14:53:24,3.235s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-06 14:53:24,2018-11-06 14:53:25,1.177s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-06 14:53:25,2018-11-06 14:53:27,2.225s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-06 14:53:27,2018-11-06 14:53:27,0.194s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-06 14:53:27,2018-11-06 14:53:28,0.190s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:53:28,2018-11-06 14:53:30,2.018s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-06 14:53:30,2018-11-06 14:53:30,0.090s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-06 14:53:30,2018-11-06 14:53:30,0.565s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:53:30,2018-11-06 14:53:35,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/betting/matchDetails,Chrome 70.0.3538.77,,2018-11-06 14:53:35,2018-11-06 14:53:39,3.712s,ERROR
+click,Chrome 70.0.3538.77,,2018-11-06 14:53:35,2018-11-06 14:53:36,0.300s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:53:36,2018-11-06 14:53:39,3.003s,PASSED
+Statement - sel = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/description)),Chrome 70.0.3538.77,,2018-11-06 14:53:39,2018-11-06 14:53:39,0.125s,PASSED
+"Statement - If (sel.contains(""Wala""))",Chrome 70.0.3538.77,,2018-11-06 14:53:39,2018-11-06 14:53:39,0.002s,PASSED
+Statement - odd = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/description)),Chrome 70.0.3538.77,,2018-11-06 14:53:39,2018-11-06 14:53:39,0.069s,PASSED
+"Statement - If (odd.contains(""0.94""))",Chrome 70.0.3538.77,,2018-11-06 14:53:39,2018-11-06 14:53:39,0.003s,PASSED

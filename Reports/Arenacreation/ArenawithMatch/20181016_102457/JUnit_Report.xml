@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ArenawithMatch" time="123" tests="13" failures="0" errors="0">
+   <testsuite name="ArenawithMatch" tests="13" failures="0" errors="0" time="123" timestamp="2018-10-16 10:24:59" hostname="Richard Sanchez - DESKTOP-A1HL9OG" id="Test Suites/Arenacreation/ArenawithMatch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Reports\\Arenacreation\\ArenawithMatch\\20181016_102457"/>
+         <property name="logFiles" value="C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Reports\\Arenacreation\\ArenawithMatch\\20181016_102457\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Richard Sanchez - DESKTOP-A1HL9OG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="172.16.8.122"/>
+         <property name="sessionId" value="7659e09c5e884fc02b67789aafb4a120"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Backoffice/Login/LoginAdmin" classname="Test Cases/Backoffice/Login/LoginAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:24:59 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Login/LoginAdmin: Test Cases/Backoffice/Login/LoginAdmin
+
+2018-10-16 10:25:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-16 10:25:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-16 10:25:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-16 10:25:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-16 10:25:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-10-16 10:25:05 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-10-16 10:25:05 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-16 10:25:05 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-16 10:25:05 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-16 10:25:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-16 10:25:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-16 10:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-16 10:25:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-10-16 10:25:08 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_arena" classname="Test Cases/Backoffice/Betting/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:25:08 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_arena: Test Cases/Backoffice/Betting/Create_arena
+
+2018-10-16 10:25:08 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:08 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:09 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-10-16 10:25:09 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-10-16 10:25:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:09 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:09 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - setText: Text 'MINGLANILLA COCKPIT ARENA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Text 'MINGLANILLA COCKPIT ARENA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - setText: Text 'BAKBAKAN 2018 DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Text 'BAKBAKAN 2018 DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - setText: Text 'BIGBA | ELIMS' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Text 'BIGBA | ELIMS' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - setText: Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:10 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:10 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:13 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_arena" classname="Test Cases/Backoffice/Betting/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:25:13 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_arena: Test Cases/Backoffice/Betting/Create_arena
+
+2018-10-16 10:25:13 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:13 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:14 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-10-16 10:25:14 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-10-16 10:25:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:15 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:25:15 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-16 10:25:15 - [TEST_STEP][PASSED] - setText: Text 'ARGAO,CEBU. NEW BAYBAYON COCKPIT' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:15 - [MESSAGE][PASSED] - Text 'ARGAO,CEBU. NEW BAYBAYON COCKPIT' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:15 - [TEST_STEP][PASSED] - setText: Text 'UVGBF 7 STAG DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:15 - [MESSAGE][PASSED] - Text 'UVGBF 7 STAG DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:15 - [TEST_STEP][PASSED] - setText: Text 'CVCC' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:15 - [MESSAGE][PASSED] - Text 'CVCC' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:15 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:15 - [TEST_STEP][PASSED] - setText: Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:16 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:16 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:16 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:16 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:16 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:16 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:16 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:16 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:16 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:19 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_arena" classname="Test Cases/Backoffice/Betting/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:25:19 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_arena: Test Cases/Backoffice/Betting/Create_arena
+
+2018-10-16 10:25:19 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:19 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:19 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-10-16 10:25:19 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-10-16 10:25:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:20 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:20 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:25:20 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-16 10:25:20 - [TEST_STEP][PASSED] - setText: Text 'BACOLOR COCKPIT ARENA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:20 - [MESSAGE][PASSED] - Text 'BACOLOR COCKPIT ARENA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:20 - [TEST_STEP][PASSED] - setText: Text '2ND LEG 8 STAG DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:20 - [MESSAGE][PASSED] - Text '2ND LEG 8 STAG DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:20 - [TEST_STEP][PASSED] - setText: Text 'KGBA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:20 - [MESSAGE][PASSED] - Text 'KGBA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:20 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:21 - [TEST_STEP][PASSED] - setText: Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:21 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:21 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:21 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:21 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:21 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:21 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:21 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:21 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:21 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:24 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_arena" classname="Test Cases/Backoffice/Betting/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:25:24 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_arena: Test Cases/Backoffice/Betting/Create_arena
+
+2018-10-16 10:25:24 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:24 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:24 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-10-16 10:25:24 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-10-16 10:25:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:25 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:25:25 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-16 10:25:25 - [TEST_STEP][PASSED] - setText: Text 'NEW GENTRI SPORTS COLISEUM' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:25 - [MESSAGE][PASSED] - Text 'NEW GENTRI SPORTS COLISEUM' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:25 - [TEST_STEP][PASSED] - setText: Text '2-HITS' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:25 - [MESSAGE][PASSED] - Text '2-HITS' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:25 - [TEST_STEP][PASSED] - setText: Text 'NGSC | 2hits' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:25 - [MESSAGE][PASSED] - Text 'NGSC | 2hits' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:25 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:25 - [TEST_STEP][PASSED] - setText: Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:25 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:25 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:26 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:26 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:26 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:26 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:26 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:26 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:26 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:29 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_arena" classname="Test Cases/Backoffice/Betting/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:25:29 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_arena: Test Cases/Backoffice/Betting/Create_arena
+
+2018-10-16 10:25:29 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:29 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-10-16 10:25:29 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-10-16 10:25:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:30 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:25:30 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-16 10:25:30 - [TEST_STEP][PASSED] - setText: Text 'SAN ROQUE COCKPIT (CAMARINES NORTE)' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:30 - [MESSAGE][PASSED] - Text 'SAN ROQUE COCKPIT (CAMARINES NORTE)' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:30 - [TEST_STEP][PASSED] - setText: Text 'BOYNITA CUP' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:30 - [MESSAGE][PASSED] - Text 'BOYNITA CUP' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:30 - [TEST_STEP][PASSED] - setText: Text 'BCUP' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:30 - [MESSAGE][PASSED] - Text 'BCUP' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:30 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:30 - [TEST_STEP][PASSED] - setText: Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:31 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:31 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:31 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:31 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:31 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:31 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:31 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:31 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:31 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:34 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_arena" classname="Test Cases/Backoffice/Betting/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:25:34 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_arena: Test Cases/Backoffice/Betting/Create_arena
+
+2018-10-16 10:25:34 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:34 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-16 10:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-16 10:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-16 10:25:34 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-10-16 10:25:34 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-10-16 10:25:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:35 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-10-16 10:25:35 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:25:35 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-16 10:25:35 - [TEST_STEP][PASSED] - setText: Text 'MALVAR COCKPIT' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:35 - [MESSAGE][PASSED] - Text 'MALVAR COCKPIT' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-16 10:25:35 - [TEST_STEP][PASSED] - setText: Text ' REGULAR BBC AND BAKBAKAN BANDED' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:35 - [MESSAGE][PASSED] - Text ' REGULAR BBC AND BAKBAKAN BANDED' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-16 10:25:35 - [TEST_STEP][PASSED] - setText: Text 'BBC | BB' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:35 - [MESSAGE][PASSED] - Text 'BBC | BB' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-16 10:25:35 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-16 10:25:35 - [TEST_STEP][PASSED] - setText: Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:36 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-16 10:25:36 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:36 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-16 10:25:36 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:36 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-16 10:25:36 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:36 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-16 10:25:36 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:36 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-16 10:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-10-16 10:25:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_match" classname="Test Cases/Backoffice/Betting/Create_match" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:25:39 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_match: Test Cases/Backoffice/Betting/Create_match
+
+2018-10-16 10:25:39 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:25:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:25:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:25:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:25:42 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'BIGBA | ELIMS' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:25:42 - [MESSAGE][PASSED] - All options with label 'BIGBA | ELIMS' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:25:42 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:25:42 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:25:42 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:25:42 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:25:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'AA' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:25:42 - [MESSAGE][PASSED] - Keys 'AA' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:25:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'BB' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:25:42 - [MESSAGE][PASSED] - Keys 'BB' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:25:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-16 10:25:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-16 10:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:25:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:25:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:25:46 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-16 10:25:46 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-16 10:25:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:25:47 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:25:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:25:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-16 10:25:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-16 10:25:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:25:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:25:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:25:51 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-10-16 10:25:51 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-10-16 10:25:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:25:53 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:25:53 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_match" classname="Test Cases/Backoffice/Betting/Create_match" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:25:53 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_match: Test Cases/Backoffice/Betting/Create_match
+
+2018-10-16 10:25:53 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:25:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:25:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:25:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:25:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:25:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:25:56 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:25:56 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'CVCC' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:25:56 - [MESSAGE][PASSED] - All options with label 'CVCC' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:25:56 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:25:56 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:25:56 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:25:56 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:25:56 - [TEST_STEP][PASSED] - sendKeys: Keys 'CC' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:25:56 - [MESSAGE][PASSED] - Keys 'CC' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:25:56 - [TEST_STEP][PASSED] - sendKeys: Keys 'DD' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:25:56 - [MESSAGE][PASSED] - Keys 'DD' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:25:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-16 10:25:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-16 10:25:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:00 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-16 10:26:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-16 10:26:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:01 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-16 10:26:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-16 10:26:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:04 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-10-16 10:26:04 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-10-16 10:26:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:06 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:26:06 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_match" classname="Test Cases/Backoffice/Betting/Create_match" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:26:06 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_match: Test Cases/Backoffice/Betting/Create_match
+
+2018-10-16 10:26:06 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:26:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:26:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:26:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:26:09 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:26:09 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'KGBA' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:26:09 - [MESSAGE][PASSED] - All options with label 'KGBA' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:26:09 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:26:10 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:26:10 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:26:10 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:26:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'EE' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:26:10 - [MESSAGE][PASSED] - Keys 'EE' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:26:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'FF' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:26:10 - [MESSAGE][PASSED] - Keys 'FF' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:26:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-16 10:26:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-16 10:26:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:14 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:14 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-16 10:26:14 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-16 10:26:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:15 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-16 10:26:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-16 10:26:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:16 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:18 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-10-16 10:26:18 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-10-16 10:26:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:20 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:26:20 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_match" classname="Test Cases/Backoffice/Betting/Create_match" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:26:20 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_match: Test Cases/Backoffice/Betting/Create_match
+
+2018-10-16 10:26:20 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:26:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:26:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:26:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:26:23 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:26:23 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'NGSC | 2hits' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:26:23 - [MESSAGE][PASSED] - All options with label 'NGSC | 2hits' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:26:23 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:26:23 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:26:23 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:26:23 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:26:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'GG' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:26:23 - [MESSAGE][PASSED] - Keys 'GG' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:26:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'HH' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:26:24 - [MESSAGE][PASSED] - Keys 'HH' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:26:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-16 10:26:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-16 10:26:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:28 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:28 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-16 10:26:28 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-16 10:26:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:29 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-16 10:26:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-16 10:26:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:30 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:32 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-10-16 10:26:32 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-10-16 10:26:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:34 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:26:34 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_match" classname="Test Cases/Backoffice/Betting/Create_match" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:26:34 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_match: Test Cases/Backoffice/Betting/Create_match
+
+2018-10-16 10:26:34 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:26:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:26:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:26:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:26:37 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'BCUP' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:26:37 - [MESSAGE][PASSED] - All options with label 'BCUP' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:26:37 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:26:37 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:26:37 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:26:37 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:26:37 - [TEST_STEP][PASSED] - sendKeys: Keys 'II' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:26:37 - [MESSAGE][PASSED] - Keys 'II' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:26:37 - [TEST_STEP][PASSED] - sendKeys: Keys 'JJ' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:26:37 - [MESSAGE][PASSED] - Keys 'JJ' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:26:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-16 10:26:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-16 10:26:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:41 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-16 10:26:42 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-16 10:26:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-16 10:26:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-16 10:26:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:44 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:46 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-10-16 10:26:46 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-10-16 10:26:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:48 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:26:48 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_match" classname="Test Cases/Backoffice/Betting/Create_match" status="PASSED">
+         <system-out><![CDATA[2018-10-16 10:26:48 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_match: Test Cases/Backoffice/Betting/Create_match
+
+2018-10-16 10:26:48 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-16 10:26:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-16 10:26:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-16 10:26:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:26:51 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' is visible
+
+2018-10-16 10:26:51 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'BBC | BB' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:26:51 - [MESSAGE][PASSED] - All options with label 'BBC | BB' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-16 10:26:51 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:26:51 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-16 10:26:51 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:26:51 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p'
+
+2018-10-16 10:26:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'KK' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:26:51 - [MESSAGE][PASSED] - Keys 'KK' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name'
+
+2018-10-16 10:26:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'LL' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:26:51 - [MESSAGE][PASSED] - Keys 'LL' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name'
+
+2018-10-16 10:26:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-16 10:26:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-16 10:26:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match' is clicked on
+
+2018-10-16 10:26:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:55 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is visible
+
+2018-10-16 10:26:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/span_Clickmatch' is clicked on
+
+2018-10-16 10:26:55 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-16 10:26:55 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-16 10:26:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:56 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is visible
+
+2018-10-16 10:26:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/button_OpenMatch' is clicked on
+
+2018-10-16 10:26:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-16 10:26:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-16 10:26:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:57 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is present
+
+2018-10-16 10:26:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Riskmanagement/button_Yes I agree' is clicked on
+
+2018-10-16 10:26:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:26:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:26:59 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 1 is closed
+
+2018-10-16 10:26:59 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2018-10-16 10:26:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-16 10:27:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-16 10:27:01 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-16 10:27:01 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-16 10:24:59 - [TEST_SUITE][PASSED] - ArenawithMatch: Test Cases/Backoffice/Betting/Create_match]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

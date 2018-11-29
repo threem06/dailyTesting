@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>openBetting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0758e233-211f-4535-a018-d3ba83bffce2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aabd51a1-35e3-4150-8856-3e64c92469bc</id>
+      <masked>false</masked>
+      <name>arenaName</name>
+   </variable>
+</TestCaseEntity>

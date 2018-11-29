@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361275</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Arenacreation/ArenawithMatch</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">ArenawithMatch</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Arenacreation/ArenawithMatch</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361304</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Richard Sanchez - DESKTOP-A1HL9OG&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Richard Sanchez - DESKTOP-A1HL9OG</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361308</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361308</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;172.16.8.122&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.16.8.122</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361309</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.8.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.8.0.1</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361666</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Backoffice/Betting/Create_match</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Backoffice/Betting/Create_match</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Backoffice/Betting/Create_match</property>
+  <property name="source">C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Test Cases\\Backoffice\\Betting\\Create_match.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361694</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361697</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;MatchEventName&amp;apos; is set to </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361699</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;MatchProfitM&amp;apos; is set to </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361699</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;MeronName&amp;apos; is set to AA</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361700</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;WalaName&amp;apos; is set to BB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:41</date>
+  <millis>1539586361701</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;Acrmy&amp;apos; is set to BIGBA | ELIMS</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:42</date>
+  <millis>1539586362173</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : focus</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:42</date>
+  <millis>1539586362183</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Betting_header&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:42</date>
+  <millis>1539586362581</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:42</date>
+  <millis>1539586362587</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363309</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;14cb4ad9186972a9bcda364189985944&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">14cb4ad9186972a9bcda364189985944</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363326</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 69.0.3497.100&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 69.0.3497.100</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363327</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363334</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363337</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363344</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Betting_header&amp;apos; located by &amp;apos;By.xpath: //a[@id=&amp;apos;nav_Betting&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363368</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Betting_header&amp;apos; located by &amp;apos;By.xpath: //a[@id=&amp;apos;nav_Betting&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363369</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Focusing on object: &amp;apos;Object Repository/Backoffice/Betting/Betting_header&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363415</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Backoffice/Betting/Betting_header&amp;apos; is focused</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363416</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : focus</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363416</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363417</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match_header&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363435</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363436</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363436</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match_header&amp;apos; located by &amp;apos;By.xpath: //a[@id=&amp;apos;nav_Match&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363455</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match_header&amp;apos; located by &amp;apos;By.xpath: //a[@id=&amp;apos;nav_Match&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:43</date>
+  <millis>1539586363456</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Backoffice/Betting/Match_header&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364233</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Backoffice/Betting/Match_header&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364234</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364234</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364235</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364238</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364239</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364239</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match&amp;apos; located by &amp;apos;By.xpath: //div[@id=&amp;apos;sports&amp;apos;]/div/div[3]/button&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364272</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match&amp;apos; located by &amp;apos;By.xpath: //div[@id=&amp;apos;sports&amp;apos;]/div/div[3]/button&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364273</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364366</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364367</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364367</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:44</date>
+  <millis>1539586364384</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366386</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366389</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366393</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366397</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366439</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366440</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366440</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366441</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos; located by &amp;apos;By.xpath: //select[@id=&amp;apos;match_arena&amp;apos;]&amp;apos; in &amp;apos;3&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366466</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos; located by &amp;apos;By.xpath: //select[@id=&amp;apos;match_arena&amp;apos;]&amp;apos; in &amp;apos;3&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366484</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366484</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366485</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByLabel</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366485</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366497</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366498</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking label parameter</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366498</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366498</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos; located by &amp;apos;By.xpath: //select[@id=&amp;apos;match_arena&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366508</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos; located by &amp;apos;By.xpath: //select[@id=&amp;apos;match_arena&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366523</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos; with label &amp;apos;BIGBA | ELIMS&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366586</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;BIGBA | ELIMS&amp;apos; are selected in object &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366586</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByLabel</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366587</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366587</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366601</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Sending keys &amp;apos;&amp;apos; to object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366601</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366607</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;match_name\&amp;quot;)[count(. | //input[@type = &amp;apos;text&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @id = &amp;apos;match_name&amp;apos; and @name = &amp;apos;match_name&amp;apos; and @autocomplete = &amp;apos;off&amp;apos;]) = count(//input[@type = &amp;apos;text&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @id = &amp;apos;match_name&amp;apos; and @name = &amp;apos;match_name&amp;apos; and @autocomplete = &amp;apos;off&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366625</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;match_name\&amp;quot;)[count(. | //input[@type = &amp;apos;text&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @id = &amp;apos;match_name&amp;apos; and @name = &amp;apos;match_name&amp;apos; and @autocomplete = &amp;apos;off&amp;apos;]) = count(//input[@type = &amp;apos;text&amp;apos; and @class = &amp;apos;form-control&amp;apos; and @id = &amp;apos;match_name&amp;apos; and @name = &amp;apos;match_name&amp;apos; and @autocomplete = &amp;apos;off&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366665</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;&amp;apos; sent to object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366665</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366666</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366667</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366670</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Sending keys &amp;apos;&amp;apos; to object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366670</millis>
+  <sequence>78</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366671</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @id = &amp;apos;match_profit&amp;apos; and @name = &amp;apos;match_profit&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366688</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @id = &amp;apos;match_profit&amp;apos; and @name = &amp;apos;match_profit&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366723</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;&amp;apos; sent to object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366723</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366724</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366724</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366733</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Sending keys &amp;apos;AA&amp;apos; to object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366733</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366734</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @id = &amp;apos;banker_name&amp;apos; and @name = &amp;apos;banker_name&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366758</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @id = &amp;apos;banker_name&amp;apos; and @name = &amp;apos;banker_name&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366818</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;AA&amp;apos; sent to object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_banker_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366819</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366819</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366819</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366822</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Sending keys &amp;apos;BB&amp;apos; to object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366823</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366823</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @id = &amp;apos;player_name&amp;apos; and @name = &amp;apos;player_name&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366841</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @id = &amp;apos;player_name&amp;apos; and @name = &amp;apos;player_name&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366923</millis>
+  <sequence>97</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;BB&amp;apos; sent to object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Name_player_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366923</millis>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366924</millis>
+  <sequence>99</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:46</date>
+  <millis>1539586366924</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:49</date>
+  <millis>1539586369924</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:49</date>
+  <millis>1539586369925</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:49</date>
+  <millis>1539586369926</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:49</date>
+  <millis>1539586369931</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:49</date>
+  <millis>1539586369970</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:49</date>
+  <millis>1539586369970</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:49</date>
+  <millis>1539586369972</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;add_match\&amp;quot;)[count(. | //input[@class = &amp;apos;btn btn-primary btn-xs&amp;apos; and @id = &amp;apos;add_match&amp;apos; and @type = &amp;apos;submit&amp;apos; and @value = &amp;apos;Submit&amp;apos;]) = count(//input[@class = &amp;apos;btn btn-primary btn-xs&amp;apos; and @id = &amp;apos;add_match&amp;apos; and @type = &amp;apos;submit&amp;apos; and @value = &amp;apos;Submit&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370000</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;add_match\&amp;quot;)[count(. | //input[@class = &amp;apos;btn btn-primary btn-xs&amp;apos; and @id = &amp;apos;add_match&amp;apos; and @type = &amp;apos;submit&amp;apos; and @value = &amp;apos;Submit&amp;apos;]) = count(//input[@class = &amp;apos;btn btn-primary btn-xs&amp;apos; and @id = &amp;apos;add_match&amp;apos; and @type = &amp;apos;submit&amp;apos; and @value = &amp;apos;Submit&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370000</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370980</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Close_add_match&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370980</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370980</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370981</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370984</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370984</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370984</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:50</date>
+  <millis>1539586370987</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;page-header-fixed page-container-bg-solid\&amp;quot;]/div[@class=\&amp;quot;page-wrapper\&amp;quot;]/div[@class=\&amp;quot;page-wrapper-row full-height\&amp;quot;]/div[@class=\&amp;quot;page-wrapper-middle\&amp;quot;]/div[@class=\&amp;quot;page-container\&amp;quot;]/div[@class=\&amp;quot;page-content-wrapper\&amp;quot;]/div[@class=\&amp;quot;page-content\&amp;quot;]/div[@class=\&amp;quot;container-fluid\&amp;quot;]/div[@class=\&amp;quot;note note-success\&amp;quot;]/p[1]/a[1]/span[@class=\&amp;quot;text-warning\&amp;quot;][count(. | //span[@class = &amp;apos;text-warning&amp;apos; and (text() = &amp;apos;Click here&amp;apos; or . = &amp;apos;Click here&amp;apos;)]) = count(//span[@class = &amp;apos;text-warning&amp;apos; and (text() = &amp;apos;Click here&amp;apos; or . = &amp;apos;Click here&amp;apos;)])]&amp;apos; in &amp;apos;5&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371001</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;page-header-fixed page-container-bg-solid\&amp;quot;]/div[@class=\&amp;quot;page-wrapper\&amp;quot;]/div[@class=\&amp;quot;page-wrapper-row full-height\&amp;quot;]/div[@class=\&amp;quot;page-wrapper-middle\&amp;quot;]/div[@class=\&amp;quot;page-container\&amp;quot;]/div[@class=\&amp;quot;page-content-wrapper\&amp;quot;]/div[@class=\&amp;quot;page-content\&amp;quot;]/div[@class=\&amp;quot;container-fluid\&amp;quot;]/div[@class=\&amp;quot;note note-success\&amp;quot;]/p[1]/a[1]/span[@class=\&amp;quot;text-warning\&amp;quot;][count(. | //span[@class = &amp;apos;text-warning&amp;apos; and (text() = &amp;apos;Click here&amp;apos; or . = &amp;apos;Click here&amp;apos;)]) = count(//span[@class = &amp;apos;text-warning&amp;apos; and (text() = &amp;apos;Click here&amp;apos; or . = &amp;apos;Click here&amp;apos;)])]&amp;apos; in &amp;apos;5&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371016</millis>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371018</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371018</millis>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371018</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371021</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371021</millis>
+  <sequence>124</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371021</millis>
+  <sequence>125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;page-header-fixed page-container-bg-solid\&amp;quot;]/div[@class=\&amp;quot;page-wrapper\&amp;quot;]/div[@class=\&amp;quot;page-wrapper-row full-height\&amp;quot;]/div[@class=\&amp;quot;page-wrapper-middle\&amp;quot;]/div[@class=\&amp;quot;page-container\&amp;quot;]/div[@class=\&amp;quot;page-content-wrapper\&amp;quot;]/div[@class=\&amp;quot;page-content\&amp;quot;]/div[@class=\&amp;quot;container-fluid\&amp;quot;]/div[@class=\&amp;quot;note note-success\&amp;quot;]/p[1]/a[1]/span[@class=\&amp;quot;text-warning\&amp;quot;][count(. | //span[@class = &amp;apos;text-warning&amp;apos; and (text() = &amp;apos;Click here&amp;apos; or . = &amp;apos;Click here&amp;apos;)]) = count(//span[@class = &amp;apos;text-warning&amp;apos; and (text() = &amp;apos;Click here&amp;apos; or . = &amp;apos;Click here&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371031</millis>
+  <sequence>126</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos; located by &amp;apos;By.xpath: /html[1]/body[@class=\&amp;quot;page-header-fixed page-container-bg-solid\&amp;quot;]/div[@class=\&amp;quot;page-wrapper\&amp;quot;]/div[@class=\&amp;quot;page-wrapper-row full-height\&amp;quot;]/div[@class=\&amp;quot;page-wrapper-middle\&amp;quot;]/div[@class=\&amp;quot;page-container\&amp;quot;]/div[@class=\&amp;quot;page-content-wrapper\&amp;quot;]/div[@class=\&amp;quot;page-content\&amp;quot;]/div[@class=\&amp;quot;container-fluid\&amp;quot;]/div[@class=\&amp;quot;note note-success\&amp;quot;]/p[1]/a[1]/span[@class=\&amp;quot;text-warning\&amp;quot;][count(. | //span[@class = &amp;apos;text-warning&amp;apos; and (text() = &amp;apos;Click here&amp;apos; or . = &amp;apos;Click here&amp;apos;)]) = count(//span[@class = &amp;apos;text-warning&amp;apos; and (text() = &amp;apos;Click here&amp;apos; or . = &amp;apos;Click here&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371032</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371168</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Backoffice/Betting/Match/span_Clickmatch&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371169</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371169</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowIndex</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371176</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking index</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371176</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching window with index: &amp;apos;1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371192</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with index: &amp;apos;1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371193</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToWindowIndex</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371193</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371193</millis>
+  <sequence>136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371196</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371197</millis>
+  <sequence>138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371197</millis>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:51</date>
+  <millis>1539586371197</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnOpen\&amp;quot;)[count(. | //button[@id = &amp;apos;btnOpen&amp;apos; and @class = &amp;apos;btn gray btn-xs  mt-sweetalert&amp;apos; and (text() = &amp;apos; Open &amp;apos; or . = &amp;apos; Open &amp;apos;)]) = count(//button[@id = &amp;apos;btnOpen&amp;apos; and @class = &amp;apos;btn gray btn-xs  mt-sweetalert&amp;apos; and (text() = &amp;apos; Open &amp;apos; or . = &amp;apos; Open &amp;apos;)])]&amp;apos; in &amp;apos;5&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372238</millis>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnOpen\&amp;quot;)[count(. | //button[@id = &amp;apos;btnOpen&amp;apos; and @class = &amp;apos;btn gray btn-xs  mt-sweetalert&amp;apos; and (text() = &amp;apos; Open &amp;apos; or . = &amp;apos; Open &amp;apos;)]) = count(//button[@id = &amp;apos;btnOpen&amp;apos; and @class = &amp;apos;btn gray btn-xs  mt-sweetalert&amp;apos; and (text() = &amp;apos; Open &amp;apos; or . = &amp;apos; Open &amp;apos;)])]&amp;apos; in &amp;apos;5&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372253</millis>
+  <sequence>142</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372253</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372254</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372255</millis>
+  <sequence>145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372258</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372258</millis>
+  <sequence>147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372258</millis>
+  <sequence>148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnOpen\&amp;quot;)[count(. | //button[@id = &amp;apos;btnOpen&amp;apos; and @class = &amp;apos;btn gray btn-xs  mt-sweetalert&amp;apos; and (text() = &amp;apos; Open &amp;apos; or . = &amp;apos; Open &amp;apos;)]) = count(//button[@id = &amp;apos;btnOpen&amp;apos; and @class = &amp;apos;btn gray btn-xs  mt-sweetalert&amp;apos; and (text() = &amp;apos; Open &amp;apos; or . = &amp;apos; Open &amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372269</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;btnOpen\&amp;quot;)[count(. | //button[@id = &amp;apos;btnOpen&amp;apos; and @class = &amp;apos;btn gray btn-xs  mt-sweetalert&amp;apos; and (text() = &amp;apos; Open &amp;apos; or . = &amp;apos; Open &amp;apos;)]) = count(//button[@id = &amp;apos;btnOpen&amp;apos; and @class = &amp;apos;btn gray btn-xs  mt-sweetalert&amp;apos; and (text() = &amp;apos; Open &amp;apos; or . = &amp;apos; Open &amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372269</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372322</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Backoffice/Betting/Match/button_OpenMatch&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372322</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372322</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getWindowTitle</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372331</millis>
+  <sequence>154</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Getting current window&amp;apos;s title</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372337</millis>
+  <sequence>155</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s title is: &amp;apos;ucf88&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372338</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getWindowTitle</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372338</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowTitle</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372347</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking title</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-15T14:52:52</date>
+  <millis>1539586372348</millis>
+  <sequence>159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switching to window with title: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>

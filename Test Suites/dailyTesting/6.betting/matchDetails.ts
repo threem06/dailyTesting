@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>matchDetails</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-22T14:27:33</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f69eb800-96cc-4f28-b67d-d9bc012a6b9e</testSuiteGuid>
+   <testCaseLink>
+      <guid>7be0e465-ebf3-47c9-81eb-0cfd69c7522b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Backoffice/Login/backofficeLogin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b8da964-8ffb-48ec-8648-665c98ba6cf6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Backoffice/Match/matchDetails</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f3d848e4-5e18-44b8-abcf-bba5f7e3f843</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/matchCreation/dailyMatch</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>aaee8ca9-7df6-4399-83ee-80e7d334e8c0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/betting/oneBet</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>aaee8ca9-7df6-4399-83ee-80e7d334e8c0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>playerID</value>
+         <variableId>2062a35c-0049-416c-94d0-18075abfa2ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aaee8ca9-7df6-4399-83ee-80e7d334e8c0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>selection</value>
+         <variableId>08949faf-06e7-48d5-8465-dc9945f9a91a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aaee8ca9-7df6-4399-83ee-80e7d334e8c0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>odds</value>
+         <variableId>b8f19c7e-1525-4b9a-b508-4953a3d3c526</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aaee8ca9-7df6-4399-83ee-80e7d334e8c0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>betAmount</value>
+         <variableId>6fd2b5b7-e47b-48e2-9a6d-90e5882f5862</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f3d848e4-5e18-44b8-abcf-bba5f7e3f843</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>arenaName</value>
+         <variableId>97010a0d-a3be-4400-b756-fe71957548c7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

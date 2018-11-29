@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="manualTrigger" time="27" tests="2" failures="0" errors="0">
+   <testsuite name="manualTrigger" tests="2" failures="0" errors="0" time="27" timestamp="2018-11-22 13:34:53" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/8.riskManagement/manualTrigger">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\manualTrigger\\20181122_133422"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\manualTrigger\\20181122_133422\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="e7fe294eee5c3b5b1c828a15d9f11d9b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/2.login/backofficeLogin" classname="Test Cases/dailyTesting/2.login/backofficeLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-22 13:34:53 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/2.login/backofficeLogin: Test Cases/dailyTesting/2.login/backofficeLogin
+
+2018-11-22 13:34:53 - [TEST_STEP][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice: backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-22 13:34:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-22 13:34:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 13:34:59 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-22 13:34:59 - [MESSAGE][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-22 13:34:59 - [TEST_STEP][PASSED] - setText: Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-22 13:34:59 - [MESSAGE][PASSED] - Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-22 13:34:59 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-22 13:34:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-22 13:34:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-22 13:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-22 13:35:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/dailyTesting/Backoffice/Dashboard/Page_Dashboard - ucf88/span_arvinadmin' is visible
+
+2018-11-22 13:35:01 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Dashboard/Page_Dashboard - ucf88/span_arvinadmin' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/8.riskManagement/manualTrigger" classname="Test Cases/dailyTesting/8.riskManagement/manualTrigger" status="PASSED">
+         <system-out><![CDATA[2018-11-22 13:35:01 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/8.riskManagement/manualTrigger: Test Cases/dailyTesting/8.riskManagement/manualTrigger
+
+2018-11-22 13:35:01 - [TEST_STEP][PASSED] - backoffice.bettingMatch.match: backoffice.bettingMatch.match is PASSED
+
+2018-11-22 13:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-22 13:35:01 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/matchCreation/Header/matchHeader' is present
+
+2018-11-22 13:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/Header/matchHeader' is clicked on
+
+2018-11-22 13:35:02 - [MESSAGE][PASSED] - backoffice.bettingMatch.match is PASSED
+
+2018-11-22 13:35:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/span_Select Arena' is clicked on
+
+2018-11-22 13:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/span_Select Arena' is clicked on
+
+2018-11-22 13:35:03 - [TEST_STEP][PASSED] - setText: Text 'DailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputArenaName'
+
+2018-11-22 13:35:03 - [MESSAGE][PASSED] - Text 'DailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputArenaName'
+
+2018-11-22 13:35:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputArenaName'
+
+2018-11-22 13:35:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchCreation/inputArenaName'
+
+2018-11-22 13:35:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-22 13:35:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-22 13:35:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/buttonMatchDetails' is present
+
+2018-11-22 13:35:06 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/buttonMatchDetails' is present
+
+2018-11-22 13:35:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/buttonMatchDetails' is clicked on
+
+2018-11-22 13:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/buttonMatchDetails' is clicked on
+
+2018-11-22 13:35:06 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'ucf88'
+
+2018-11-22 13:35:08 - [MESSAGE][PASSED] - Switched to window with title: 'ucf88'
+
+2018-11-22 13:35:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsAddMeron' is present
+
+2018-11-22 13:35:08 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsAddMeron' is present
+
+2018-11-22 13:35:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsAddMeron' is clicked on
+
+2018-11-22 13:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsAddMeron' is clicked on
+
+2018-11-22 13:35:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-22 13:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-22 13:35:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 13:35:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 13:35:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-22 13:35:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-22 13:35:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.
+
+2018-11-22 13:35:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.
+
+2018-11-22 13:35:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsDeductMeron' is clicked on
+
+2018-11-22 13:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsDeductMeron' is clicked on
+
+2018-11-22 13:35:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-22 13:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-22 13:35:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 13:35:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 13:35:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-22 13:35:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-22 13:35:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.
+
+2018-11-22 13:35:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.
+
+2018-11-22 13:35:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsAddWala' is clicked on
+
+2018-11-22 13:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsAddWala' is clicked on
+
+2018-11-22 13:35:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-22 13:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-22 13:35:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-22 13:35:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-22 13:35:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-22 13:35:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-22 13:35:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.
+
+2018-11-22 13:35:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.
+
+2018-11-22 13:35:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsDeductWala' is clicked on
+
+2018-11-22 13:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonOddsDeductWala' is clicked on
+
+2018-11-22 13:35:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-22 13:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-22 13:35:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 13:35:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 13:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-22 13:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-22 13:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.
+
+2018-11-22 13:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 13:34:53 - [TEST_SUITE][PASSED] - manualTrigger: Test Cases/dailyTesting/8.riskManagement/manualTrigger]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

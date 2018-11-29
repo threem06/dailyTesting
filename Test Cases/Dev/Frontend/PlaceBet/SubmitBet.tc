@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select Meron market odds
+bet 100.00</description>
+   <name>SubmitBet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bb60df3-2008-486b-aa0e-af85598a47fc</testCaseGuid>
+</TestCaseEntity>

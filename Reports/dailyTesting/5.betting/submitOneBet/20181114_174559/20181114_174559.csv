@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,Chrome 70.0.3538.102,,2018-11-14 17:46:00,2018-11-14 17:46:18,17.303s,ERROR
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 17:46:01,2018-11-14 17:46:07,6.669s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 17:46:01,2018-11-14 17:46:07,6.414s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 17:46:07,2018-11-14 17:46:17,9.298s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 17:46:08,2018-11-14 17:46:08,0.201s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 17:46:08,2018-11-14 17:46:08,0.156s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 17:46:08,2018-11-14 17:46:10,2.018s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 17:46:10,2018-11-14 17:46:10,0.096s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 17:46:10,2018-11-14 17:46:12,1.661s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 17:46:12,2018-11-14 17:46:17,5.003s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/submitBet,Chrome 70.0.3538.102,,2018-11-14 17:46:17,2018-11-14 17:46:17,0.163s,ERROR
+Statement - arenaSelection = new com.kms.katalon.core.testobject.TestObject(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/betting/button_DAY)),Chrome 70.0.3538.102,,2018-11-14 17:46:17,2018-11-14 17:46:17,0.013s,PASSED

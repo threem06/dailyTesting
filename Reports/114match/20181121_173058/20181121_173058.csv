@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+114match,Chrome 70.0.3538.102,,2018-11-21 17:31:00,2018-11-21 17:31:15,14.978s,FAILED
+,,,,,,
+Test Cases/dailyTesting/2.login/backofficeLogin,Chrome 70.0.3538.102,,2018-11-21 17:31:00,2018-11-21 17:31:08,8.644s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.102,,2018-11-21 17:31:00,2018-11-21 17:31:06,5.851s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 17:31:06,2018-11-21 17:31:06,0.194s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-21 17:31:06,2018-11-21 17:31:06,0.197s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 17:31:06,2018-11-21 17:31:08,2.063s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-21 17:31:08,2018-11-21 17:31:08,0.065s,PASSED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 17:31:08,2018-11-21 17:31:11,2.209s,FAILED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-21 17:31:09,2018-11-21 17:31:10,1.175s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 17:31:10,2018-11-21 17:31:10,0.149s,PASSED
+getWindowIndex,Chrome 70.0.3538.102,,2018-11-21 17:31:10,2018-11-21 17:31:10,0.070s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-21 17:31:10,2018-11-21 17:31:10,0.059s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 17:31:10,2018-11-21 17:31:11,0.484s,FAILED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 17:31:11,2018-11-21 17:31:11,0.449s,FAILED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-21 17:31:11,2018-11-21 17:31:11,0.433s,FAILED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 17:31:11,2018-11-21 17:31:12,0.445s,FAILED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-21 17:31:11,2018-11-21 17:31:12,0.426s,FAILED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 17:31:12,2018-11-21 17:31:12,0.480s,FAILED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-21 17:31:12,2018-11-21 17:31:12,0.457s,FAILED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 17:31:12,2018-11-21 17:31:13,0.412s,FAILED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-21 17:31:12,2018-11-21 17:31:13,0.398s,FAILED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 17:31:13,2018-11-21 17:31:13,0.415s,FAILED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-21 17:31:13,2018-11-21 17:31:13,0.403s,FAILED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 17:31:13,2018-11-21 17:31:13,0.403s,FAILED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-21 17:31:13,2018-11-21 17:31:13,0.393s,FAILED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 17:31:13,2018-11-21 17:31:14,0.429s,FAILED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-21 17:31:13,2018-11-21 17:31:14,0.415s,FAILED

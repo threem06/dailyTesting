@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,Chrome 70.0.3538.102,,2018-11-14 16:50:42,2018-11-14 16:50:53,11.208s,ERROR
+,,,,,,
+Test Cases/dailyTesting/2.login/backofficeLogin,Chrome 70.0.3538.102,,2018-11-14 16:50:42,2018-11-14 16:50:51,8.422s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.102,,2018-11-14 16:50:43,2018-11-14 16:50:48,5.827s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 16:50:48,2018-11-14 16:50:49,0.147s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-14 16:50:49,2018-11-14 16:50:49,0.176s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 16:50:49,2018-11-14 16:50:51,1.950s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-14 16:50:51,2018-11-14 16:50:51,0.071s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/openBetting,Chrome 70.0.3538.102,,2018-11-14 16:50:51,2018-11-14 16:50:52,1.731s,ERROR
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-14 16:50:51,2018-11-14 16:50:52,1.001s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 16:50:52,2018-11-14 16:50:52,0.227s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 16:50:52,2018-11-14 16:50:52,0.327s,PASSED
+sendKeys,Chrome 70.0.3538.102,,2018-11-14 16:50:52,2018-11-14 16:50:52,0.005s,PASSED

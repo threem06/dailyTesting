@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create match</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e84db443-1f61-410b-b1c7-ef1f7a439b87</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0080ab3b-b223-44db-aae9-e09929c677b5</id>
+      <masked>false</masked>
+      <name>MatchEventName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e4cc871-ad9d-40f3-a7f6-7efdbf81f650</id>
+      <masked>false</masked>
+      <name>MatchProfitM</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1a27660-e3b4-4c3f-b598-c0e47c885574</id>
+      <masked>false</masked>
+      <name>MeronName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c4e56265-fba4-453e-a0a2-aaccb2bdae4b</id>
+      <masked>false</masked>
+      <name>WalaName</name>
+   </variable>
+</TestCaseEntity>

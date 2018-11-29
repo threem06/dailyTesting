@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+big11,Chrome 69.0.3497.100,,2018-10-18 13:32:24,2018-10-18 13:41:00,8m - 35.539s,FAILED
+,,,,,,
+Test Cases/Frontend/PlaceBet/RandomOddsAndAMount,Chrome 69.0.3497.100,,2018-10-18 13:32:25,2018-10-18 13:40:59,8m - 34.097s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 69.0.3497.100,,2018-10-18 13:32:27,2018-10-18 13:32:27,0.071s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-18 13:32:27,2018-10-18 13:32:36,8.558s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-18 13:32:36,2018-10-18 13:32:37,1.527s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-18 13:32:37,2018-10-18 13:32:54,17.108s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-18 13:32:54,2018-10-18 13:32:56,1.596s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-18 13:32:56,2018-10-18 13:32:56,0.492s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-18 13:32:56,2018-10-18 13:32:57,0.370s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-18 13:32:57,2018-10-18 13:32:57,0.680s,PASSED
+Statement - meron = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Meronodds),Chrome 69.0.3497.100,,2018-10-18 13:32:57,2018-10-18 13:32:57,0.004s,PASSED
+Statement - draw = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Drawodds),Chrome 69.0.3497.100,,2018-10-18 13:32:57,2018-10-18 13:32:57,0.004s,PASSED
+Statement - ftd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_FTDodds),Chrome 69.0.3497.100,,2018-10-18 13:32:57,2018-10-18 13:32:57,0.005s,PASSED
+Statement - wala = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Walaodds),Chrome 69.0.3497.100,,2018-10-18 13:32:57,2018-10-18 13:32:57,0.003s,PASSED
+"Statement - balance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/Balance), CONTINUE_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-18 13:32:57,2018-10-18 13:32:58,0.852s,PASSED
+"Statement - log.logInfo(""User balance "" + balance)",Chrome 69.0.3497.100,,2018-10-18 13:32:58,2018-10-18 13:32:58,0.002s,PASSED
+Statement - While (balance != 0),Chrome 69.0.3497.100,,2018-10-18 13:32:58,2018-10-18 13:40:59,8m - 0.949s,FAILED

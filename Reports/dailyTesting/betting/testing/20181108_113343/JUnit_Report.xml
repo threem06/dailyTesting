@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testing" time="16" tests="2" failures="0" errors="0">
+   <testsuite name="testing" tests="2" failures="0" errors="0" time="16" timestamp="2018-11-08 11:33:44" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/betting/testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\betting\\testing\\20181108_113343"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\betting\\testing\\20181108_113343\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.5.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="c7d0cc67f44c4ea92653befdeadccd7b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/login/backofficeLogin" classname="Test Cases/dailyTesting/login/backofficeLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-08 11:33:45 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/login/backofficeLogin: Test Cases/dailyTesting/login/backofficeLogin
+
+2018-11-08 11:33:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-08 11:33:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-08 11:33:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-08 11:33:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-08 11:33:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com/admin/match' successfully
+
+2018-11-08 11:33:50 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/admin/match' successfully
+
+2018-11-08 11:33:50 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-08 11:33:50 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-08 11:33:50 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-08 11:33:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-08 11:33:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-08 11:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-08 11:33:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-11-08 11:33:52 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/betting/closeBetting" classname="Test Cases/dailyTesting/betting/closeBetting" status="PASSED">
+         <system-out><![CDATA[2018-11-08 11:33:52 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/betting/closeBetting: Test Cases/dailyTesting/betting/closeBetting
+
+2018-11-08 11:33:52 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-08 11:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-08 11:33:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/matchCreation/Header/matchHeader' is present
+
+2018-11-08 11:33:52 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/matchCreation/Header/matchHeader' is present
+
+2018-11-08 11:33:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/Header/matchHeader' is clicked on
+
+2018-11-08 11:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/Header/matchHeader' is clicked on
+
+2018-11-08 11:33:53 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Open' are selected in object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/matchDetails/select_ClosedOpenCancelledFini'  using regular expression
+
+2018-11-08 11:33:54 - [MESSAGE][PASSED] - All options with label 'Open' are selected in object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/matchDetails/select_ClosedOpenCancelledFini'  using regular expression
+
+2018-11-08 11:33:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-08 11:33:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-08 11:33:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/buttonMatchDetails' is present
+
+2018-11-08 11:33:57 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/buttonMatchDetails' is present
+
+2018-11-08 11:33:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/buttonMatchDetails' is clicked on
+
+2018-11-08 11:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/buttonMatchDetails' is clicked on
+
+2018-11-08 11:33:57 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'ucf88'
+
+2018-11-08 11:33:58 - [MESSAGE][PASSED] - Switched to window with title: 'ucf88'
+
+2018-11-08 11:33:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/matchStatus/button_Closed' is present
+
+2018-11-08 11:33:58 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/matchStatus/button_Closed' is present
+
+2018-11-08 11:33:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/matchStatus/button_Closed' is clicked on
+
+2018-11-08 11:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/matchStatus/button_Closed' is clicked on
+
+2018-11-08 11:33:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-08 11:34:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-08 11:34:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/matchStatus/buttonYes' is clicked on
+
+2018-11-08 11:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/matchCreation/matchManagement/matchStatus/buttonYes' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-08 11:33:44 - [TEST_SUITE][PASSED] - testing: Test Cases/dailyTesting/betting/closeBetting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

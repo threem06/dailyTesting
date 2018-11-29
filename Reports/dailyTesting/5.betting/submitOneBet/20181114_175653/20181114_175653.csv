@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,Chrome 70.0.3538.102,,2018-11-14 17:56:55,2018-11-14 17:57:44,48.971s,FAILED
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 17:56:55,2018-11-14 17:57:02,6.293s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 17:56:55,2018-11-14 17:57:02,6.043s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 17:57:02,2018-11-14 17:57:11,9.211s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 17:57:02,2018-11-14 17:57:02,0.248s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 17:57:02,2018-11-14 17:57:02,0.164s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 17:57:02,2018-11-14 17:57:04,2.021s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 17:57:04,2018-11-14 17:57:04,0.105s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 17:57:04,2018-11-14 17:57:06,1.458s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 17:57:06,2018-11-14 17:57:11,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/submitBet,Chrome 70.0.3538.102,,2018-11-14 17:57:11,2018-11-14 17:57:43,32.150s,FAILED
+Statement - arenaSelection = new com.kms.katalon.core.testobject.TestObject(customObject),Chrome 70.0.3538.102,,2018-11-14 17:57:11,2018-11-14 17:57:11,0.005s,PASSED
+Statement - properties = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-14 17:57:11,2018-11-14 17:57:11,0.001s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(tag, com.kms.katalon.core.testobject.ConditionType.EQUALS, div))",Chrome 70.0.3538.102,,2018-11-14 17:57:11,2018-11-14 17:57:11,0.008s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(text, com.kms.katalon.core.testobject.ConditionType.EQUALS, acronym.toUpperCase()))",Chrome 70.0.3538.102,,2018-11-14 17:57:11,2018-11-14 17:57:11,0.002s,PASSED
+Statement - arenaSelection.setProperties(properties),Chrome 70.0.3538.102,,2018-11-14 17:57:11,2018-11-14 17:57:11,0.004s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 17:57:11,2018-11-14 17:57:43,31.942s,FAILED

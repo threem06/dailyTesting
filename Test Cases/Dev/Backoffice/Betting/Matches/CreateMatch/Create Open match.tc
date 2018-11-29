@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Open match</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f9413c6-16ba-4efb-9ba1-37a5eab66227</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0bc28fcd-22fa-444a-8080-ca9da8521293</id>
+      <masked>false</masked>
+      <name>MatchEventName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf912717-736a-4d21-9f9c-6badb8e3c0b1</id>
+      <masked>false</masked>
+      <name>MatchProfitM</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bb0bc664-6601-4ad8-8f98-398ee8084af7</id>
+      <masked>false</masked>
+      <name>MeronName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1802fe0-0393-4f87-a114-e13b65ff4205</id>
+      <masked>false</masked>
+      <name>WalaName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e80fc4b5-58da-4134-b67f-3aec09c71a98</id>
+      <masked>false</masked>
+      <name>Acrmy</name>
+   </variable>
+</TestCaseEntity>

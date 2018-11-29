@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+autoTriggerBet,Chrome 70.0.3538.110,,2018-11-28 15:41:05,2018-11-28 15:41:47,42.438s,PASSED
+,,,,,,
+Test Cases/dailyTesting/Frontend/Login/openBrowserFrontend,Chrome 70.0.3538.110,,2018-11-28 15:41:05,2018-11-28 15:41:16,10.442s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.110,,2018-11-28 15:41:05,2018-11-28 15:41:16,10.205s,PASSED
+,,,,,,
+Test Cases/dailyTesting/Frontend/Login/frontendLogin,Chrome 70.0.3538.110,,2018-11-28 15:41:16,2018-11-28 15:41:27,11.328s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-28 15:41:16,2018-11-28 15:41:17,0.710s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-28 15:41:17,2018-11-28 15:41:17,0.131s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-28 15:41:17,2018-11-28 15:41:19,2.016s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-28 15:41:19,2018-11-28 15:41:19,0.085s,PASSED
+waitForElementPresent,Chrome 70.0.3538.110,,2018-11-28 15:41:19,2018-11-28 15:41:22,3.237s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-28 15:41:22,2018-11-28 15:41:27,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/Frontend/Betting/autoTrigger,Chrome 70.0.3538.110,,2018-11-28 15:41:27,2018-11-28 15:41:47,19.507s,PASSED
+"Statement - presentArena = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/Betting/button_DAY), 3)",Chrome 70.0.3538.110,,2018-11-28 15:41:27,2018-11-28 15:41:33,6.025s,PASSED
+"Statement - presentMatch = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/Betting/button_Place Odd), 3, OPTIONAL)",Chrome 70.0.3538.110,,2018-11-28 15:41:33,2018-11-28 15:41:38,4.458s,PASSED
+Statement - If (presentArena && presentMatch),Chrome 70.0.3538.110,,2018-11-28 15:41:38,2018-11-28 15:41:38,0.001s,PASSED
+Statement - Else,Chrome 70.0.3538.110,,2018-11-28 15:41:38,2018-11-28 15:41:47,8.877s,PASSED

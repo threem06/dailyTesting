@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RandomOddsAndAMount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17da37d6-06c5-4fd2-8448-74fa73671f09</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5d2a4afc-645f-4e0c-8981-68fe6b691a11</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>829f5664-645f-4200-b60f-d21db309c5b8</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

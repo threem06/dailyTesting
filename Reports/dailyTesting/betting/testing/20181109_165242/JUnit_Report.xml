@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testing" time="20" tests="2" failures="0" errors="0">
+   <testsuite name="testing" tests="2" failures="0" errors="0" time="20" timestamp="2018-11-09 16:52:44" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/betting/testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\betting\\testing\\20181109_165242"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\betting\\testing\\20181109_165242\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="f9048bdf729b764f5c1a8f36cdc29bc1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/login/frontendLogin" classname="Test Cases/dailyTesting/login/frontendLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-09 16:52:44 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/login/frontendLogin: Test Cases/dailyTesting/login/frontendLogin
+
+2018-11-09 16:52:44 - [TEST_STEP][PASSED] - frontend.openBrowserFrontend.openbrowserFrontend: frontend.openBrowserFrontend.openbrowserFrontend is PASSED
+
+2018-11-09 16:52:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-09 16:52:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-09 16:52:50 - [MESSAGE][PASSED] - Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-09 16:52:50 - [MESSAGE][PASSED] - frontend.openBrowserFrontend.openbrowserFrontend is PASSED
+
+2018-11-09 16:52:50 - [TEST_STEP][PASSED] - setText: Text 'blaze06' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_username'
+
+2018-11-09 16:52:50 - [MESSAGE][PASSED] - Text 'blaze06' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_username'
+
+2018-11-09 16:52:50 - [TEST_STEP][PASSED] - setText: Text '123123' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_password'
+
+2018-11-09 16:52:51 - [MESSAGE][PASSED] - Text '123123' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_password'
+
+2018-11-09 16:52:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-09 16:52:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-09 16:52:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Frontend/Login/OperatorFrontendLogin/button_Login' is clicked on
+
+2018-11-09 16:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Frontend/Login/OperatorFrontendLogin/button_Login' is clicked on
+
+2018-11-09 16:52:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Frontend/Login/OperatorFrontendLogin/username' is present
+
+2018-11-09 16:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/Frontend/Login/OperatorFrontendLogin/username' is present
+
+2018-11-09 16:52:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-09 16:52:59 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/betting/statement" classname="Test Cases/dailyTesting/betting/statement" status="PASSED">
+         <system-out><![CDATA[2018-11-09 16:52:59 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/betting/statement: Test Cases/dailyTesting/betting/statement
+
+2018-11-09 16:52:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/Page_UCF/span_blaze06' is present
+
+2018-11-09 16:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/Page_UCF/span_blaze06' is present
+
+2018-11-09 16:53:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/Page_UCF/span_blaze06' is clicked on
+
+2018-11-09 16:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/Page_UCF/span_blaze06' is clicked on
+
+2018-11-09 16:53:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-09 16:53:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-09 16:53:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/betAmount' are matched.
+
+2018-11-09 16:53:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/betAmount' are matched.
+
+2018-11-09 16:53:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/balanceBefore' are matched.
+
+2018-11-09 16:53:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/balanceBefore' are matched.
+
+2018-11-09 16:53:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/balanceAfter' are matched.
+
+2018-11-09 16:53:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/balanceAfter' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-09 16:52:44 - [TEST_SUITE][PASSED] - testing: Test Cases/dailyTesting/betting/statement]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

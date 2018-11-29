@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RandomOddsAndAMount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64a9a26c-5844-4116-9d58-01d844ced6c6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6954196-6d10-41f5-a49b-f771796d3605</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ClientReport</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19d7a71f-3ad0-49e6-b63b-4c5cf78c0241</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4af1e7f9-6ac7-4953-b6fa-e72c3cc53b7c</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>575701bd-df62-451a-9380-58785238c560</id>
+      <masked>false</masked>
+      <name>ClientID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>985ffb11-040a-40ff-9ed3-53fd23dc60c8</id>
+      <masked>false</masked>
+      <name>PlayerName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ec8d95e1-8378-4dfe-b807-ac41fb283d08</id>
+      <masked>false</masked>
+      <name>LastLoginIp</name>
+   </variable>
+</TestCaseEntity>

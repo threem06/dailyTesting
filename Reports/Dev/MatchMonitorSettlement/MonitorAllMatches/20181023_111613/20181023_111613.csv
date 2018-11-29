@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MonitorAllMatches,Chrome 70.0.3538.67,,2018-10-23 11:16:14,2018-10-23 11:16:27,12.853s,ERROR
+,,,,,,
+Test Cases/Dev/Backoffice/Betting/Matches/MonitorAllMatches,Chrome 70.0.3538.67,,2018-10-23 11:16:15,2018-10-23 11:16:26,11.484s,PASSED
+openBrowser,Chrome 70.0.3538.67,,2018-10-23 11:16:15,2018-10-23 11:16:18,3.180s,PASSED
+maximizeWindow,Chrome 70.0.3538.67,,2018-10-23 11:16:18,2018-10-23 11:16:19,1.142s,PASSED
+navigateToUrl,Chrome 70.0.3538.67,,2018-10-23 11:16:19,2018-10-23 11:16:20,1.022s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-23 11:16:20,2018-10-23 11:16:21,0.213s,PASSED
+setEncryptedText,Chrome 70.0.3538.67,,2018-10-23 11:16:21,2018-10-23 11:16:21,0.202s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 11:16:21,2018-10-23 11:16:23,2.170s,PASSED
+waitForElementVisible,Chrome 70.0.3538.67,,2018-10-23 11:16:23,2018-10-23 11:16:23,0.055s,PASSED
+focus,Chrome 70.0.3538.67,,2018-10-23 11:16:23,2018-10-23 11:16:23,0.092s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 11:16:23,2018-10-23 11:16:24,0.690s,PASSED
+delay,Chrome 70.0.3538.67,,2018-10-23 11:16:24,2018-10-23 11:16:25,1.021s,PASSED
+Statement - myMatchObject = new com.kms.katalon.core.testobject.TestObject(customObject2),Chrome 70.0.3538.67,,2018-10-23 11:16:25,2018-10-23 11:16:25,0.017s,PASSED
+Statement - properties = new java.util.ArrayList(),Chrome 70.0.3538.67,,2018-10-23 11:16:25,2018-10-23 11:16:25,0.002s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(tag, com.kms.katalon.core.testobject.ConditionType.EQUALS, a))",Chrome 70.0.3538.67,,2018-10-23 11:16:25,2018-10-23 11:16:25,0.022s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(text, com.kms.katalon.core.testobject.ConditionType.CONTAINS, SAN ROQUE COCKPIT(CAMARINES NORTE)))",Chrome 70.0.3538.67,,2018-10-23 11:16:25,2018-10-23 11:16:25,0.001s,PASSED
+Statement - myMatchObject.setProperties(properties),Chrome 70.0.3538.67,,2018-10-23 11:16:25,2018-10-23 11:16:25,0.003s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 11:16:25,2018-10-23 11:16:26,0.641s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-23 11:16:26,2018-10-23 11:16:26,0.663s,PASSED
+switchToWindowIndex,Chrome 70.0.3538.67,,2018-10-23 11:16:26,2018-10-23 11:16:26,0.019s,PASSED
+,,,,,,
+Test Cases/Dev/Backoffice/Betting/Matches/MatchSettlement,Chrome 70.0.3538.67,,2018-10-23 11:16:26,2018-10-23 11:16:27,0.402s,ERROR
+"Statement - nxtmtch = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Backoffice/Betting/Match/Riskmanagement/NextMatch), true)",Chrome 70.0.3538.67,,2018-10-23 11:16:26,2018-10-23 11:16:26,0.008s,PASSED

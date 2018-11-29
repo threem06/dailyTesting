@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ClientReport,Chrome 70.0.3538.77,,2018-10-30 10:53:34,2018-10-30 10:53:51,16.217s,ERROR
+,,,,,,
+Test Cases/Dev/Backoffice/Login/LoginAdmin,Chrome 70.0.3538.77,,2018-10-30 10:53:35,2018-10-30 10:53:46,10.732s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-10-30 10:53:35,2018-10-30 10:53:40,4.786s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-10-30 10:53:40,2018-10-30 10:53:41,1.167s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-30 10:53:41,2018-10-30 10:53:43,1.634s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-30 10:53:43,2018-10-30 10:53:43,0.229s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-10-30 10:53:43,2018-10-30 10:53:43,0.250s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-30 10:53:43,2018-10-30 10:53:46,2.301s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-10-30 10:53:46,2018-10-30 10:53:46,0.084s,PASSED
+,,,,,,
+Test Cases/Dev/Backoffice/Betting/Matches/CreateMatch/Create match,Chrome 70.0.3538.77,,2018-10-30 10:53:46,2018-10-30 10:53:50,4.134s,ERROR
+focus,Chrome 70.0.3538.77,,2018-10-30 10:53:46,2018-10-30 10:53:46,0.132s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-30 10:53:46,2018-10-30 10:53:47,0.874s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-30 10:53:47,2018-10-30 10:53:47,0.269s,PASSED
+delay,Chrome 70.0.3538.77,,2018-10-30 10:53:47,2018-10-30 10:53:49,2.029s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-10-30 10:53:49,2018-10-30 10:53:49,0.074s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.77,,2018-10-30 10:53:49,2018-10-30 10:53:49,0.154s,PASSED
+"Statement - not([""run"":com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name), MatchEventName)])",Chrome 70.0.3538.77,,2018-10-30 10:53:49,2018-10-30 10:53:50,0.318s,PASSED

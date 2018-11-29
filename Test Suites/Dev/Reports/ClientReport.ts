@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ClientReport</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-10-30T11:00:45</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f5783ff4-15ce-49b6-b231-33bef163e431</testSuiteGuid>
+   <testCaseLink>
+      <guid>2abfd58c-63dc-47ea-bef7-c914c94f47d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dev/Backoffice/Login/LoginAdmin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fca35597-af6f-4c84-807b-0fabeda111f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dev/Backoffice/Reports/Bet Report/ClientReport</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4af1e7f9-6ac7-4953-b6fa-e72c3cc53b7c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>575701bd-df62-451a-9380-58785238c560</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>985ffb11-040a-40ff-9ed3-53fd23dc60c8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec8d95e1-8378-4dfe-b807-ac41fb283d08</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

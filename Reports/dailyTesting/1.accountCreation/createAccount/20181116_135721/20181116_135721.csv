@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createAccount,Chrome 70.0.3538.102,,2018-11-16 13:57:23,2018-11-16 13:57:48,25.079s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-16 13:57:23,2018-11-16 13:57:30,6.984s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-16 13:57:23,2018-11-16 13:57:30,6.735s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-16 13:57:30,2018-11-16 13:57:39,9.029s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-16 13:57:30,2018-11-16 13:57:31,0.280s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-16 13:57:31,2018-11-16 13:57:31,0.135s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-16 13:57:31,2018-11-16 13:57:33,2.018s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 13:57:33,2018-11-16 13:57:33,0.144s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-16 13:57:33,2018-11-16 13:57:34,1.248s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-16 13:57:34,2018-11-16 13:57:39,5.003s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/backofficeLogin,Chrome 70.0.3538.102,,2018-11-16 13:57:39,2018-11-16 13:57:47,7.944s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.102,,2018-11-16 13:57:39,2018-11-16 13:57:45,5.346s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-16 13:57:45,2018-11-16 13:57:45,0.146s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-16 13:57:45,2018-11-16 13:57:45,0.189s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 13:57:45,2018-11-16 13:57:47,1.967s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-16 13:57:47,2018-11-16 13:57:47,0.140s,PASSED

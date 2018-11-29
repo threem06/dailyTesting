@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-09 16:07:36,2018-11-09 16:07:57,21.384s,FAILED
+,,,,,,
+Test Cases/dailyTesting/login/frontendLogin,Chrome 70.0.3538.77,,2018-11-09 16:07:36,2018-11-09 16:07:51,15.356s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.77,,2018-11-09 16:07:36,2018-11-09 16:07:43,6.280s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-09 16:07:43,2018-11-09 16:07:43,0.184s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-09 16:07:43,2018-11-09 16:07:43,0.146s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-09 16:07:43,2018-11-09 16:07:45,2.022s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 16:07:45,2018-11-09 16:07:45,0.093s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-09 16:07:45,2018-11-09 16:07:46,1.377s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-09 16:07:46,2018-11-09 16:07:51,5.003s,PASSED
+,,,,,,
+Test Cases/dailyTesting/betting/statement,Chrome 70.0.3538.77,,2018-11-09 16:07:51,2018-11-09 16:07:56,4.926s,FAILED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 16:07:52,2018-11-09 16:07:56,4.671s,FAILED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+matchDetails,,,2018-11-16 10:52:49,2018-11-16 10:52:50,0.835s,FAILED
+,,,,,,
+Test Cases/dailyTesting/6.betting/matchDetails,,,2018-11-16 10:52:49,2018-11-16 10:52:50,0.547s,FAILED
+focus,,,2018-11-16 10:52:50,2018-11-16 10:52:50,0.276s,FAILED

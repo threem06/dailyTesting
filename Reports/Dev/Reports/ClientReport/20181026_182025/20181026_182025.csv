@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ClientReport,Chrome 70.0.3538.77,,2018-10-26 18:20:32,2018-10-26 18:20:51,18.508s,FAILED
+,,,,,,
+Test Cases/Dev/Backoffice/Login/LoginAdmin,Chrome 70.0.3538.77,,2018-10-26 18:20:33,2018-10-26 18:20:42,9.034s,FAILED
+openBrowser,Chrome 70.0.3538.77,,2018-10-26 18:20:33,2018-10-26 18:20:36,3.470s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-10-26 18:20:36,2018-10-26 18:20:42,5.253s,FAILED
+,,,,,,
+Test Cases/Dev/Backoffice/Reports/Bet Report/ClientReport,Chrome 70.0.3538.77,,2018-10-26 18:20:42,2018-10-26 18:20:50,8.411s,FAILED
+focus,Chrome 70.0.3538.77,,2018-10-26 18:20:42,2018-10-26 18:20:50,8.134s,FAILED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add10kbalance,Chrome 70.0.3538.102,,2018-11-14 14:26:38,2018-11-14 14:26:58,20.289s,ERROR
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 14:26:38,2018-11-14 14:26:45,6.624s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 14:26:38,2018-11-14 14:26:45,6.390s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 14:26:45,2018-11-14 14:26:53,8.887s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:26:45,2018-11-14 14:26:45,0.197s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:26:45,2018-11-14 14:26:45,0.140s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:26:45,2018-11-14 14:26:47,2.019s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:26:47,2018-11-14 14:26:47,0.124s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 14:26:47,2018-11-14 14:26:48,1.215s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:26:48,2018-11-14 14:26:53,5.004s,PASSED
+,,,,,,
+Test Cases/dailyTesting/3.fundingAccount/fundingAccount,Chrome 70.0.3538.102,,2018-11-14 14:26:53,2018-11-14 14:26:57,3.591s,ERROR
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-14 14:26:54,2018-11-14 14:26:54,0.002s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-14 14:26:54,2018-11-14 14:26:54,0.073s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:26:54,2018-11-14 14:26:54,0.089s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:26:54,2018-11-14 14:26:54,0.161s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:26:54,2018-11-14 14:26:57,3.002s,PASSED
+"Statement - balance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/fundingAccount/inputBalance), CONTINUE_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-14 14:26:57,2018-11-14 14:26:57,0.082s,PASSED
+"Statement - log.logInfo(""USERS BALANCE "" + balance)",Chrome 70.0.3538.102,,2018-11-14 14:26:57,2018-11-14 14:26:57,0.001s,PASSED
+Statement - If (balance >= 1 && balance <= 9000),Chrome 70.0.3538.102,,2018-11-14 14:26:57,2018-11-14 14:26:57,0.000s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+big5,,,2018-10-17 13:45:42,2018-10-17 13:46:16,33.819s,FAILED
+,,,,,,
+Test Cases/Frontend/PlaceBet/RandomOddsAndAMount,,,2018-10-17 13:45:43,2018-10-17 13:46:16,32.384s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),,,2018-10-17 13:45:45,2018-10-17 13:45:45,0.002s,PASSED
+openBrowser,,,2018-10-17 13:45:45,2018-10-17 13:46:16,30.763s,FAILED

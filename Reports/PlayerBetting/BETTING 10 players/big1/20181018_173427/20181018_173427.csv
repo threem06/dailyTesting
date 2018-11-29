@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+big1,Chrome 69.0.3497.100,,2018-10-18 17:34:28,2018-10-18 17:34:46,17.407s,FAILED
+,,,,,,
+Test Cases/Frontend/PlaceBet/RandomOddsAndAMount,Chrome 69.0.3497.100,,2018-10-18 17:34:29,2018-10-18 17:34:45,16.366s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 69.0.3497.100,,2018-10-18 17:34:29,2018-10-18 17:34:29,0.001s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-18 17:34:29,2018-10-18 17:34:32,2.953s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-18 17:34:32,2018-10-18 17:34:33,1.144s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-18 17:34:33,2018-10-18 17:34:35,1.552s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-18 17:34:35,2018-10-18 17:34:35,0.701s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-18 17:34:35,2018-10-18 17:34:35,0.112s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-18 17:34:35,2018-10-18 17:34:36,0.088s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:36,0.559s,PASSED
+Statement - meron = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Meronodds),Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:36,0.004s,PASSED
+Statement - draw = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Drawodds),Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:36,0.005s,PASSED
+Statement - ftd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_FTDodds),Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:36,0.004s,PASSED
+Statement - wala = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Walaodds),Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:36,0.003s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:36,0.084s,PASSED
+"Statement - balance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/Balance), CONTINUE_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:36,0.085s,PASSED
+"Statement - log.logInfo(""User balance "" + balance)",Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:36,0.001s,PASSED
+Statement - While (balance != 0),Chrome 69.0.3497.100,,2018-10-18 17:34:36,2018-10-18 17:34:45,8.670s,FAILED

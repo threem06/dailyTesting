@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d10539f8-c6de-45ca-a44f-f266ff4c4db6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7608b5ec-bd08-42b2-b41f-01ac51885864</id>
+      <masked>false</masked>
+      <name>betAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da87699d-f3ba-4a96-af38-494f0060c738</id>
+      <masked>false</masked>
+      <name>balBefore</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>895e923a-7d9b-47e6-ac98-1f6c941024a8</id>
+      <masked>false</masked>
+      <name>balAfter</name>
+   </variable>
+</TestCaseEntity>

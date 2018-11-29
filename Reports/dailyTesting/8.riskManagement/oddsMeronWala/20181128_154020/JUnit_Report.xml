@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="oddsMeronWala" time="17" tests="1" failures="0" errors="0">
+   <testsuite name="oddsMeronWala" tests="1" failures="0" errors="0" time="17" timestamp="2018-11-28 15:41:49" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/8.riskManagement/oddsMeronWala">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\oddsMeronWala\\20181128_154020"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\oddsMeronWala\\20181128_154020\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="b83e0f74c73c04549c9440054f6d5987"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/Backoffice/RiskManagement/oddsMeronWala" classname="Test Cases/dailyTesting/Backoffice/RiskManagement/oddsMeronWala" status="PASSED">
+         <system-out><![CDATA[2018-11-28 15:41:50 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/Backoffice/RiskManagement/oddsMeronWala: Test Cases/dailyTesting/Backoffice/RiskManagement/oddsMeronWala
+
+2018-11-28 15:41:50 - [TEST_STEP][PASSED] - backoffice.backofficeLogin.backofficelogin: backoffice.backofficeLogin.backofficelogin is PASSED
+
+2018-11-28 15:41:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-28 15:41:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-28 15:41:56 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-28 15:41:56 - [MESSAGE][PASSED] - Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-28 15:41:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-28 15:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-28 15:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Dashboard/span_arvinadmin' is visible
+
+2018-11-28 15:41:59 - [MESSAGE][PASSED] - backoffice.backofficeLogin.backofficelogin is PASSED
+
+2018-11-28 15:41:59 - [TEST_STEP][PASSED] - backoffice.bettingMatch.match: backoffice.bettingMatch.match is PASSED
+
+2018-11-28 15:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Arena/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-28 15:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/Header/matchHeader' is present
+
+2018-11-28 15:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/Header/matchHeader' is clicked on
+
+2018-11-28 15:42:01 - [MESSAGE][PASSED] - backoffice.bettingMatch.match is PASSED
+
+2018-11-28 15:42:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/span_Select Arena' is clicked on
+
+2018-11-28 15:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/span_Select Arena' is clicked on
+
+2018-11-28 15:42:01 - [TEST_STEP][PASSED] - setText: Text 'DailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputArenaName'
+
+2018-11-28 15:42:01 - [MESSAGE][PASSED] - Text 'DailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputArenaName'
+
+2018-11-28 15:42:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputArenaName'
+
+2018-11-28 15:42:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputArenaName'
+
+2018-11-28 15:42:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 15:42:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 15:42:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/buttonMatchDetails' is present
+
+2018-11-28 15:42:04 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/buttonMatchDetails' is present
+
+2018-11-28 15:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/buttonMatchDetails' is clicked on
+
+2018-11-28 15:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/buttonMatchDetails' is clicked on
+
+2018-11-28 15:42:04 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'ucf88'
+
+2018-11-28 15:42:06 - [MESSAGE][PASSED] - Switched to window with title: 'ucf88'
+
+2018-11-28 15:42:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-28 15:42:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/riskManagementTable/oddsMeron' are matched.
+
+2018-11-28 15:42:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.
+
+2018-11-28 15:42:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/riskManagementTable/oddsWala' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-28 15:41:49 - [TEST_SUITE][PASSED] - oddsMeronWala: Test Cases/dailyTesting/Backoffice/RiskManagement/oddsMeronWala]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

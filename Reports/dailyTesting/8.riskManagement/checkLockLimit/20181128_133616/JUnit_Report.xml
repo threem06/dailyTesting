@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="checkLockLimit" time="38" tests="3" failures="1" errors="0">
+   <testsuite name="checkLockLimit" tests="3" failures="1" errors="0" time="38" timestamp="2018-11-28 13:36:18" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/8.riskManagement/checkLockLimit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\checkLockLimit\\20181128_133616"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\checkLockLimit\\20181128_133616\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\checkLockLimit\\20181128_133616\\1543383405711.png, C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\checkLockLimit\\20181128_133616\\1543383406085.png"/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="207253937420ff380836a2afb96cb92f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/Backoffice/Login/backofficeLogin" classname="Test Cases/dailyTesting/Backoffice/Login/backofficeLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-28 13:36:18 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/Backoffice/Login/backofficeLogin: Test Cases/dailyTesting/Backoffice/Login/backofficeLogin
+
+2018-11-28 13:36:18 - [TEST_STEP][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice: backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-28 13:36:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-28 13:36:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-28 13:36:25 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-28 13:36:25 - [MESSAGE][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-28 13:36:25 - [TEST_STEP][PASSED] - setText: Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-28 13:36:25 - [MESSAGE][PASSED] - Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-28 13:36:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-28 13:36:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-28 13:36:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-28 13:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-28 13:36:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/dailyTesting/Backoffice/Dashboard/span_arvinadmin' is visible
+
+2018-11-28 13:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Dashboard/span_arvinadmin' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/Backoffice/Match/createMatch" classname="Test Cases/dailyTesting/Backoffice/Match/createMatch" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' FAILED. (Root cause: Actual text '2' and expected text '1' of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:49)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542166566185.run(Script1542166566185.groovy:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543383376206.run(TempTestSuite1543383376206.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-28 13:36:28 - [TEST_CASE][FAILED] - Test Cases/dailyTesting/Backoffice/Match/createMatch: Test Cases/dailyTesting/Backoffice/Match/createMatch FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' FAILED. (Root cause: Actual text '2' and expected text '1' of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:49)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542166566185.run(Script1542166566185.groovy:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543383376206.run(TempTestSuite1543383376206.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-28 13:36:28 - [TEST_STEP][PASSED] - backoffice.bettingMatch.match: backoffice.bettingMatch.match is PASSED
+
+2018-11-28 13:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Arena/arenaCreation/Header/bettingHeader' is focused
+
+2018-11-28 13:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/Header/matchHeader' is present
+
+2018-11-28 13:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/Header/matchHeader' is clicked on
+
+2018-11-28 13:36:30 - [MESSAGE][PASSED] - backoffice.bettingMatch.match is PASSED
+
+2018-11-28 13:36:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/buttonCreateMatch' is clicked on
+
+2018-11-28 13:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/buttonCreateMatch' is clicked on
+
+2018-11-28 13:36:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-28 13:36:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-28 13:36:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/dropdownArenaName' is visible
+
+2018-11-28 13:36:32 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/dropdownArenaName' is visible
+
+2018-11-28 13:36:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/dropdownArenaName' is clicked on
+
+2018-11-28 13:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/dropdownArenaName' is clicked on
+
+2018-11-28 13:36:32 - [TEST_STEP][PASSED] - sendKeys: Keys 'DailyTest' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputArenaName'
+
+2018-11-28 13:36:32 - [MESSAGE][PASSED] - Keys 'DailyTest' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputArenaName'
+
+2018-11-28 13:36:32 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputArenaName'
+
+2018-11-28 13:36:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputArenaName'
+
+2018-11-28 13:36:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'match2' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputMeronName'
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Keys 'match2' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputMeronName'
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'farmer' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputMeronFarm'
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Keys 'farmer' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputMeronFarm'
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'breeder' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputMeronBreed'
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Keys 'breeder' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputMeronBreed'
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - sendKeys: Keys '20' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputMeronWeight'
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Keys '20' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputMeronWeight'
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'game2' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputWalaName'
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Keys 'game2' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputWalaName'
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'farm' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputWalaFarm'
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Keys 'farm' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputWalaFarm'
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'breed' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputWalaBreed'
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Keys 'breed' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputWalaBreed'
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - sendKeys: Keys '12' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputWalaWeight'
+
+2018-11-28 13:36:36 - [MESSAGE][PASSED] - Keys '12' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/inputWalaWeight'
+
+2018-11-28 13:36:36 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/buttonSubmit' is present
+
+2018-11-28 13:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/buttonSubmit' is present
+
+2018-11-28 13:36:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/buttonSubmit' is clicked on
+
+2018-11-28 13:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchCreation/buttonSubmit' is clicked on
+
+2018-11-28 13:36:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-28 13:36:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 13:36:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/span_Select Arena' is clicked on
+
+2018-11-28 13:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/span_Select Arena' is clicked on
+
+2018-11-28 13:36:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'DailyTest' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Arena/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-28 13:36:42 - [MESSAGE][PASSED] - Keys 'DailyTest' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Arena/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-28 13:36:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Arena/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-28 13:36:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/dailyTesting/Backoffice/Betting/Arena/arenaCreation/arenaManagement/inputArenaName'
+
+2018-11-28 13:36:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-28 13:36:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-28 13:36:44 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Closed' are selected in object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchDetails/select_ClosedOpenCancelledFini'  using regular expression
+
+2018-11-28 13:36:45 - [MESSAGE][PASSED] - All options with label 'Closed' are selected in object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchDetails/select_ClosedOpenCancelledFini'  using regular expression
+
+2018-11-28 13:36:45 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' FAILED. (Root cause: Actual text '2' and expected text '1' of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' are NOT matched.)
+
+2018-11-28 13:36:46 - [MESSAGE][FAILED] - Actual text '2' and expected text '1' of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' are NOT matched.
+[[ATTACHMENT|C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\checkLockLimit\\20181128_133616\\1543383405711.png]]
+
+2018-11-28 13:36:46 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' FAILED. (Root cause: Actual text '2' and expected text '1' of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\8.riskManagement\\checkLockLimit\\20181128_133616\\1543383406085.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-28 13:36:28 - [TEST_CASE][FAILED] - Test Cases/dailyTesting/Backoffice/Match/createMatch: Test Cases/dailyTesting/Backoffice/Match/createMatch FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' FAILED. (Root cause: Actual text '2' and expected text '1' of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:49)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542166566185.run(Script1542166566185.groovy:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543383376206.run(TempTestSuite1543383376206.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/Backoffice/Match/openBetting" classname="Test Cases/dailyTesting/Backoffice/Match/openBetting" status="PASSED">
+         <system-out><![CDATA[2018-11-28 13:36:46 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/Backoffice/Match/openBetting: Test Cases/dailyTesting/Backoffice/Match/openBetting
+
+2018-11-28 13:36:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/buttonMatchDetails' is clicked on
+
+2018-11-28 13:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/buttonMatchDetails' is clicked on
+
+2018-11-28 13:36:46 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'ucf88'
+
+2018-11-28 13:36:47 - [MESSAGE][PASSED] - Switched to window with title: 'ucf88'
+
+2018-11-28 13:36:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/matchStatus/button_Open' is present
+
+2018-11-28 13:36:47 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/matchStatus/button_Open' is present
+
+2018-11-28 13:36:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/matchStatus/button_Open' is clicked on
+
+2018-11-28 13:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/matchStatus/button_Open' is clicked on
+
+2018-11-28 13:36:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-28 13:36:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-28 13:36:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/matchStatus/buttonYes' is clicked on
+
+2018-11-28 13:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/matchStatus/buttonYes' is clicked on
+
+2018-11-28 13:36:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-28 13:36:52 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/Backoffice/RiskManagement/lockLimits" classname="Test Cases/dailyTesting/Backoffice/RiskManagement/lockLimits" status="PASSED">
+         <system-out><![CDATA[2018-11-28 13:36:52 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/Backoffice/RiskManagement/lockLimits: Test Cases/dailyTesting/Backoffice/RiskManagement/lockLimits
+
+2018-11-28 13:36:52 - [TEST_STEP][PASSED] - backoffice.lockLimit.lock: backoffice.lockLimit.lock is PASSED
+
+2018-11-28 13:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/Limits/inputLockLimit' is checked
+
+2018-11-28 13:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/riskManagement/riskManagementTable/buttonSave' is clicked on
+
+2018-11-28 13:36:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-28 13:36:55 - [MESSAGE][PASSED] - backoffice.lockLimit.lock is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-28 13:36:18 - [TEST_SUITE][FAILED] - checkLockLimit: Test Cases/dailyTesting/Backoffice/Match/createMatch FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' FAILED. (Root cause: Actual text '2' and expected text '1' of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:49)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542166566185.run(Script1542166566185.groovy:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543383376206.run(TempTestSuite1543383376206.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-28 13:36:18 - [TEST_SUITE][FAILED] - checkLockLimit: Test Cases/dailyTesting/Backoffice/Match/createMatch FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' FAILED. (Root cause: Actual text '2' and expected text '1' of test object 'Object Repository/dailyTesting/Backoffice/Betting/Match/matchManagement/matchManagementTable/labelMatchNumber' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:49)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542166566185.run(Script1542166566185.groovy:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543383376206.run(TempTestSuite1543383376206.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

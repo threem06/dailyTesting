@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create 1000 user for UCF</description>
+   <name>RegisterAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94635091-a7d0-46e7-8601-ba2d62166088</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fdc5e366-702e-4cea-aa72-c92c661faac5</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28c6a5ef-b107-42e7-a8a2-9b447f4ba54b</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

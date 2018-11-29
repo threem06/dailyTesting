@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-06 14:15:40,2018-11-06 14:16:00,20.231s,ERROR
+,,,,,,
+Test Cases/dailyTesting/login/frontendLogin,Chrome 70.0.3538.77,,2018-11-06 14:15:40,2018-11-06 14:15:55,15.299s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-06 14:15:40,2018-11-06 14:15:44,3.541s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-06 14:15:44,2018-11-06 14:15:45,1.156s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-06 14:15:45,2018-11-06 14:15:47,2.014s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-06 14:15:47,2018-11-06 14:15:47,0.329s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-06 14:15:47,2018-11-06 14:15:48,0.228s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:15:48,2018-11-06 14:15:50,2.020s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-06 14:15:50,2018-11-06 14:15:50,0.129s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-06 14:15:50,2018-11-06 14:15:50,0.579s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:15:50,2018-11-06 14:15:55,5.003s,PASSED
+,,,,,,
+Test Cases/dailyTesting/betting/matchDetails,Chrome 70.0.3538.77,,2018-11-06 14:15:55,2018-11-06 14:15:59,3.715s,ERROR
+click,Chrome 70.0.3538.77,,2018-11-06 14:15:55,2018-11-06 14:15:56,0.349s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-06 14:15:56,2018-11-06 14:15:59,3.004s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/description)),Chrome 70.0.3538.77,,2018-11-06 14:15:59,2018-11-06 14:15:59,0.167s,PASSED
+"Statement - If (text.contains(""Meron""))",Chrome 70.0.3538.77,,2018-11-06 14:15:59,2018-11-06 14:15:59,0.005s,PASSED

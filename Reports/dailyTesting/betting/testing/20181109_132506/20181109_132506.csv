@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-09 13:25:08,2018-11-09 13:25:20,12.204s,ERROR
+,,,,,,
+Test Cases/dailyTesting/login/backofficeLogin,Chrome 70.0.3538.77,,2018-11-09 13:25:08,2018-11-09 13:25:16,8.488s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.77,,2018-11-09 13:25:08,2018-11-09 13:25:14,5.638s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-09 13:25:14,2018-11-09 13:25:14,0.164s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-09 13:25:14,2018-11-09 13:25:14,0.169s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 13:25:14,2018-11-09 13:25:16,2.143s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-11-09 13:25:16,2018-11-09 13:25:16,0.123s,PASSED
+,,,,,,
+Test Cases/dailyTesting/arenaCreation/createArena,Chrome 70.0.3538.77,,2018-11-09 13:25:16,2018-11-09 13:25:18,1.190s,ERROR
+focus,Chrome 70.0.3538.77,,2018-11-09 13:25:16,2018-11-09 13:25:17,0.076s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 13:25:17,2018-11-09 13:25:17,0.043s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 13:25:17,2018-11-09 13:25:17,0.754s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 13:25:17,2018-11-09 13:25:17,0.112s,PASSED
+"Statement - not([""run"":com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowIndex()])",Chrome 70.0.3538.77,,2018-11-09 13:25:17,2018-11-09 13:25:17,0.023s,PASSED
+,,,,,,
+Test Cases/dailyTesting/arenaCreation/createArena,Chrome 70.0.3538.77,,2018-11-09 13:25:18,2018-11-09 13:25:18,0.625s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-09 13:25:18,2018-11-09 13:25:18,0.120s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 13:25:18,2018-11-09 13:25:18,0.017s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 13:25:18,2018-11-09 13:25:18,0.456s,FAILED
+,,,,,,
+Test Cases/dailyTesting/arenaCreation/createArena,Chrome 70.0.3538.77,,2018-11-09 13:25:18,2018-11-09 13:25:19,0.417s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-09 13:25:18,2018-11-09 13:25:18,0.051s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 13:25:18,2018-11-09 13:25:18,0.014s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 13:25:18,2018-11-09 13:25:19,0.338s,FAILED
+,,,,,,
+Test Cases/dailyTesting/arenaCreation/createArena,Chrome 70.0.3538.77,,2018-11-09 13:25:19,2018-11-09 13:25:19,0.414s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-09 13:25:19,2018-11-09 13:25:19,0.030s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 13:25:19,2018-11-09 13:25:19,0.014s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 13:25:19,2018-11-09 13:25:19,0.359s,FAILED

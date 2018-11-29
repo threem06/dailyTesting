@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>submitOneBet</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-22T14:27:33</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>17aa02e2-3db2-4f8f-b7a4-035d96cb89f6</testSuiteGuid>
+   <testCaseLink>
+      <guid>08134c57-8315-4814-ac36-66e26c693648</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Backoffice/Login/backofficeLogin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df7be133-49dc-4f53-82f1-ebe84f975a38</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Backoffice/Match/openBetting</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>95825745-d6c5-4cdd-8648-ba060f8c7c05</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/matchCreation/dailyMatch</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>95825745-d6c5-4cdd-8648-ba060f8c7c05</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>arenaName</value>
+         <variableId>aabd51a1-35e3-4150-8856-3e64c92469bc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4497d636-057a-4a9c-8c0d-b9725ed5a32f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Frontend/Login/openBrowserFrontend</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>780c89f7-8c46-4ca6-b532-ac1143f9e0d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Frontend/Login/frontendLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>58a267e8-a2de-4978-95cc-befb0fe706a6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/accountCreation/oneAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>58a267e8-a2de-4978-95cc-befb0fe706a6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>09aeae3a-73ad-40b1-bf21-c8e4af76ee07</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>58a267e8-a2de-4978-95cc-befb0fe706a6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4dfbef26-28b0-4b74-ba23-20b1d1b8897f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4527295c-5e7b-4469-883b-8009ec166d39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Frontend/Betting/submitBet</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>84945b67-1209-41b7-b0dd-67e95797aeda</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/betting/oneBet</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>84945b67-1209-41b7-b0dd-67e95797aeda</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>acronym</value>
+         <variableId>e3e7c318-7dcc-4c50-9663-e505ef5f655e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>88bb7cf3-864f-417f-9b3a-d74bab51f5e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/dailyTesting/Frontend/Betting/statement</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fd067ff6-3176-4987-b126-06cde665dccf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dailyTesting/betting/oneBet</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fd067ff6-3176-4987-b126-06cde665dccf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>betAmount</value>
+         <variableId>7608b5ec-bd08-42b2-b41f-01ac51885864</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd067ff6-3176-4987-b126-06cde665dccf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>balBefore</value>
+         <variableId>da87699d-f3ba-4a96-af38-494f0060c738</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd067ff6-3176-4987-b126-06cde665dccf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>balAfter</value>
+         <variableId>895e923a-7d9b-47e6-ac98-1f6c941024a8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

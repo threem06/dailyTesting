@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-09 11:14:16,2018-11-09 11:14:29,12.937s,FAILED
+,,,,,,
+Test Cases/dailyTesting/login/backofficeLogin,Chrome 70.0.3538.77,,2018-11-09 11:14:17,2018-11-09 11:14:27,9.885s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.77,,2018-11-09 11:14:17,2018-11-09 11:14:24,6.871s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-09 11:14:24,2018-11-09 11:14:24,0.169s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-09 11:14:24,2018-11-09 11:14:24,0.236s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:14:24,2018-11-09 11:14:27,2.260s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-11-09 11:14:27,2018-11-09 11:14:27,0.082s,PASSED
+,,,,,,
+Test Cases/dailyTesting/accountCreation/playerList,Chrome 70.0.3538.77,,2018-11-09 11:14:27,2018-11-09 11:14:29,1.832s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-09 11:14:27,2018-11-09 11:14:27,0.117s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:14:27,2018-11-09 11:14:28,0.676s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-09 11:14:28,2018-11-09 11:14:28,0.167s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:14:28,2018-11-09 11:14:28,0.119s,PASSED
+verifyElementText,Chrome 70.0.3538.77,,2018-11-09 11:14:28,2018-11-09 11:14:29,0.576s,FAILED

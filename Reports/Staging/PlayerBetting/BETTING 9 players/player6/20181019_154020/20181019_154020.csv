@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+player6,Chrome 69.0.3497.100,,2018-10-19 15:40:34,2018-10-19 15:41:51,1m - 17.629s,FAILED
+,,,,,,
+Test Cases/Staging/Frontend/PlaceBet/RandomOddsAndAMount,Chrome 69.0.3497.100,,2018-10-19 15:40:34,2018-10-19 15:41:51,1m - 16.488s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 69.0.3497.100,,2018-10-19 15:40:35,2018-10-19 15:40:35,0.001s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-19 15:40:35,2018-10-19 15:40:41,5.574s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-19 15:40:41,2018-10-19 15:40:42,1.265s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-19 15:40:42,2018-10-19 15:40:44,1.992s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-19 15:40:44,2018-10-19 15:40:45,1.192s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-19 15:40:45,2018-10-19 15:40:45,0.187s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-19 15:40:45,2018-10-19 15:40:45,0.137s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-19 15:40:48,2018-10-19 15:40:48,0.075s,PASSED
+Statement - meron = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Meronodds),Chrome 69.0.3497.100,,2018-10-19 15:40:48,2018-10-19 15:40:48,0.004s,PASSED
+Statement - wala = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Walaodds),Chrome 69.0.3497.100,,2018-10-19 15:40:48,2018-10-19 15:40:48,0.004s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-10-19 15:40:48,2018-10-19 15:41:51,1m - 2.450s,FAILED
+"Statement - balance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/Balance), CONTINUE_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-19 15:41:51,2018-10-19 15:41:51,0.025s,FAILED
+"Statement - log.logInfo(""User balance "" + balance)",Chrome 69.0.3497.100,,2018-10-19 15:41:51,2018-10-19 15:41:51,0.005s,PASSED
+Statement - While (balance != 0),Chrome 69.0.3497.100,,2018-10-19 15:41:51,2018-10-19 15:41:51,0.037s,FAILED

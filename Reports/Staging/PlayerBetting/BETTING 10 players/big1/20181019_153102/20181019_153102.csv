@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+big1,Chrome 69.0.3497.100,,2018-10-19 15:31:04,2018-10-19 15:31:52,48.084s,FAILED
+,,,,,,
+Test Cases/Staging/Frontend/PlaceBet/RandomOddsAndAMount,Chrome 69.0.3497.100,,2018-10-19 15:31:04,2018-10-19 15:31:51,47.177s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 69.0.3497.100,,2018-10-19 15:31:04,2018-10-19 15:31:04,0.001s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-19 15:31:04,2018-10-19 15:31:07,2.922s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-19 15:31:07,2018-10-19 15:31:08,1.140s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-19 15:31:08,2018-10-19 15:31:10,1.838s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-19 15:31:10,2018-10-19 15:31:11,0.703s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-19 15:31:11,2018-10-19 15:31:11,0.115s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-19 15:31:11,2018-10-19 15:31:11,0.096s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-19 15:31:11,2018-10-19 15:31:12,0.546s,PASSED
+Statement - meron = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Meronodds),Chrome 69.0.3497.100,,2018-10-19 15:31:12,2018-10-19 15:31:12,0.004s,PASSED
+Statement - wala = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/button_Walaodds),Chrome 69.0.3497.100,,2018-10-19 15:31:12,2018-10-19 15:31:12,0.004s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-10-19 15:31:12,2018-10-19 15:31:27,15.230s,FAILED
+"Statement - balance = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frontend/MatchBetting/Balance), CONTINUE_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-19 15:31:27,2018-10-19 15:31:35,8.053s,FAILED
+"Statement - log.logInfo(""User balance "" + balance)",Chrome 69.0.3497.100,,2018-10-19 15:31:35,2018-10-19 15:31:35,0.017s,PASSED
+Statement - While (balance != 0),Chrome 69.0.3497.100,,2018-10-19 15:31:35,2018-10-19 15:31:51,16.116s,FAILED

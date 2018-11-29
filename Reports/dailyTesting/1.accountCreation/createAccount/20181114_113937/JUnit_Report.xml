@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="createAccount" time="32" tests="5" failures="0" errors="0">
+   <testsuite name="createAccount" tests="5" failures="0" errors="0" time="32" timestamp="2018-11-14 11:39:39" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/1.accountCreation/createAccount">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\1.accountCreation\\createAccount\\20181114_113937"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\1.accountCreation\\createAccount\\20181114_113937\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="188bb8f75d8aa4619e8c30df3794b3ab"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/2.login/openBrowserFrontend" classname="Test Cases/dailyTesting/2.login/openBrowserFrontend" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:39:39 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/2.login/openBrowserFrontend: Test Cases/dailyTesting/2.login/openBrowserFrontend
+
+2018-11-14 11:39:39 - [TEST_STEP][PASSED] - frontend.openBrowserFrontend.openbrowserFrontend: frontend.openBrowserFrontend.openbrowserFrontend is PASSED
+
+2018-11-14 11:39:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 11:39:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-14 11:39:46 - [MESSAGE][PASSED] - Navigate to 'http://dev-operator.ucf88.com/#/' successfully
+
+2018-11-14 11:39:46 - [MESSAGE][PASSED] - frontend.openBrowserFrontend.openbrowserFrontend is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/1.accountCreation/signUp" classname="Test Cases/dailyTesting/1.accountCreation/signUp" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:39:46 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/1.accountCreation/signUp: Test Cases/dailyTesting/1.accountCreation/signUp
+
+2018-11-14 11:39:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/dailyTesting/Frontend/signUp/spanSignUp' is visible
+
+2018-11-14 11:39:46 - [MESSAGE][PASSED] - Object 'Object Repository/dailyTesting/Frontend/signUp/spanSignUp' is visible
+
+2018-11-14 11:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Frontend/signUp/spanSignUp' is clicked on
+
+2018-11-14 11:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Frontend/signUp/spanSignUp' is clicked on
+
+2018-11-14 11:39:46 - [TEST_STEP][PASSED] - setText: Text 'dailyTest' is set on object 'Object Repository/dailyTesting/Frontend/signUp/inputUsername'
+
+2018-11-14 11:39:47 - [MESSAGE][PASSED] - Text 'dailyTest' is set on object 'Object Repository/dailyTesting/Frontend/signUp/inputUsername'
+
+2018-11-14 11:39:47 - [TEST_STEP][PASSED] - setText: Text 'dailytesting@gmail.com' is set on object 'Object Repository/dailyTesting/Frontend/signUp/inputEmail'
+
+2018-11-14 11:39:47 - [MESSAGE][PASSED] - Text 'dailytesting@gmail.com' is set on object 'Object Repository/dailyTesting/Frontend/signUp/inputEmail'
+
+2018-11-14 11:39:47 - [TEST_STEP][PASSED] - setText: Text 'daily' is set on object 'Object Repository/dailyTesting/Frontend/signUp/inputName'
+
+2018-11-14 11:39:47 - [MESSAGE][PASSED] - Text 'daily' is set on object 'Object Repository/dailyTesting/Frontend/signUp/inputName'
+
+2018-11-14 11:39:47 - [TEST_STEP][PASSED] - setText: Text '123123' is set on object 'Object Repository/dailyTesting/Frontend/signUp/inputPassword'
+
+2018-11-14 11:39:47 - [MESSAGE][PASSED] - Text '123123' is set on object 'Object Repository/dailyTesting/Frontend/signUp/inputPassword'
+
+2018-11-14 11:39:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Frontend/signUp/buttonSignUp' is clicked on
+
+2018-11-14 11:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Frontend/signUp/buttonSignUp' is clicked on
+
+2018-11-14 11:39:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 11:39:50 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/2.login/frontendLogin" classname="Test Cases/dailyTesting/2.login/frontendLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:39:50 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/2.login/frontendLogin: Test Cases/dailyTesting/2.login/frontendLogin
+
+2018-11-14 11:39:50 - [TEST_STEP][PASSED] - setText: Text 'dailyTest' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_username'
+
+2018-11-14 11:39:51 - [MESSAGE][PASSED] - Text 'dailyTest' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_username'
+
+2018-11-14 11:39:51 - [TEST_STEP][PASSED] - setText: Text '123123' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_password'
+
+2018-11-14 11:39:51 - [MESSAGE][PASSED] - Text '123123' is set on object 'Object Repository/Frontend/Login/OperatorFrontendLogin/input_Login_password'
+
+2018-11-14 11:39:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 11:39:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 11:39:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Frontend/Login/OperatorFrontendLogin/button_Login' is clicked on
+
+2018-11-14 11:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Frontend/Login/OperatorFrontendLogin/button_Login' is clicked on
+
+2018-11-14 11:39:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Frontend/Login/OperatorFrontendLogin/username' is present
+
+2018-11-14 11:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/Frontend/Login/OperatorFrontendLogin/username' is present
+
+2018-11-14 11:39:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 11:39:59 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/2.login/backofficeLogin" classname="Test Cases/dailyTesting/2.login/backofficeLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:39:59 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/2.login/backofficeLogin: Test Cases/dailyTesting/2.login/backofficeLogin
+
+2018-11-14 11:39:59 - [TEST_STEP][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice: backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-14 11:39:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-14 11:40:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 11:40:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-14 11:40:04 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-14 11:40:04 - [MESSAGE][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-14 11:40:04 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-14 11:40:04 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-14 11:40:04 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-14 11:40:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-14 11:40:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-14 11:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-14 11:40:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-11-14 11:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/dailyTesting/1.accountCreation/playerList" classname="Test Cases/dailyTesting/1.accountCreation/playerList" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:40:07 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/1.accountCreation/playerList: Test Cases/dailyTesting/1.accountCreation/playerList
+
+2018-11-14 11:40:07 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/dailyTesting/Backoffice/playerList/headerPlayers' is focused
+
+2018-11-14 11:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/playerList/headerPlayers' is focused
+
+2018-11-14 11:40:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/playerList/headerPlayerList' is clicked on
+
+2018-11-14 11:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/playerList/headerPlayerList' is clicked on
+
+2018-11-14 11:40:08 - [TEST_STEP][PASSED] - setText: Text 'dailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/playerList/inputPlayerName'
+
+2018-11-14 11:40:08 - [MESSAGE][PASSED] - Text 'dailyTest' is set on object 'Object Repository/dailyTesting/Backoffice/playerList/inputPlayerName'
+
+2018-11-14 11:40:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dailyTesting/Backoffice/playerList/button_Search' is clicked on
+
+2018-11-14 11:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/dailyTesting/Backoffice/playerList/button_Search' is clicked on
+
+2018-11-14 11:40:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 11:40:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 11:40:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/playerList/labelPlayerName' are matched.
+
+2018-11-14 11:40:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/dailyTesting/Backoffice/playerList/labelPlayerName' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 11:39:39 - [TEST_SUITE][PASSED] - createAccount: Test Cases/dailyTesting/1.accountCreation/playerList]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

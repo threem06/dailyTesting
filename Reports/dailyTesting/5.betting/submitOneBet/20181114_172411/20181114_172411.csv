@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,,,2018-11-14 17:24:13,2018-11-14 17:24:15,1.452s,FAILED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,,,2018-11-14 17:24:13,2018-11-14 17:24:14,0.818s,FAILED
+setText,,,2018-11-14 17:24:14,2018-11-14 17:24:14,0.493s,FAILED
+,,,,,,
+Test Cases/dailyTesting/6.betting/submitBet,,,2018-11-14 17:24:14,2018-11-14 17:24:14,0.199s,ERROR

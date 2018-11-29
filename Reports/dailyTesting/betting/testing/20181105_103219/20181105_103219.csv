@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-05 10:32:42,2018-11-05 10:33:16,33.224s,PASSED
+,,,,,,
+Test Cases/dailyTesting/betting/frontendLogin,Chrome 70.0.3538.77,,2018-11-05 10:32:43,2018-11-05 10:33:14,31.039s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-05 10:32:43,2018-11-05 10:32:58,14.951s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-05 10:32:58,2018-11-05 10:33:00,1.197s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-05 10:33:00,2018-11-05 10:33:10,10.778s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-05 10:33:10,2018-11-05 10:33:11,0.455s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-05 10:33:11,2018-11-05 10:33:11,0.321s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-05 10:33:11,2018-11-05 10:33:13,2.025s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-05 10:33:13,2018-11-05 10:33:14,0.339s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-05 10:33:14,2018-11-05 10:33:14,0.623s,PASSED
+,,,,,,
+Test Cases/Dev/Frontend/PlaceBet/OperatorBetting/1bet,Chrome 70.0.3538.77,,2018-11-05 10:33:14,2018-11-05 10:33:14,0.218s,PASSED
+Statement - return null,Chrome 70.0.3538.77,,2018-11-05 10:33:14,2018-11-05 10:33:14,0.001s,PASSED

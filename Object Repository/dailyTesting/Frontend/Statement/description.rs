@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>description</name>
+   <tag></tag>
+   <elementGuidId>77bfa947-8126-4f9a-a1da-117a800794bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/section/div[2]/div/table/tbody/tr/td[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;page&quot;]/div[@class=&quot;sc-ifAKCX fAqSwo&quot;]/section[@class=&quot;sc-feJyhm aOQWm&quot;]/div[@class=&quot;sc-iAyFgw bwbobq&quot;]/div[@class=&quot;sc-kEYyzF cdTppb&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;text-left&quot;][count(. | //td[@class = 'text-left' and (text() = 'Bet: Bet TST / 199 / Meron / 0.94' or . = 'Bet: Bet TST / 199 / Meron / 0.94') and @ref_element = 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/iframe']) = count(//td[@class = 'text-left' and (text() = 'Bet: Bet TST / 199 / Meron / 0.94' or . = 'Bet: Bet TST / 199 / Meron / 0.94') and @ref_element = 'Object Repository/dailyTesting/Frontend/statement/Page_UCF/iframe'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-left</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bet: Bet TST / 199 / Meron / 0.94</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;page&quot;]/div[@class=&quot;sc-ifAKCX fAqSwo&quot;]/section[@class=&quot;sc-feJyhm aOQWm&quot;]/div[@class=&quot;sc-iAyFgw bwbobq&quot;]/div[@class=&quot;sc-kEYyzF cdTppb&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;text-left&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='root']/div/div/div[2]/section/div[2]/div/table/tbody/tr/td[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//td[4]</value>
+   </webElementXpaths>
+</WebElementEntity>

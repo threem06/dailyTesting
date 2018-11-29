@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Arena" time="20" tests="2" failures="1" errors="0">
+   <testsuite name="Arena" tests="2" failures="1" errors="0" time="20" timestamp="2018-10-15 12:44:45" hostname="Richard Sanchez - DESKTOP-A1HL9OG" id="Test Suites/Arenacreation/Arena">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Reports\\Arenacreation\\Arena\\20181015_124444"/>
+         <property name="logFiles" value="C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Reports\\Arenacreation\\Arena\\20181015_124444\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Reports\\Arenacreation\\Arena\\20181015_124444\\1539578704559.png"/>
+         <property name="hostName" value="Richard Sanchez - DESKTOP-A1HL9OG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="172.16.8.122"/>
+         <property name="sessionId" value="f793672a52508b5b0f97e9d669633e97"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Backoffice/Login" classname="Test Cases/Backoffice/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-15 12:44:45 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Login: Test Cases/Backoffice/Login
+
+2018-10-15 12:44:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-15 12:44:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-15 12:44:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-15 12:44:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-15 12:44:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-10-15 12:44:51 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-10-15 12:44:51 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-15 12:44:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-15 12:44:51 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-15 12:44:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-15 12:44:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-15 12:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-15 12:44:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-10-15 12:44:53 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_arena" classname="Test Cases/Backoffice/Betting/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-10-15 12:44:53 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_arena: Test Cases/Backoffice/Betting/Create_arena
+
+2018-10-15 12:44:54 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-15 12:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-15 12:44:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-15 12:44:54 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-15 12:44:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-15 12:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-15 12:44:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-15 12:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-15 12:44:54 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-10-15 12:44:54 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-10-15 12:44:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-15 12:44:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-15 12:44:57 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-15 12:44:57 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-15 12:44:57 - [TEST_STEP][PASSED] - setText: Text 'AMENIC N CALAJOAN MINGLANILLA COCKPIT ARENA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-15 12:44:57 - [MESSAGE][PASSED] - Text 'AMENIC N CALAJOAN MINGLANILLA COCKPIT ARENA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-15 12:44:57 - [TEST_STEP][PASSED] - setText: Text 'BAKBAKAN 2018 DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-15 12:44:57 - [MESSAGE][PASSED] - Text 'BAKBAKAN 2018 DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-15 12:44:57 - [TEST_STEP][PASSED] - setText: Text 'BIGBA | ELIMS' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-15 12:44:57 - [MESSAGE][PASSED] - Text 'BIGBA | ELIMS' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-15 12:44:57 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-15 12:44:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-15 12:44:57 - [TEST_STEP][PASSED] - setText: Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-15 12:44:57 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-15 12:44:57 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-15 12:44:57 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-15 12:44:57 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-15 12:44:58 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-15 12:44:58 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-15 12:44:58 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-15 12:44:58 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-15 12:44:58 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-15 12:44:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/button_Close' is clicked on
+
+2018-10-15 12:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/button_Close' is clicked on
+
+2018-10-15 12:44:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-15 12:45:00 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_match" classname="Test Cases/Backoffice/Betting/Create_match" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$10.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539571192207.run(Script1539571192207.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539578684097.run(TempTestSuite1539578684097.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-15 12:45:00 - [TEST_CASE][FAILED] - Test Cases/Backoffice/Betting/Create_match: Test Cases/Backoffice/Betting/Create_match FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$10.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539571192207.run(Script1539571192207.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539578684097.run(TempTestSuite1539578684097.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-15 12:45:00 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-15 12:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-15 12:45:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-15 12:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match_header' is clicked on
+
+2018-10-15 12:45:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-15 12:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Match/Create_match/button_Create Match' is clicked on
+
+2018-10-15 12:45:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-15 12:45:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-15 12:45:04 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'TE1 - 16' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-15 12:45:04 - [MESSAGE][PASSED] - All options with label 'TE1 - 16' are selected in object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/select_arena' 
+
+2018-10-15 12:45:04 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-15 12:45:04 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Event Name_match_name'
+
+2018-10-15 12:45:04 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '' to object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+
+2018-10-15 12:45:04 - [MESSAGE][FAILED] - Unable to send keys '' to object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+[[ATTACHMENT|C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Reports\\Arenacreation\\Arena\\20181015_124444\\1539578704559.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-15 12:45:00 - [TEST_CASE][FAILED] - Test Cases/Backoffice/Betting/Create_match: Test Cases/Backoffice/Betting/Create_match FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$10.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539571192207.run(Script1539571192207.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539578684097.run(TempTestSuite1539578684097.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-15 12:44:45 - [TEST_SUITE][FAILED] - Arena: Test Cases/Backoffice/Betting/Create_match FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$10.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539571192207.run(Script1539571192207.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539578684097.run(TempTestSuite1539578684097.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-15 12:44:45 - [TEST_SUITE][FAILED] - Arena: Test Cases/Backoffice/Betting/Create_match FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Backoffice/Betting/Match/Create_match/Pop up Add match/input_Profit Margin ()_match_p' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$10.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539571192207.run(Script1539571192207.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539578684097.run(TempTestSuite1539578684097.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BetReport,,,2018-10-24 18:59:00,2018-10-24 18:59:02,1.823s,FAILED
+,,,,,,
+Test Cases/Dev/Backoffice/Reports/Bet Report/BetReport,,,2018-10-24 18:59:01,2018-10-24 18:59:02,0.922s,FAILED
+focus,,,2018-10-24 18:59:01,2018-10-24 18:59:02,0.469s,FAILED
+,,,,,,
+Test Cases/Dev/Backoffice/Reports/Bet Report/BetReport,,,2018-10-24 18:59:02,2018-10-24 18:59:02,0.154s,FAILED
+focus,,,2018-10-24 18:59:02,2018-10-24 18:59:02,0.040s,FAILED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createArena,Chrome 70.0.3538.102,,2018-11-14 14:48:59,2018-11-14 14:49:13,13.092s,FAILED
+,,,,,,
+Test Cases/dailyTesting/2.login/backofficeLogin,Chrome 70.0.3538.102,,2018-11-14 14:49:00,2018-11-14 14:49:09,9.547s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.102,,2018-11-14 14:49:00,2018-11-14 14:49:07,6.544s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:49:07,2018-11-14 14:49:07,0.180s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-14 14:49:07,2018-11-14 14:49:07,0.270s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:49:07,2018-11-14 14:49:09,2.185s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-14 14:49:09,2018-11-14 14:49:09,0.090s,PASSED
+,,,,,,
+Test Cases/dailyTesting/4.arenaCreation/createArena,Chrome 70.0.3538.102,,2018-11-14 14:49:10,2018-11-14 14:49:12,2.131s,FAILED
+backoffice.bettingArena.arena,Chrome 70.0.3538.102,,2018-11-14 14:49:10,2018-11-14 14:49:11,1.210s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:49:11,2018-11-14 14:49:11,0.199s,PASSED
+getWindowIndex,Chrome 70.0.3538.102,,2018-11-14 14:49:11,2018-11-14 14:49:11,0.066s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-14 14:49:11,2018-11-14 14:49:12,0.430s,FAILED

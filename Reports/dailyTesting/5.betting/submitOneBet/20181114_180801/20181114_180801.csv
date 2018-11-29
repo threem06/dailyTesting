@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,Chrome 70.0.3538.102,,2018-11-14 18:08:03,2018-11-14 18:08:52,49.203s,FAILED
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 18:08:03,2018-11-14 18:08:10,6.524s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 18:08:03,2018-11-14 18:08:10,6.235s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 18:08:10,2018-11-14 18:08:19,9.558s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 18:08:10,2018-11-14 18:08:10,0.339s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 18:08:10,2018-11-14 18:08:10,0.184s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 18:08:10,2018-11-14 18:08:12,2.017s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 18:08:12,2018-11-14 18:08:12,0.135s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 18:08:12,2018-11-14 18:08:14,1.668s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 18:08:14,2018-11-14 18:08:19,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/submitBet,Chrome 70.0.3538.102,,2018-11-14 18:08:19,2018-11-14 18:08:51,31.816s,FAILED
+Statement - arenaSelection = new com.kms.katalon.core.testobject.TestObject(customObject),Chrome 70.0.3538.102,,2018-11-14 18:08:19,2018-11-14 18:08:19,0.006s,PASSED
+Statement - properties = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-14 18:08:19,2018-11-14 18:08:19,0.001s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(tag, com.kms.katalon.core.testobject.ConditionType.EQUALS, button))",Chrome 70.0.3538.102,,2018-11-14 18:08:19,2018-11-14 18:08:19,0.006s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(class, com.kms.katalon.core.testobject.ConditionType.EQUALS, sc-bYSBpT ccyOQo))",Chrome 70.0.3538.102,,2018-11-14 18:08:19,2018-11-14 18:08:19,0.001s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(text, com.kms.katalon.core.testobject.ConditionType.CONTAINS, acronym.toUpperCase()))",Chrome 70.0.3538.102,,2018-11-14 18:08:19,2018-11-14 18:08:19,0.008s,PASSED
+Statement - arenaSelection.setProperties(properties),Chrome 70.0.3538.102,,2018-11-14 18:08:19,2018-11-14 18:08:19,0.003s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 18:08:19,2018-11-14 18:08:51,31.608s,FAILED

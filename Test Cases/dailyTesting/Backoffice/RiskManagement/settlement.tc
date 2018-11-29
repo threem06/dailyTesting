@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>settlement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d52e276-9c0a-495a-98c6-f852915ab60b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87e3568b-7cc1-4770-a146-a099f6b48860</id>
+      <masked>false</masked>
+      <name>Result</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6fabff25-3b24-4376-bda5-82bda9ea7630</id>
+      <masked>false</masked>
+      <name>arenaName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,Chrome 70.0.3538.102,,2018-11-14 18:52:14,2018-11-14 18:52:37,22.863s,FAILED
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 18:52:14,2018-11-14 18:52:21,6.769s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 18:52:15,2018-11-14 18:52:21,6.457s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 18:52:21,2018-11-14 18:52:31,9.533s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 18:52:21,2018-11-14 18:52:22,0.278s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 18:52:22,2018-11-14 18:52:22,0.186s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 18:52:22,2018-11-14 18:52:24,2.019s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 18:52:24,2018-11-14 18:52:24,0.129s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 18:52:24,2018-11-14 18:52:26,1.660s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 18:52:26,2018-11-14 18:52:31,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/submitBet,Chrome 70.0.3538.102,,2018-11-14 18:52:31,2018-11-14 18:52:36,5.054s,FAILED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/betting/button_Place Odd), 3) == true)",Chrome 70.0.3538.102,,2018-11-14 18:52:31,2018-11-14 18:52:36,4.748s,FAILED

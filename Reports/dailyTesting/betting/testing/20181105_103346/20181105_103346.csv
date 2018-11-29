@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-05 10:33:56,2018-11-05 10:34:49,53.570s,FAILED
+,,,,,,
+Test Cases/dailyTesting/betting/frontendLogin,Chrome 70.0.3538.77,,2018-11-05 10:33:56,2018-11-05 10:34:10,14.172s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-05 10:33:57,2018-11-05 10:34:03,6.506s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-05 10:34:03,2018-11-05 10:34:04,1.153s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-05 10:34:04,2018-11-05 10:34:07,2.697s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-05 10:34:07,2018-11-05 10:34:07,0.347s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-05 10:34:07,2018-11-05 10:34:08,0.279s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-05 10:34:08,2018-11-05 10:34:10,2.030s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-05 10:34:10,2018-11-05 10:34:10,0.238s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-05 10:34:10,2018-11-05 10:34:10,0.623s,PASSED
+,,,,,,
+Test Cases/Dev/Frontend/PlaceBet/SubmitBet,Chrome 70.0.3538.77,"Select Meron market odds
+bet 100.00",2018-11-05 10:34:10,2018-11-05 10:34:48,37.590s,FAILED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-05 10:34:11,2018-11-05 10:34:16,5.687s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-05 10:34:16,2018-11-05 10:34:48,31.688s,FAILED

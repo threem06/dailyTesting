@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="createArena" time="29" tests="5" failures="0" errors="0">
+   <testsuite name="createArena" tests="5" failures="0" errors="0" time="29" timestamp="2018-11-07 14:39:51" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/arenaCreation/createArena">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\arenaCreation\\createArena\\20181107_143950"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\arenaCreation\\createArena\\20181107_143950\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.5.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="b2d4a17b2ccd83d1ddbd6bda5f727903"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/login/backofficeLogin" classname="Test Cases/dailyTesting/login/backofficeLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-07 14:39:52 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/login/backofficeLogin: Test Cases/dailyTesting/login/backofficeLogin
+
+2018-11-07 14:39:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-07 14:39:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-07 14:39:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-07 14:39:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-07 14:39:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-07 14:39:57 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-07 14:39:57 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-07 14:39:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-07 14:39:58 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-07 14:39:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-07 14:39:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-07 14:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-07 14:40:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-11-07 14:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dev/Backoffice/Betting/Arena/Create_arena" classname="Test Cases/Dev/Backoffice/Betting/Arena/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-07 14:40:00 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Betting/Arena/Create_arena: Test Cases/Dev/Backoffice/Betting/Arena/Create_arena
+
+2018-11-07 14:40:00 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-11-07 14:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-11-07 14:40:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-11-07 14:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-11-07 14:40:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-11-07 14:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-11-07 14:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-11-07 14:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-11-07 14:40:01 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-11-07 14:40:01 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-11-07 14:40:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-11-07 14:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-11-07 14:40:02 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-07 14:40:02 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-07 14:40:02 - [TEST_STEP][PASSED] - setText: Text 'Quezon' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-11-07 14:40:02 - [MESSAGE][PASSED] - Text 'Quezon' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-11-07 14:40:02 - [TEST_STEP][PASSED] - setText: Text 'Tournament' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-11-07 14:40:02 - [MESSAGE][PASSED] - Text 'Tournament' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-11-07 14:40:02 - [TEST_STEP][PASSED] - setText: Text 'QZ' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-11-07 14:40:02 - [MESSAGE][PASSED] - Text 'QZ' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-11-07 14:40:02 - [TEST_STEP][PASSED] - setText: Text 'https://www.youtube.com/watch?v=1SpSfc19qkM' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-11-07 14:40:03 - [MESSAGE][PASSED] - Text 'https://www.youtube.com/watch?v=1SpSfc19qkM' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-11-07 14:40:03 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-11-07 14:40:03 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-11-07 14:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-11-07 14:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-11-07 14:40:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-07 14:40:06 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dev/Backoffice/Betting/Arena/Create_arena" classname="Test Cases/Dev/Backoffice/Betting/Arena/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-07 14:40:06 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Betting/Arena/Create_arena: Test Cases/Dev/Backoffice/Betting/Arena/Create_arena
+
+2018-11-07 14:40:06 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-11-07 14:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-11-07 14:40:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-11-07 14:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-11-07 14:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-11-07 14:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-11-07 14:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-11-07 14:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-11-07 14:40:06 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-11-07 14:40:06 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-11-07 14:40:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-11-07 14:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-11-07 14:40:07 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-07 14:40:07 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-07 14:40:07 - [TEST_STEP][PASSED] - setText: Text 'Pasay' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-11-07 14:40:07 - [MESSAGE][PASSED] - Text 'Pasay' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-11-07 14:40:07 - [TEST_STEP][PASSED] - setText: Text 'Championship' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-11-07 14:40:07 - [MESSAGE][PASSED] - Text 'Championship' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-11-07 14:40:07 - [TEST_STEP][PASSED] - setText: Text 'PY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-11-07 14:40:07 - [MESSAGE][PASSED] - Text 'PY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-11-07 14:40:07 - [TEST_STEP][PASSED] - setText: Text 'https://www.youtube.com/watch?v=f5ng2sb-CBo' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-11-07 14:40:08 - [MESSAGE][PASSED] - Text 'https://www.youtube.com/watch?v=f5ng2sb-CBo' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-11-07 14:40:08 - [TEST_STEP][PASSED] - setText: Text '20' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-11-07 14:40:08 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-11-07 14:40:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-11-07 14:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-11-07 14:40:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-07 14:40:11 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dev/Backoffice/Betting/Arena/Create_arena" classname="Test Cases/Dev/Backoffice/Betting/Arena/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-07 14:40:11 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Betting/Arena/Create_arena: Test Cases/Dev/Backoffice/Betting/Arena/Create_arena
+
+2018-11-07 14:40:11 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-11-07 14:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-11-07 14:40:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-11-07 14:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-11-07 14:40:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-11-07 14:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-11-07 14:40:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-11-07 14:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-11-07 14:40:11 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-11-07 14:40:11 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-11-07 14:40:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-11-07 14:40:12 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-11-07 14:40:12 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-07 14:40:12 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-07 14:40:12 - [TEST_STEP][PASSED] - setText: Text 'Pasig' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-11-07 14:40:12 - [MESSAGE][PASSED] - Text 'Pasig' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-11-07 14:40:12 - [TEST_STEP][PASSED] - setText: Text 'WinLose' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-11-07 14:40:12 - [MESSAGE][PASSED] - Text 'WinLose' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-11-07 14:40:12 - [TEST_STEP][PASSED] - setText: Text 'PG' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-11-07 14:40:12 - [MESSAGE][PASSED] - Text 'PG' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-11-07 14:40:12 - [TEST_STEP][PASSED] - setText: Text 'https://www.youtube.com/watch?v=7G9arHa4zcc' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-11-07 14:40:13 - [MESSAGE][PASSED] - Text 'https://www.youtube.com/watch?v=7G9arHa4zcc' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-11-07 14:40:13 - [TEST_STEP][PASSED] - setText: Text '15' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-11-07 14:40:13 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-11-07 14:40:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-11-07 14:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-11-07 14:40:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-07 14:40:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dev/Backoffice/Betting/Arena/Create_arena" classname="Test Cases/Dev/Backoffice/Betting/Arena/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-11-07 14:40:15 - [TEST_CASE][PASSED] - Test Cases/Dev/Backoffice/Betting/Arena/Create_arena: Test Cases/Dev/Backoffice/Betting/Arena/Create_arena
+
+2018-11-07 14:40:15 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-11-07 14:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-11-07 14:40:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-11-07 14:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-11-07 14:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-11-07 14:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-11-07 14:40:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-11-07 14:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-11-07 14:40:16 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-11-07 14:40:16 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-11-07 14:40:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-11-07 14:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name' is visible
+
+2018-11-07 14:40:17 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-11-07 14:40:17 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-11-07 14:40:17 - [TEST_STEP][PASSED] - setText: Text 'San Juan' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-11-07 14:40:17 - [MESSAGE][PASSED] - Text 'San Juan' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-11-07 14:40:17 - [TEST_STEP][PASSED] - setText: Text 'WinWin' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-11-07 14:40:17 - [MESSAGE][PASSED] - Text 'WinWin' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-11-07 14:40:17 - [TEST_STEP][PASSED] - setText: Text 'SJ' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-11-07 14:40:17 - [MESSAGE][PASSED] - Text 'SJ' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-11-07 14:40:17 - [TEST_STEP][PASSED] - setText: Text 'https://www.youtube.com/watch?v=pjmGk9_rdpI' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-11-07 14:40:17 - [MESSAGE][PASSED] - Text 'https://www.youtube.com/watch?v=pjmGk9_rdpI' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-11-07 14:40:17 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-11-07 14:40:17 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-11-07 14:40:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-11-07 14:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/Create_arena/add_arena' is clicked on
+
+2018-11-07 14:40:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-07 14:40:20 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-07 14:39:51 - [TEST_SUITE][PASSED] - createArena: Test Cases/Dev/Backoffice/Betting/Arena/Create_arena]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

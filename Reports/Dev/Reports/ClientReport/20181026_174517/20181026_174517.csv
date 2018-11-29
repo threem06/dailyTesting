@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ClientReport,Chrome 70.0.3538.77,,2018-10-26 17:45:24,2018-10-26 17:45:36,11.829s,FAILED
+,,,,,,
+Test Cases/Dev/Backoffice/Login/LoginAdmin,Chrome 70.0.3538.77,,2018-10-26 17:45:25,2018-10-26 17:45:34,9.783s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-10-26 17:45:25,2018-10-26 17:45:28,3.524s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-10-26 17:45:28,2018-10-26 17:45:30,1.161s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-26 17:45:30,2018-10-26 17:45:31,1.528s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-26 17:45:31,2018-10-26 17:45:31,0.188s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-10-26 17:45:31,2018-10-26 17:45:32,0.220s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-26 17:45:32,2018-10-26 17:45:34,2.796s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-10-26 17:45:34,2018-10-26 17:45:34,0.086s,PASSED
+,,,,,,
+Test Cases/Dev/Backoffice/Reports/Bet Report/ClientReport,Chrome 70.0.3538.77,,2018-10-26 17:45:34,2018-10-26 17:45:35,0.755s,FAILED
+focus,Chrome 70.0.3538.77,,2018-10-26 17:45:35,2018-10-26 17:45:35,0.095s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-26 17:45:35,2018-10-26 17:45:35,0.381s,FAILED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+oddsMeronWala,Chrome 70.0.3538.110,,2018-11-28 15:41:49,2018-11-28 15:42:07,17.147s,PASSED
+,,,,,,
+Test Cases/dailyTesting/Backoffice/RiskManagement/oddsMeronWala,Chrome 70.0.3538.110,,2018-11-28 15:41:50,2018-11-28 15:42:06,15.945s,PASSED
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.110,,2018-11-28 15:41:50,2018-11-28 15:41:59,8.542s,PASSED
+backoffice.bettingMatch.match,Chrome 70.0.3538.110,,2018-11-28 15:41:59,2018-11-28 15:42:01,1.910s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-28 15:42:01,2018-11-28 15:42:01,0.196s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-28 15:42:01,2018-11-28 15:42:01,0.438s,PASSED
+sendKeys,Chrome 70.0.3538.110,,2018-11-28 15:42:01,2018-11-28 15:42:01,0.120s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-28 15:42:01,2018-11-28 15:42:04,3.021s,PASSED
+verifyElementPresent,Chrome 70.0.3538.110,,2018-11-28 15:42:04,2018-11-28 15:42:04,0.024s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-28 15:42:04,2018-11-28 15:42:04,0.133s,PASSED
+switchToWindowTitle,Chrome 70.0.3538.110,,2018-11-28 15:42:04,2018-11-28 15:42:06,1.118s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-28 15:42:06,2018-11-28 15:42:06,0.121s,PASSED
+verifyElementText,Chrome 70.0.3538.110,,2018-11-28 15:42:06,2018-11-28 15:42:06,0.053s,PASSED

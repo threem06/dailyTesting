@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-05 11:08:33,2018-11-05 11:08:52,19.036s,FAILED
+,,,,,,
+Test Cases/dailyTesting/betting/frontendLogin,Chrome 70.0.3538.77,,2018-11-05 11:08:33,2018-11-05 11:08:50,16.804s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-05 11:08:33,2018-11-05 11:08:38,4.925s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-05 11:08:38,2018-11-05 11:08:39,1.159s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-05 11:08:39,2018-11-05 11:08:41,2.099s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-05 11:08:41,2018-11-05 11:08:42,0.341s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-05 11:08:42,2018-11-05 11:08:42,0.248s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-05 11:08:42,2018-11-05 11:08:44,2.024s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-05 11:08:44,2018-11-05 11:08:44,0.131s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-05 11:08:44,2018-11-05 11:08:45,0.577s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-05 11:08:45,2018-11-05 11:08:50,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/betting/submitBet,Chrome 70.0.3538.77,,2018-11-05 11:08:50,2018-11-05 11:08:51,0.961s,FAILED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-05 11:08:50,2018-11-05 11:08:51,0.771s,FAILED

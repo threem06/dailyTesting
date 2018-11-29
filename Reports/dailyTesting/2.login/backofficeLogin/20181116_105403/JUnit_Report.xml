@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="backofficeLogin" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="backofficeLogin" tests="1" failures="0" errors="0" time="12" timestamp="2018-11-16 10:54:05" hostname="ops.02 - NXT-OPS02.nxtgame.local" id="Test Suites/dailyTesting/2.login/backofficeLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\2.login\\backofficeLogin\\20181116_105403"/>
+         <property name="logFiles" value="C:\\Users\\ops.02\\git\\UCF\\Reports\\dailyTesting\\2.login\\backofficeLogin\\20181116_105403\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ops.02 - NXT-OPS02.nxtgame.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="172.16.8.115"/>
+         <property name="sessionId" value="57c45cdb1dca8bd09253debd638c0bf3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/dailyTesting/2.login/backofficeLogin" classname="Test Cases/dailyTesting/2.login/backofficeLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-16 10:54:05 - [TEST_CASE][PASSED] - Test Cases/dailyTesting/2.login/backofficeLogin: Test Cases/dailyTesting/2.login/backofficeLogin
+
+2018-11-16 10:54:05 - [TEST_STEP][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice: backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-16 10:54:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 10:54:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-16 10:54:11 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com' successfully
+
+2018-11-16 10:54:11 - [MESSAGE][PASSED] - backoffice.openBrowserBackoffice.openbrowserBackoffice is PASSED
+
+2018-11-16 10:54:11 - [TEST_STEP][PASSED] - setText: Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-16 10:54:11 - [MESSAGE][PASSED] - Text 'arvinadmin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-11-16 10:54:11 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-16 10:54:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-11-16 10:54:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-16 10:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-11-16 10:54:14 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Backoffice/Login/adminuser' located by 'By.xpath: //span[(text() = ' admin ' or . = ' admin ')]' not found
+
+2018-11-16 10:54:17 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Backoffice/Login/adminuser' located by 'By.xpath: //span[(text() = ' admin ' or . = ' admin ')]' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-16 10:54:05 - [TEST_SUITE][PASSED] - backofficeLogin: Test Cases/dailyTesting/2.login/backofficeLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Arena" time="12" tests="2" failures="0" errors="0">
+   <testsuite name="Arena" tests="2" failures="0" errors="0" time="12" timestamp="2018-10-12 19:01:20" hostname="Richard Sanchez - DESKTOP-A1HL9OG" id="Test Suites/Arenacreation/Arena">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Reports\\Arenacreation\\Arena\\20181012_190118"/>
+         <property name="logFiles" value="C:\\Users\\Richard Sanchez\\Katalon Studio\\ucf88\\Reports\\Arenacreation\\Arena\\20181012_190118\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Richard Sanchez - DESKTOP-A1HL9OG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="172.16.8.122"/>
+         <property name="sessionId" value="a8459a44be6305c57fd0321ecdd1282a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Backoffice/Login" classname="Test Cases/Backoffice/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-12 19:01:20 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Login: Test Cases/Backoffice/Login
+
+2018-10-12 19:01:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-12 19:01:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-12 19:01:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-12 19:01:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-12 19:01:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-10-12 19:01:25 - [MESSAGE][PASSED] - Navigate to 'http://dev-admin.ucf88.com/login' successfully
+
+2018-10-12 19:01:25 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-12 19:01:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Backoffice/Login/input_Username'
+
+2018-10-12 19:01:26 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-12 19:01:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backoffice/Login/input_Password'
+
+2018-10-12 19:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-12 19:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Login/button_Login' is clicked on
+
+2018-10-12 19:01:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Backoffice/Login/adminuser' is visible
+
+2018-10-12 19:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Login/adminuser' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Backoffice/Betting/Create_arena" classname="Test Cases/Backoffice/Betting/Create_arena" status="PASSED">
+         <system-out><![CDATA[2018-10-12 19:01:28 - [TEST_CASE][PASSED] - Test Cases/Backoffice/Betting/Create_arena: Test Cases/Backoffice/Betting/Create_arena
+
+2018-10-12 19:01:28 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-12 19:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Betting_header' is focused
+
+2018-10-12 19:01:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-12 19:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/Backoffice/Betting/Arena_header' is present
+
+2018-10-12 19:01:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-12 19:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena_header' is clicked on
+
+2018-10-12 19:01:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-12 19:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backoffice/Betting/Arena/button_Create_arena' is clicked on
+
+2018-10-12 19:01:29 - [TEST_STEP][PASSED] - getWindowIndex: Current window's index is: 0
+
+2018-10-12 19:01:29 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-10-12 19:01:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-12 19:01:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-12 19:01:31 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-10-12 19:01:31 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-10-12 19:01:31 - [TEST_STEP][PASSED] - setText: Text 'AMENIC N CALAJOAN MINGLANILLA COCKPIT ARENA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-12 19:01:31 - [MESSAGE][PASSED] - Text 'AMENIC N CALAJOAN MINGLANILLA COCKPIT ARENA' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_name'
+
+2018-10-12 19:01:31 - [TEST_STEP][PASSED] - setText: Text 'BAKBAKAN 2018 DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-12 19:01:31 - [MESSAGE][PASSED] - Text 'BAKBAKAN 2018 DERBY' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_event_name'
+
+2018-10-12 19:01:31 - [TEST_STEP][PASSED] - setText: Text 'BIGBA | ELIMS' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-12 19:01:32 - [MESSAGE][PASSED] - Text 'BIGBA | ELIMS' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_acronym'
+
+2018-10-12 19:01:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-12 19:01:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_arena_vid'
+
+2018-10-12 19:01:32 - [TEST_STEP][PASSED] - setText: Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-12 19:01:32 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_profit_margin'
+
+2018-10-12 19:01:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-12 19:01:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_market'
+
+2018-10-12 19:01:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-12 19:01:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_min_single'
+
+2018-10-12 19:01:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-12 19:01:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_max_single'
+
+2018-10-12 19:01:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay'
+
+2018-10-12 19:01:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Backoffice/Betting/Arena/Create_arena/input_pending_bet_delay']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-12 19:01:20 - [TEST_SUITE][PASSED] - Arena: Test Cases/Backoffice/Betting/Create_arena]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

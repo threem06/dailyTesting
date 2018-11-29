@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-09 11:55:43,2018-11-09 11:55:55,12.677s,FAILED
+,,,,,,
+Test Cases/dailyTesting/login/backofficeLogin,Chrome 70.0.3538.77,,2018-11-09 11:55:43,2018-11-09 11:55:51,8.367s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.77,,2018-11-09 11:55:43,2018-11-09 11:55:49,5.564s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-09 11:55:49,2018-11-09 11:55:49,0.170s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-09 11:55:49,2018-11-09 11:55:49,0.191s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:55:49,2018-11-09 11:55:51,2.096s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-11-09 11:55:51,2018-11-09 11:55:51,0.087s,PASSED
+,,,,,,
+Test Cases/dailyTesting/arenaCreation/createArena,Chrome 70.0.3538.77,,2018-11-09 11:55:51,2018-11-09 11:55:53,1.845s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-09 11:55:52,2018-11-09 11:55:52,0.092s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 11:55:52,2018-11-09 11:55:52,0.044s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:55:52,2018-11-09 11:55:53,0.985s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:55:53,2018-11-09 11:55:53,0.132s,PASSED
+getWindowIndex,Chrome 70.0.3538.77,,2018-11-09 11:55:53,2018-11-09 11:55:53,0.025s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-11-09 11:55:53,2018-11-09 11:55:53,0.410s,FAILED
+,,,,,,
+Test Cases/dailyTesting/arenaCreation/createArena,Chrome 70.0.3538.77,,2018-11-09 11:55:53,2018-11-09 11:55:54,0.470s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-09 11:55:53,2018-11-09 11:55:53,0.062s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 11:55:53,2018-11-09 11:55:53,0.017s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:55:53,2018-11-09 11:55:54,0.379s,FAILED
+,,,,,,
+Test Cases/dailyTesting/arenaCreation/createArena,Chrome 70.0.3538.77,,2018-11-09 11:55:54,2018-11-09 11:55:54,0.451s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-09 11:55:54,2018-11-09 11:55:54,0.055s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 11:55:54,2018-11-09 11:55:54,0.018s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:55:54,2018-11-09 11:55:54,0.360s,FAILED
+,,,,,,
+Test Cases/dailyTesting/arenaCreation/createArena,Chrome 70.0.3538.77,,2018-11-09 11:55:54,2018-11-09 11:55:55,0.413s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-09 11:55:54,2018-11-09 11:55:54,0.032s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-09 11:55:54,2018-11-09 11:55:54,0.014s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-09 11:55:54,2018-11-09 11:55:55,0.355s,FAILED

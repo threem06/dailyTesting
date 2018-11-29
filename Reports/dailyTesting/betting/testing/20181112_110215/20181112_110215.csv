@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-12 11:02:16,2018-11-12 11:02:46,29.999s,FAILED
+,,,,,,
+Test Cases/dailyTesting/login/backofficeLogin,Chrome 70.0.3538.77,,2018-11-12 11:02:17,2018-11-12 11:02:26,9.126s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.77,,2018-11-12 11:02:17,2018-11-12 11:02:23,6.452s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-12 11:02:23,2018-11-12 11:02:24,0.217s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-12 11:02:24,2018-11-12 11:02:24,0.234s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 11:02:24,2018-11-12 11:02:26,1.882s,PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-11-12 11:02:26,2018-11-12 11:02:26,0.079s,PASSED
+,,,,,,
+Test Cases/dailyTesting/settlement/result,Chrome 70.0.3538.77,,2018-11-12 11:02:26,2018-11-12 11:02:36,10.585s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-12 11:02:26,2018-11-12 11:02:26,0.091s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-12 11:02:26,2018-11-12 11:02:26,0.041s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 11:02:26,2018-11-12 11:02:27,0.860s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.77,,2018-11-12 11:02:27,2018-11-12 11:02:27,0.408s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 11:02:27,2018-11-12 11:02:30,3.021s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-12 11:02:30,2018-11-12 11:02:36,5.993s,FAILED
+,,,,,,
+Test Cases/dailyTesting/settlement/result,Chrome 70.0.3538.77,,2018-11-12 11:02:36,2018-11-12 11:02:45,9.039s,FAILED
+focus,Chrome 70.0.3538.77,,2018-11-12 11:02:36,2018-11-12 11:02:36,0.065s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-12 11:02:36,2018-11-12 11:02:36,0.033s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 11:02:36,2018-11-12 11:02:37,0.950s,PASSED
+selectOptionByLabel,Chrome 70.0.3538.77,,2018-11-12 11:02:37,2018-11-12 11:02:38,0.416s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 11:02:38,2018-11-12 11:02:41,3.003s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-11-12 11:02:41,2018-11-12 11:02:45,4.553s,FAILED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testing,Chrome 70.0.3538.77,,2018-11-07 11:58:30,2018-11-07 11:59:22,51.736s,FAILED
+,,,,,,
+Test Cases/dailyTesting/login/frontendLogin,Chrome 70.0.3538.77,,2018-11-07 11:58:31,2018-11-07 11:58:46,15.263s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-07 11:58:31,2018-11-07 11:58:34,3.376s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-07 11:58:34,2018-11-07 11:58:36,1.167s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-07 11:58:36,2018-11-07 11:58:38,2.213s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-07 11:58:38,2018-11-07 11:58:38,0.232s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-07 11:58:38,2018-11-07 11:58:38,0.157s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-07 11:58:38,2018-11-07 11:58:40,2.041s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-07 11:58:40,2018-11-07 11:58:40,0.214s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-07 11:58:40,2018-11-07 11:58:41,0.609s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-07 11:58:41,2018-11-07 11:58:46,5.003s,PASSED
+,,,,,,
+Test Cases/dailyTesting/betting/statement,Chrome 70.0.3538.77,,2018-11-07 11:58:46,2018-11-07 11:59:21,35.293s,FAILED
+click,Chrome 70.0.3538.77,,2018-11-07 11:58:46,2018-11-07 11:58:47,0.481s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-07 11:58:47,2018-11-07 11:58:50,3.002s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/statement/Page_UCF/description)),Chrome 70.0.3538.77,,2018-11-07 11:58:50,2018-11-07 11:59:21,31.587s,FAILED

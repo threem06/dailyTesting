@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Login_username</name>
+   <tag></tag>
+   <elementGuidId>10edbd38-4ac4-4997-9ea4-211da660851d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='username']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;page&quot;]/div[@class=&quot;styles__HeaderWrapper-sc-1cpcgf0-0 hUJbir&quot;]/div[@class=&quot;styles__ContainerWrapper-sc-1cpcgf0-1 kdkWci&quot;]/div[@class=&quot;styles__LoginWrapper-sc-1n50m2z-0 bIFgQd&quot;]/div[@class=&quot;right-sidebar-root&quot;]/div[@class=&quot;right-sidebar-content&quot;]/form[@class=&quot;sc-bxivhb gVGlWJ&quot;]/div[@class=&quot;sc-ifAKCX kfilsK position-relative form-group&quot;]/input[@class=&quot;sc-EHOje cnhJKu form-control&quot;][count(. | //input[@name = 'username' and @placeholder = 'Username' and @type = 'text']) = count(//input[@name = 'username' and @placeholder = 'Username' and @type = 'text'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-EHOje cnhJKu form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;page&quot;]/div[@class=&quot;styles__HeaderWrapper-sc-1cpcgf0-0 hUJbir&quot;]/div[@class=&quot;styles__ContainerWrapper-sc-1cpcgf0-1 kdkWci&quot;]/div[@class=&quot;styles__LoginWrapper-sc-1n50m2z-0 bIFgQd&quot;]/div[@class=&quot;right-sidebar-root&quot;]/div[@class=&quot;right-sidebar-content&quot;]/form[@class=&quot;sc-bxivhb gVGlWJ&quot;]/div[@class=&quot;sc-ifAKCX kfilsK position-relative form-group&quot;]/input[@class=&quot;sc-EHOje cnhJKu form-control&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//input[@name='username']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/div/form/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up'])[1]/preceding::input[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//input</value>
+   </webElementXpaths>
+</WebElementEntity>

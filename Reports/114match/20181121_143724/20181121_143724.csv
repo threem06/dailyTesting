@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+114match,Chrome 70.0.3538.102,,2018-11-21 14:37:25,2018-11-21 14:37:38,12.611s,ERROR
+,,,,,,
+Test Cases/dailyTesting/2.login/backofficeLogin,Chrome 70.0.3538.102,,2018-11-21 14:37:26,2018-11-21 14:37:36,10.622s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.102,,2018-11-21 14:37:26,2018-11-21 14:37:34,7.505s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 14:37:34,2018-11-21 14:37:34,0.221s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-21 14:37:34,2018-11-21 14:37:34,0.213s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 14:37:34,2018-11-21 14:37:36,2.304s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-21 14:37:36,2018-11-21 14:37:36,0.083s,PASSED
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 14:37:36,2018-11-21 14:37:37,0.331s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.007s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.033s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.001s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.046s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.003s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.025s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.004s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.027s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.002s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.026s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.001s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.044s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.003s,ERROR
+,,,,,,
+Test Cases/dailyTesting/5.matchCreation/114match,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.100s,ERROR
+backoffice.backofficeLogin.backofficelogin,Chrome 70.0.3538.102,,2018-11-21 14:37:37,2018-11-21 14:37:37,0.001s,ERROR

@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,Chrome 70.0.3538.102,,2018-11-16 10:12:53,2018-11-16 10:14:28,1m - 34.545s,FAILED
+,,,,,,
+Test Cases/dailyTesting/2.login/backofficeLogin,Chrome 70.0.3538.102,,2018-11-16 10:12:54,2018-11-16 10:13:09,15.592s,PASSED
+backoffice.openBrowserBackoffice.openbrowserBackoffice,Chrome 70.0.3538.102,,2018-11-16 10:12:54,2018-11-16 10:13:01,7.172s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-16 10:13:01,2018-11-16 10:13:01,0.164s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-16 10:13:01,2018-11-16 10:13:01,0.188s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 10:13:01,2018-11-16 10:13:03,2.020s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-16 10:13:03,2018-11-16 10:13:09,5.800s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/openBetting,Chrome 70.0.3538.102,,2018-11-16 10:13:09,2018-11-16 10:13:20,10.812s,PASSED
+backoffice.bettingMatch.match,Chrome 70.0.3538.102,,2018-11-16 10:13:09,2018-11-16 10:13:10,1.071s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 10:13:10,2018-11-16 10:13:11,0.323s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-16 10:13:11,2018-11-16 10:13:11,0.341s,PASSED
+sendKeys,Chrome 70.0.3538.102,,2018-11-16 10:13:11,2018-11-16 10:13:11,0.098s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-16 10:13:11,2018-11-16 10:13:14,3.023s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-16 10:13:14,2018-11-16 10:13:14,0.045s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 10:13:14,2018-11-16 10:13:14,0.140s,PASSED
+switchToWindowTitle,Chrome 70.0.3538.102,,2018-11-16 10:13:14,2018-11-16 10:13:16,1.299s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-16 10:13:16,2018-11-16 10:13:16,0.076s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 10:13:16,2018-11-16 10:13:16,0.116s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-16 10:13:16,2018-11-16 10:13:18,2.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 10:13:18,2018-11-16 10:13:18,0.142s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-16 10:13:18,2018-11-16 10:13:20,2.001s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-16 10:13:20,2018-11-16 10:13:28,8.108s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-16 10:13:20,2018-11-16 10:13:28,7.938s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-16 10:13:28,2018-11-16 10:13:37,8.728s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-16 10:13:29,2018-11-16 10:13:29,0.174s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-16 10:13:29,2018-11-16 10:13:29,0.157s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-16 10:13:29,2018-11-16 10:13:31,2.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-16 10:13:31,2018-11-16 10:13:31,0.089s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-16 10:13:31,2018-11-16 10:13:32,1.153s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-16 10:13:32,2018-11-16 10:13:37,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/submitBet,Chrome 70.0.3538.102,,2018-11-16 10:13:37,2018-11-16 10:13:51,13.420s,FAILED
+"Statement - presentArena = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/betting/button_DAY), 3)",Chrome 70.0.3538.102,,2018-11-16 10:13:37,2018-11-16 10:13:37,0.164s,PASSED
+"Statement - presentMatch = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(dailyTesting/Frontend/betting/button_Place Odd), 3, OPTIONAL)",Chrome 70.0.3538.102,,2018-11-16 10:13:37,2018-11-16 10:13:41,3.936s,PASSED
+Statement - If (presentArena && presentMatch),Chrome 70.0.3538.102,,2018-11-16 10:13:41,2018-11-16 10:13:41,0.000s,PASSED
+Statement - Else,Chrome 70.0.3538.102,,2018-11-16 10:13:41,2018-11-16 10:13:51,9.166s,FAILED
+,,,,,,
+Test Cases/dailyTesting/6.betting/statement,Chrome 70.0.3538.102,,2018-11-16 10:13:51,2018-11-16 10:13:55,4.945s,FAILED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-16 10:13:51,2018-11-16 10:13:55,4.788s,FAILED
+,,,,,,
+Test Cases/dailyTesting/6.betting/matchDetails,Chrome 70.0.3538.102,,2018-11-16 10:13:55,2018-11-16 10:14:27,31.626s,FAILED
+focus,Chrome 70.0.3538.102,,2018-11-16 10:13:56,2018-11-16 10:14:27,31.485s,FAILED

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+submitOneBet,Chrome 70.0.3538.102,,2018-11-14 18:01:34,2018-11-14 18:01:53,19.568s,ERROR
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 18:01:34,2018-11-14 18:01:42,8.474s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 18:01:34,2018-11-14 18:01:42,8.208s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 18:01:42,2018-11-14 18:01:52,9.582s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 18:01:43,2018-11-14 18:01:43,0.247s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 18:01:43,2018-11-14 18:01:43,0.172s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 18:01:43,2018-11-14 18:01:45,2.017s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 18:01:45,2018-11-14 18:01:45,0.135s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 18:01:45,2018-11-14 18:01:47,1.811s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 18:01:47,2018-11-14 18:01:52,5.001s,PASSED
+,,,,,,
+Test Cases/dailyTesting/6.betting/submitBet,Chrome 70.0.3538.102,,2018-11-14 18:01:52,2018-11-14 18:01:52,0.243s,ERROR
+Statement - arenaSelection = new com.kms.katalon.core.testobject.TestObject(customObject),Chrome 70.0.3538.102,,2018-11-14 18:01:52,2018-11-14 18:01:52,0.007s,PASSED
+Statement - properties = new java.util.ArrayList(),Chrome 70.0.3538.102,,2018-11-14 18:01:52,2018-11-14 18:01:52,0.000s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(tag, com.kms.katalon.core.testobject.ConditionType.EQUALS, div))",Chrome 70.0.3538.102,,2018-11-14 18:01:52,2018-11-14 18:01:52,0.012s,PASSED
+"Statement - properties.add(new com.kms.katalon.core.testobject.TestObjectProperty(text, com.kms.katalon.core.testobject.ConditionType.EQUALS, acronym.toUpperCase()))",Chrome 70.0.3538.102,,2018-11-14 18:01:52,2018-11-14 18:01:52,0.008s,PASSED
+Statement - arenaSelection.setProperties(properties),Chrome 70.0.3538.102,,2018-11-14 18:01:52,2018-11-14 18:01:52,0.002s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-14 18:01:52,2018-11-14 18:01:52,0.001s,PASSED

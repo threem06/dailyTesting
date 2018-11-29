@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ArenawithMatch,,,2018-10-15 15:01:08,2018-10-15 15:01:09,1.703s,FAILED
+,,,,,,
+Test Cases/Backoffice/Betting/Create_match,,,2018-10-15 15:01:08,2018-10-15 15:01:09,0.932s,FAILED
+focus,,,2018-10-15 15:01:08,2018-10-15 15:01:09,0.460s,FAILED
+,,,,,,
+Test Cases/Backoffice/Betting/Create_match,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.081s,FAILED
+focus,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.016s,FAILED
+,,,,,,
+Test Cases/Backoffice/Betting/Create_match,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.056s,FAILED
+focus,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.011s,FAILED
+,,,,,,
+Test Cases/Backoffice/Betting/Create_match,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.082s,FAILED
+focus,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.026s,FAILED
+,,,,,,
+Test Cases/Backoffice/Betting/Create_match,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.046s,FAILED
+focus,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.008s,FAILED
+,,,,,,
+Test Cases/Backoffice/Betting/Create_match,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.034s,FAILED
+focus,,,2018-10-15 15:01:09,2018-10-15 15:01:09,0.010s,FAILED

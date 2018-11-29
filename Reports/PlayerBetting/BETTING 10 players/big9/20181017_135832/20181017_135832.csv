@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+big9,Chrome 69.0.3497.100,,2018-10-17 13:59:35,2018-10-17 14:00:01,25.661s,FAILED
+,,,,,,
+Test Cases/Frontend/PlaceBet/RandomOddsAndAMount,Chrome 69.0.3497.100,,2018-10-17 13:59:36,2018-10-17 14:00:00,24.250s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 69.0.3497.100,,2018-10-17 13:59:37,2018-10-17 13:59:37,0.001s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-17 13:59:37,2018-10-17 13:59:44,6.800s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-17 13:59:44,2018-10-17 13:59:45,1.238s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-17 13:59:45,2018-10-17 13:59:46,1.513s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-17 13:59:46,2018-10-17 13:59:48,1.584s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-17 13:59:48,2018-10-17 13:59:48,0.283s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-17 13:59:48,2018-10-17 13:59:48,0.133s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-17 13:59:48,2018-10-17 14:00:00,11.796s,FAILED

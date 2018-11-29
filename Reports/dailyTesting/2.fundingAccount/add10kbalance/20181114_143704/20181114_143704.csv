@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add10kbalance,Chrome 70.0.3538.102,,2018-11-14 14:37:06,2018-11-14 14:37:28,21.978s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/openBrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 14:37:07,2018-11-14 14:37:15,7.970s,PASSED
+frontend.openBrowserFrontend.openbrowserFrontend,Chrome 70.0.3538.102,,2018-11-14 14:37:07,2018-11-14 14:37:15,7.664s,PASSED
+,,,,,,
+Test Cases/dailyTesting/2.login/frontendLogin,Chrome 70.0.3538.102,,2018-11-14 14:37:15,2018-11-14 14:37:24,9.006s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:37:15,2018-11-14 14:37:15,0.407s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:37:15,2018-11-14 14:37:15,0.189s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:37:15,2018-11-14 14:37:17,2.017s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:37:17,2018-11-14 14:37:18,0.102s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-14 14:37:18,2018-11-14 14:37:19,1.098s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:37:19,2018-11-14 14:37:24,5.002s,PASSED
+,,,,,,
+Test Cases/dailyTesting/3.fundingAccount/fundingAccount,Chrome 70.0.3538.102,,2018-11-14 14:37:24,2018-11-14 14:37:27,3.790s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-14 14:37:24,2018-11-14 14:37:24,0.002s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-14 14:37:24,2018-11-14 14:37:24,0.093s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 14:37:24,2018-11-14 14:37:24,0.166s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 14:37:24,2018-11-14 14:37:24,0.285s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 14:37:24,2018-11-14 14:37:27,3.002s,PASSED
+Statement - balance = transferBalance,Chrome 70.0.3538.102,,2018-11-14 14:37:27,2018-11-14 14:37:27,0.002s,PASSED
+"Statement - log.logInfo(""USERS BALANCE "" + balance)",Chrome 70.0.3538.102,,2018-11-14 14:37:27,2018-11-14 14:37:27,0.006s,PASSED
+Statement - balance = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-14 14:37:27,2018-11-14 14:37:27,0.001s,PASSED
+Statement - If (balance >= 1 & balance <= 10000),Chrome 70.0.3538.102,,2018-11-14 14:37:27,2018-11-14 14:37:27,0.017s,PASSED
+Statement - Else,Chrome 70.0.3538.102,,2018-11-14 14:37:27,2018-11-14 14:37:27,0.010s,PASSED

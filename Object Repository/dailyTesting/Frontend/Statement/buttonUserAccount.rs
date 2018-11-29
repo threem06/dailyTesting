@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonUserAccount</name>
+   <tag></tag>
+   <elementGuidId>929a8373-a816-4e28-8d33-ea69c4b50f02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[3]/div/div/div/div/a[3]/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;page&quot;]/div[@class=&quot;sc-EHOje hAUOHN&quot;]/div[@class=&quot;sc-bZQynM lnGiel&quot;]/div[@class=&quot;sc-gPEVay hQGHbG&quot;]/div[@class=&quot;right-sidebar-root logged-in&quot;]/div[@class=&quot;right-sidebar-content logged-in&quot;]/div[@class=&quot;sc-jlyJG jVnxmt&quot;]/div[@class=&quot;sc-iRbamj kaiWNV&quot;]/a[3]/span[@class=&quot;sc-ksYbfQ btTFWY&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-ksYbfQ btTFWY</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>teal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>11,966.00</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;page&quot;]/div[@class=&quot;sc-EHOje hAUOHN&quot;]/div[@class=&quot;sc-bZQynM lnGiel&quot;]/div[@class=&quot;sc-gPEVay hQGHbG&quot;]/div[@class=&quot;right-sidebar-root logged-in&quot;]/div[@class=&quot;right-sidebar-content logged-in&quot;]/div[@class=&quot;sc-jlyJG jVnxmt&quot;]/div[@class=&quot;sc-iRbamj kaiWNV&quot;]/a[3]/span[@class=&quot;sc-ksYbfQ btTFWY&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='root']/div/div/div/div/div[3]/div/div/div/div/a[3]/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results'])[2]/following::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Matches'])[2]/following::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='blaze06'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TST'])[1]/preceding::span[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//a[3]/span[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

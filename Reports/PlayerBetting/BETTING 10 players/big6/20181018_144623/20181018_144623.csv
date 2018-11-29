@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+big6,Chrome 69.0.3497.100,,2018-10-18 14:46:51,2018-10-18 14:47:25,34.157s,FAILED
+,,,,,,
+Test Cases/Frontend/PlaceBet/RandomOddsAndAMount,Chrome 69.0.3497.100,,2018-10-18 14:46:51,2018-10-18 14:47:23,32.100s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 69.0.3497.100,,2018-10-18 14:46:52,2018-10-18 14:46:52,0.001s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-18 14:46:52,2018-10-18 14:47:03,11.037s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-18 14:47:03,2018-10-18 14:47:04,1.367s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-18 14:47:04,2018-10-18 14:47:23,18.631s,FAILED
